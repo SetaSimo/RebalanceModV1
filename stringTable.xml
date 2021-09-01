@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project name="RebalanceMod">
+    <Package name="RebalanceMod">
+
+        <Container name="AkDuo">
+
+            <Key ID="STR_Bak7N10">
+                <English>30rd AK-74 7N10 (Bakelite)</English>
+                <Russian>30Птр. АК-74 (Бакелит) 7Н10</Russian>
+            </Key>
+            <Key ID="STR_Bak7N22">
+                <English>30rd AK-74 7N22 (Bakelite)</English>
+                <Russian>30Птр. АК-74 (Бакелит) 7Н22</Russian>
+            </Key>
+            <Key ID="STR_Bak7N24">
+                <English>30rd AK-74 7N24 (Bakelite)</English>
+                <Russian>30Птр. АК-74 (Бакелит) 7Н24</Russian>
+            </Key>
+            <Key ID="STR_Bak7U1">
+                <English>30rd AK-74 7U1 (Bakelite)</English>
+                <Russian>30Птр. АК-74 (Бакелит) 7У1</Russian>
+            </Key>
+
+            <Key ID="STR_BakGreen7N10">
+                <English>30rd AK-74 7N10 (Green)</English>
+                <Russian>30Птр. АК-74 (Зеленый) 7Н10</Russian>
+            </Key>
+            <Key ID="STR_BakGreen7N22">
+                <English>30rd AK-74 7N22 (Green)</English>
+                <Russian>30Птр. АК-74 (Зеленый) 7Н22</Russian>
+            </Key>
+            <Key ID="STR_BakGreen7N24">
+                <English>30rd AK-74 7N24 (Green)</English>
+                <Russian>30Птр. АК-74 (Зеленый) 7Н24</Russian>
+            </Key>
+            <Key ID="STR_BakGreen7U1">
+                <English>30rd AK-74 7U1 (Green)</English>
+                <Russian>30Птр. АК-74 (Зеленый) 7У1</Russian>
+            </Key>
+            <Key ID="STR_BakGreen7T3M">
+                <English>30rd AK-74 7T3M (Green)</English>
+                <Russian>30Птр. АК-74 (Зеленый) 7Т3М</Russian>
+            </Key>
+
+
+            <Key ID="STR_BakDesert7N6">
+                <English>30rd AK-74 7N22 (Desert)</English>
+                <Russian>30Птр. АК-74 (пуст.) 7Н22</Russian>
+            </Key>
+            <Key ID="STR_BakDesert7N24">
+                <English>30rd AK-74 7N24 (Desert)</English>
+                <Russian>30Птр. АК-74 (пуст.) 7Н24</Russian>
+            </Key>
+            <Key ID="STR_BakDesert7U1">
+                <English>30rd AK-74 7N24 (Desert)</English>
+                <Russian>30Птр. АК-74 (пуст.) 7У1</Russian>
+            </Key>
+            <Key ID="STR__BakDesert7T3M">
+                <English>30rd AK-74 7T3M (Desert)</English>
+                <Russian>30Птр. АК-74 (пуст.) 7Т3М</Russian>
+            </Key>
+
+            <Key ID="STR_BakCamo7N6">STR_BakCamo7N6
+                <English>30rd AK-74 7N22 (Camo)</English>
+                <Russian>30Птр. АК-74 (камуф.) 7Н22</Russian>
+            </Key>
+            <Key ID="STR_BakCamo7N24">
+                <English>30rd AK-74 7N24 (Camo)</English>
+                <Russian>30Птр. АК-74 (камуф.) 7Н24</Russian>
+            </Key>
+            <Key ID="STR_BakCamo7U1">
+                <English>30rd AK-74 7N24 (Camo)</English>
+                <Russian>30Птр. АК-74 (камуф.) 7У1</Russian>
+            </Key>
+            <Key ID="STR_BakCamo7T3M">
+                <English>30rd AK-74 7T3M (Camo)</English>
+                <Russian>30Птр. АК-74 (камуф.) 7Т3М</Russian>
+            </Key>
+
+
+
+            <Key ID="STR_BakPlum7N6">STR_BakPlum7N6
+                <English>30rd AK-74 7N22 </English>
+                <Russian>30Птр. АК-74  7Н22</Russian>
+            </Key>
+            <Key ID="STR_BakPlum7N24">
+                <English>30rd AK-74 7N24 </English>
+                <Russian>30Птр. АК-74  7Н24</Russian>
+            </Key>
+            <Key ID="STR_BakPlum7U1">
+                <English>30rd AK-74 7N24 </English>
+                <Russian>30Птр. АК-74  7У1</Russian>
+            </Key>
+            <Key ID="STR_BakPlum7T3M">
+                <English>30rd AK-74 7T3M </English>
+                <Russian>30Птр. АК-74  7Т3М</Russian>
+            </Key>
+
+
+
+
+
+
+
+
+
+
+            <Key ID="STR_Spar7N6">
+                <English>30rd AK-74 (2x/Plum) 7N6</English>
+                <Russian>30Птр. АК-74 2x 7N6</Russian>
+            </Key>
+
+            <Key ID="STR_Spar7N22">
+                <English>30rd AK-74 (2x/Plum) 7N22</English>
+                <Russian>30Птр. АК-74 2x 7Н22</Russian>
+            </Key>
+
+            <Key ID="STR_Spar7N24">
+                <English>30rd AK-74 (2x/Plum) 7N24</English>
+                <Russian>30Птр. АК-74 2x 7Н24</Russian>
+            </Key>
+
+            <Key ID="STR_Spar7U1">
+                <English>30rd AK-74 (2x/Plum) 7U1</English>
+                <Russian>30Птр. АК-74 2x 7У1</Russian>
+            </Key>
+
+            <Key ID="STR_Spar7T3M">
+                <English>30rd AK-74 (2x/Plum) 7T3M Tracer</English>
+                <Russian>30Птр. АК-74 2x 7Т3М</Russian>
+            </Key>
+
+
+
+
+
+
+            <Key ID="STR_Spar7N6Plum">
+                <English>30rd AK-74 (2x/Plum) 7N6</English>
+                <Russian>30Птр. АК-74 (2x/Слива) 7Н6</Russian>
+            </Key>
+
+            <Key ID="STR_Spar7N22Plum">
+                <English>30rd AK-74 (2x/Plum) 7N22</English>
+                <Russian>30Птр. АК-74 (2x/Слива) 7Н22</Russian>
+            </Key>
+
+            <Key ID="STR_Spar7N24Plum">
+                <English>30rd AK-74 (2x/Plum) 7N24</English>
+                <Russian>30Птр. АК-74 (2x/Слива) 7Н24</Russian>
+            </Key>
+
+            <Key ID="STR_Spar7U1Plum">
+                <English>30rd AK-74 (2x/Plum) 7U1</English>
+                <Russian>30Птр. АК-74 (2x/Слива) 7У1</Russian>
+            </Key>
+
+            <Key ID="STR_Spar7T3MPlum">
+                <English>30rd AK-74 (2x/Plum) 7T3M Tracer</English>
+                <Russian>30Птр. АК-74 (2x/Слива) 7T3M</Russian>
+            </Key>
+
+            <Key ID="STR_Spar7N6Des">
+                <English>30rd AK-74 (2x/Des) 7N6</English>
+                <Russian>30Птр. АК-74 (2x/Слива) 7Н6</Russian>
+            </Key>
+
+            <Key ID="STR_Spar7N22Des">
+                <English>30rd AK-74 (2x/Des) 7N22</English>
+                <Russian>30Птр. АК-74 (2x/Пуст.) 7Н22</Russian>
+            </Key>
+
+            <Key ID="STR_Spar7N24Des">
+                <English>30rd AK-74 (2x/Des) 7N24</English>
+                <Russian>30Птр. АК-74 (2x/Пуст.) 7Н24</Russian>
+            </Key>
+
+            <Key ID="STR_Spar7U1Des">
+                <English>30rd AK-74 (2x/Des) 7U1</English>
+                <Russian>30Птр. АК-74 (2x/Пуст.) 7У1</Russian>
+            </Key>
+
+            <Key ID="STR_Spar7T3MDes">
+                <English>30rd AK-74 (2x/Des) 7T3M Tracer</English>
+                <Russian>30Птр. АК-74 (2x/Пуст.) 7Т3М</Russian>
+            </Key>
+
+            <Key ID="STR_Spar7N6Camo">
+                <English>30rd AK-74 (2x/Camo) 7N6</English>
+                <Russian>30Птр. АК-74 (2x/Камуф.) 7Н6</Russian>
+            </Key>
+
+            <Key ID="STR_Spar7N22Camo">
+                <English>30rd AK-74 (2x/Camo) 7N22</English>
+                <Russian>30Птр. АК-74 (2x/Камуф.) 7Н22</Russian>
+            </Key>
+
+            <Key ID="STR_Spar7N24Camo">
+                <English>30rd AK-74 (2x/Camo) 7N24</English>
+                <Russian>30Птр. АК-74 (2x/Камуф.) 7Н24</Russian>
+            </Key>
+
+            <Key ID="STR_Spar7U1Camo">
+                <English>30rd AK-74 (2x/Camo) 7U1</English>
+                <Russian>30Птр. АК-74 (2x/Камуф.) 7У1</Russian>
+            </Key>
+
+            <Key ID="STR_Spar7T3MCamo">
+                <English>30rd AK-74 (2x/Camo) 7T3M Tracer</English>
+                <Russian>30Птр. АК-74 (2x/Камуф.) 7T3M</Russian>
+            </Key>
+
+
+    </Package>
+</Project>
