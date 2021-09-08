@@ -9940,6 +9940,15 @@ class rhsusf_weap_MP7A2_aor1_grip3: rhsusf_weap_MP7A2_aor1
     class rhs_acc_1pn34: rhs_acc_1pn93_base {
         class ItemInfo: ItemInfo {
             class OpticsModes {
+
+			class 1pn34_scope
+			{
+				opticsZoomMin = 0.4;
+				opticsZoomMax = 0.7;
+				opticsZoomInit = 0.7;
+				visionMode[]= {"NVG","Normal"};
+			};
+
                 class rhs_1pn34_iron {
 					opticsZoomMin = 0.4;
 					opticsZoomMax = 0.7;
