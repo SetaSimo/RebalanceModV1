@@ -49,30 +49,30 @@ class cfgAmmo
 	class rhs_B_545x39_Ball: B_556x45_Ball
 	{
 		model = "\vtn_tracer_md\vtn_tracer_green";
-		tracerScale=1.12;
+		tracerScale=1.11;
 
 	};
 	class rhs_B_545x39_7N10_Ball: rhs_B_545x39_Ball
 	{
 		model = "\vtn_tracer_md\vtn_tracer_green";
-		tracerScale=1.12;
+		tracerScale=1.11;
 	};
 	class rhs_B_545x39_7N22_Ball: rhs_B_545x39_Ball
 	{
 
 		model = "\vtn_tracer_md\vtn_tracer_green";
-		tracerScale=1.12;
+		tracerScale=1.11;
 	};
 	class rhs_B_545x39_7N24_Ball: rhs_B_545x39_Ball
 	{
 
 		model = "\vtn_tracer_md\vtn_tracer_green";
-		tracerScale=1.12;
+		tracerScale=1.11;
 	};
 	class rhs_B_545x39_Ball_Tracer_Green: rhs_B_545x39_Ball
 	{
 		model = "\vtn_tracer_md\vtn_tracer_green";
-		tracerScale=1.12;
+		tracerScale=1.11;
 	};
 
 	// 5.56
@@ -81,73 +81,73 @@ class cfgAmmo
 	class rhs_B_762x54_Ball: B_762x51_Ball
 	{
 		model	 = "\vtn_tracer_md\vtn_tracer_green_long";
-		tracerScale=1.401;
+		tracerScale=1.382;
 	};
 	class rhs_B_762x54_Ball_Tracer_Green: rhs_B_762x54_Ball
 	{
 		model	 = "\vtn_tracer_md\vtn_tracer_green_long";
-		tracerScale=1.401;
+		tracerScale=1.382;
 	};
 	class rhs_B_762x54_7N13_Ball: rhs_B_762x54_Ball
 	{
 		model	 = "\vtn_tracer_md\vtn_tracer_green_long";
-		tracerScale=1.401;
+		tracerScale=1.382;
 	};
 	class rhs_B_762x54_7N26_Ball: rhs_B_762x54_Ball
 	{
 		model	 = "\vtn_tracer_md\vtn_tracer_green_long";
-		tracerScale=1.401;
+		tracerScale=1.382;
 	};
 	class rhs_B_762x39_Ball: B_762x51_Ball
 	{
 		model 	= "\vtn_tracer_md\vtn_tracer_green";
-		tracerScale=1.2081;
+		tracerScale=1.1981;
 	};
 	class rhs_B_762x39_Ball_89: rhs_B_762x39_Ball
 	{
 		model 	= "\vtn_tracer_md\vtn_tracer_green";
-		tracerScale=1.2081;
+		tracerScale=1.1981;
 	};
 	class rhs_B_762x39_Tracer: rhs_B_762x39_Ball
 	{
 		model 	= "\vtn_tracer_md\vtn_tracer_green";
-		tracerScale=1.2081;
+		tracerScale=1.1981;
 	};
 
 	class rhs_ammo_556x45_M193_Ball: B_556x45_Ball
 	{
 		model = "\vtn_tracer_md\vtn_tracer_red";
-		tracerScale=1.14;
+		tracerScale=1.13;
 	};
 	class rhs_ammo_556x45_M196_Ball_Red: rhs_ammo_556x45_M193_Ball
 	{
 		model = "\vtn_tracer_md\vtn_tracer_red";
-		tracerScale=1.14;
+		tracerScale=1.13;
 	};
 	class rhs_ammo_556x45_M855_Ball: B_556x45_Ball
 	{
 		model = "\vtn_tracer_md\vtn_tracer_red";
-		tracerScale=1.14;
+		tracerScale=1.13;
 	};
 	class rhs_ammo_556x45_M855_Ball_Red: rhs_ammo_556x45_M855_Ball
 	{
 		model = "\vtn_tracer_md\vtn_tracer_red";
-		tracerScale=1.14;
+		tracerScale=1.13;
 	};
 	class rhs_ammo_556x45_M995_AP: B_556x45_Ball
 	{
 		model = "\vtn_tracer_md\vtn_tracer_red";
-		tracerScale=1.14;
+		tracerScale=1.13;
 	};
 	class rhs_ammo_762x51_M80_Ball: BulletBase
 	{
 		model = "\vtn_tracer_md\vtn_tracer_red_long";
-		tracerScale=1.14;
+		tracerScale=1.13;
 	};
 	class rhs_ammo_762x51_M993_Ball: rhs_ammo_762x51_M80_Ball
 	{
 		model = "\vtn_tracer_md\vtn_tracer_red_long";
-		tracerScale=1.14;
+		tracerScale=1.13;
 	};
 
 
@@ -163,7 +163,7 @@ class cfgAmmo
 	{
 
 		model = "\vtn_tracer_md\vtn_tracer_red_ball";
-		tracerScale=1.14;
+		tracerScale=1.13;
 
 	};
 
@@ -171,14 +171,14 @@ class cfgAmmo
 	{
 
 		model = "\vtn_tracer_md\vtn_tracer_red_ball";
-		tracerScale=1.14;
+		tracerScale=1.13;
 
 	};
 	class rhsusf_ammo_127x99_mk211 : rhsusf_ammo_127x99_M33_Ball
 	{
 
 		model = "\vtn_tracer_md\vtn_tracer_red_ball";
-		tracerScale=1.14;
+		tracerScale=1.13;
 
 	};
 
@@ -192,20 +192,20 @@ class cfgAmmo
 	class rhs_B_545x39_Ball_Tracer_Green: rhs_B_545x39_Ball
 	{
 		model = "\vtn_tracer_md\vtn_tracer_green";
-		tracerScale=1.12;
+		tracerScale=1.11;
 	};
 
 	class rhs_B_762x39_Tracer : rhs_B_762x39_Ball
 	{
 		model 	= "\vtn_tracer_md\vtn_tracer_green";
-		tracerScale=1.2081;
+		tracerScale=1.1981;
 
 	};
 
 	class rhs_B_762x54_Ball_Tracer_Green: rhs_B_762x54_Ball
 	{
 		model	 = "\vtn_tracer_md\vtn_tracer_green_long";
-		tracerScale=1.401;
+		tracerScale=1.382;
 
 	};
 
@@ -217,7 +217,7 @@ class cfgAmmo
 	class rhs_ammo_556x45_M193_Ball : B_556x45_Ball
 	{
 		model = "\vtn_tracer_md\vtn_tracer_red";
-		tracerScale=1.14;
+		tracerScale=1.13;
 
 	};
 
@@ -226,34 +226,34 @@ class cfgAmmo
 	{
 
 		model = "\vtn_tracer_md\vtn_tracer_red";
-		tracerScale=1.14;
+		tracerScale=1.13;
 
 	};
 	class rhssaf_ammo_556x45_EPR_Tracer: rhssaf_ammo_556x45_EPR
 	{
 		model = "\vtn_tracer_md\vtn_tracer_red";
-		tracerScale=1.14;
+		tracerScale=1.13;
 
 	};
 	class rhssaf_ammo_556x45_SOST: B_556x45_Ball 
 	{
 
 		model = "\vtn_tracer_md\vtn_tracer_red";
-		tracerScale=1.14;
+		tracerScale=1.13;
 
 	};
 	class rhssaf_ammo_556x45_SPR: B_556x45_Ball 
 	{
 
 		model = "\vtn_tracer_md\vtn_tracer_red";
-		tracerScale=1.14;
+		tracerScale=1.13;
 
 	};
 
 	class rhs_ammo_556x45_M855A1_Ball : B_556x45_Ball
 	{
 		model = "\vtn_tracer_md\vtn_tracer_red";
-		tracerScale=1.14;
+		tracerScale=1.13;
 
 	};
 
@@ -261,14 +261,14 @@ class cfgAmmo
 	class rhs_ammo_556x45_M995_AP : B_556x45_Ball
 	{
 		model = "\vtn_tracer_md\vtn_tracer_red";
-		tracerScale=1.14;
+		tracerScale=1.13;
 
 	};
 
 	class rhs_ammo_556x45_M196_Ball_Red : rhs_ammo_556x45_M193_Ball
 	{
 		model = "\vtn_tracer_md\vtn_tracer_red";
-		tracerScale=1.14;
+		tracerScale=1.13;
 
 	};
 
@@ -277,14 +277,14 @@ class cfgAmmo
 	class rhs_ammo_556x45_Mk262_Ball : B_556x45_Ball
 	{
 		model = "\vtn_tracer_md\vtn_tracer_red";
-		tracerScale=1.14;
+		tracerScale=1.13;
 
 	};
 
 	class rhs_ammo_556x45_Mk318_Ball : B_556x45_Ball
 	{
 		model = "\vtn_tracer_md\vtn_tracer_red";
-		tracerScale=1.14;
+		tracerScale=1.13;
 
 	};
 
@@ -292,7 +292,7 @@ class cfgAmmo
 	{
 
 		model = "\vtn_tracer_md\vtn_tracer_red";
-		tracerScale=1.14;
+		tracerScale=1.13;
 
 	};
 
@@ -300,7 +300,7 @@ class cfgAmmo
 	{
 
 		model = "\vtn_tracer_md\vtn_tracer_red";
-		tracerScale=1.14;
+		tracerScale=1.13;
 
 	};
 
@@ -309,7 +309,7 @@ class cfgAmmo
 	{
 
 		model = "\vtn_tracer_md\vtn_tracer_green";
-		tracerScale=1.14;
+		tracerScale=1.13;
 
 	};
 
@@ -317,7 +317,7 @@ class cfgAmmo
 	{
 
 		model = "\vtn_tracer_md\vtn_tracer_yellow";
-		tracerScale=1.14;
+		tracerScale=1.13;
 
 	};
 
@@ -325,7 +325,7 @@ class cfgAmmo
 	{
 
 		model = "\vtn_tracer_md\vtn_tracer_red";
-		tracerScale=1.14;
+		tracerScale=1.13;
 
 	};
 
@@ -396,7 +396,7 @@ class cfgAmmo
 	{
 
 		model = "\vtn_tracer_md\vtn_tracer_red_ball";
-		tracerScale=1.14;
+		tracerScale=1.13;
 
 	};
 
@@ -404,14 +404,14 @@ class cfgAmmo
 	{
 
 		model = "\vtn_tracer_md\vtn_tracer_red_ball";
-		tracerScale=1.14;
+		tracerScale=1.13;
 
 	};
 	class rhsusf_ammo_127x99_mk211 : rhsusf_ammo_127x99_M33_Ball
 	{
 
 		model = "\vtn_tracer_md\vtn_tracer_red_ball";
-		tracerScale=1.14;
+		tracerScale=1.13;
 
 	};
 
@@ -420,7 +420,7 @@ class cfgAmmo
 
 
 		model = "\vtn_tracer_md\vtn_tracer_red_long";
-		tracerScale=1.14;
+		tracerScale=1.13;
 
 	};
 

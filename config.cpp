@@ -23,6 +23,7 @@ class CfgPatches
 		requiredAddons[] = {
 			"A3_Weapons_F",
 			"A3_UI_F_Tank",
+			"a3_ui_f",
 			"A3_3den",
 			"rhs_weapons",
 			"rhs_main",
@@ -64,4 +65,14 @@ class RscMapControl
 	colorRoadsFill[]={1,1,0,1};
 	colorMainRoads[]={0,0,0,1};
 	colorMainRoadsFill[]={1,0.60000002,0.40000001,1};
+};
+
+class RscObject;
+class RscDisplayMainMap {
+	class objects {
+		class Compass : RscObject {
+			scale = 0.400 * (SafeZoneW Min SafeZoneH);
+			zoomDuration=0;
+		};
+	};
 };

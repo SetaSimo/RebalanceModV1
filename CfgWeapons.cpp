@@ -9606,6 +9606,134 @@ class rhsusf_weap_MP7A2_aor1_grip3: rhsusf_weap_MP7A2_aor1
 
 
 
+class rhs_weap_m70ab2 : rhs_weap_m70_base
+{
+		opticsZoomMin = 0.4;
+		opticsZoomMax = 0.7;
+		opticsZoomInit = 0.7;
+
+
+		inertia=2.0003;
+		dexterity=1.6129;
+
+
+
+        aimTransitionSpeed=0.7006;
+		recoil="akmm_recoil";	
+};
+
+class rhs_weap_m70ab2_fold : rhs_weap_m70ab2
+{
+		opticsZoomMin = 0.4;
+		opticsZoomMax = 0.7;
+		opticsZoomInit = 0.7;
+
+
+		inertia=2.0003;
+		dexterity=1.6129;
+
+
+
+        aimTransitionSpeed=0.7006;
+		recoil="akmm_recoil";	
+};
+
+class rhs_weap_m70b1 : rhs_weap_m70ab2
+{
+		opticsZoomMin = 0.4;
+		opticsZoomMax = 0.7;
+		opticsZoomInit = 0.7;
+
+
+		inertia=2.0003;
+		dexterity=1.6129;
+
+
+
+        aimTransitionSpeed=0.7006;
+		recoil="akmm_recoil";	
+};
+
+class rhs_weap_m70b1n : rhs_weap_m70ab2
+{
+		opticsZoomMin = 0.4;
+		opticsZoomMax = 0.7;
+		opticsZoomInit = 0.7;
+
+
+		inertia=2.0003;
+		dexterity=1.6129;
+
+
+
+        aimTransitionSpeed=0.7006;
+		recoil="akmm_recoil";	
+};
+
+class rhs_weap_m70b3n : rhs_weap_m70ab2
+{
+		opticsZoomMin = 0.4;
+		opticsZoomMax = 0.7;
+		opticsZoomInit = 0.7;
+
+
+		inertia=2.0003;
+		dexterity=1.6129;
+
+
+
+        aimTransitionSpeed=0.7006;
+		recoil="akmm_recoil";	
+};
+
+class rhs_weap_m70b3n_pbg40 : rhs_weap_m70ab2
+{
+		opticsZoomMin = 0.4;
+		opticsZoomMax = 0.7;
+		opticsZoomInit = 0.7;
+
+
+		inertia=2.0003;
+		dexterity=1.6129;
+
+
+
+        aimTransitionSpeed=0.7006;
+		recoil="akmm_recoil";	
+};
+
+class rhs_weap_m92 : rhs_weap_m70_base
+{
+		opticsZoomMin = 0.4;
+		opticsZoomMax = 0.7;
+		opticsZoomInit = 0.7;
+
+
+		inertia=2.0003;
+		dexterity=1.6129;
+
+
+
+        aimTransitionSpeed=0.7006;
+		recoil="akmm_recoil";	
+};
+class rhs_weap_m92_fold : rhs_weap_m92
+{
+		opticsZoomMin = 0.4;
+		opticsZoomMax = 0.7;
+		opticsZoomInit = 0.7;
+
+
+		inertia=2.0003;
+		dexterity=1.6129;
+
+
+
+        aimTransitionSpeed=0.7006;
+		recoil="akmm_recoil";	
+};
+
+
 
 
 
@@ -9946,9 +10074,26 @@ class rhsusf_weap_MP7A2_aor1_grip3: rhsusf_weap_MP7A2_aor1
 				opticsZoomMin = 0.4;
 				opticsZoomMax = 0.7;
 				opticsZoomInit = 0.7;
-				visionMode[]= {"NVG","Normal"};
+				visionMode[]= {"NVG"};
 			};
-
+			class 1pn34_scope_not_nvg
+			{
+				opticsID						= 3;
+				useModelOptics					= 1;
+				opticsPPEffects[]				= {"OpticsCHAbera1","OpticsBlur1"};
+				discreteDistance[]				= {100};
+				discreteDistanceInitIndex		= 0;
+				opticsZoomMin = 0.4;
+				opticsZoomMax = 0.7;
+				opticsZoomInit = 0.7;
+				memoryPointCamera				= "opticView";
+				visionMode[]					= {"Normal"};
+				opticsFlare						= 1;
+				opticsDisablePeripherialVision	= 1;
+				distanceZoomMin					= 200;
+				distanceZoomMax					= 1000;
+				cameraDir						= "";
+			};
                 class rhs_1pn34_iron {
 					opticsZoomMin = 0.4;
 					opticsZoomMax = 0.7;
