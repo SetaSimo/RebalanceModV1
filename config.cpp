@@ -6,6 +6,7 @@
 #include "CfgRecoil.cpp" 
 #include "CfgVehicles.cpp" 
 #include "CfgAmmo.hpp" 
+#include "CfgMoves.hpp" 
 
 
 
@@ -32,6 +33,7 @@ class CfgPatches
 			"rhs_c_weapons",
 			"rhsgref_c_weapons",
 			"rhsusf_c_weapons",
+			"ace_noidle",
 			"ace_compat_rhs_afrf3"
 		};
 	};

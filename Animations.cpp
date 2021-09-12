@@ -1,7 +1,20 @@
 class CfgMovesBasic {
+	class StandBase;
 	class default;
 	class DefaultDie;
 	class ManActions{
+			GestureRock[]={
+				"GestureRock",
+				"Gesture"
+			};
+			GesturePaper[]={
+				"GesturePaper",
+				"Gesture"
+			};
+			GestureScissors[]={
+				"GestureScissors",
+				"Gesture"
+			};
 		Gesturearmst_clockl[]= {
 			"Gesturearmst_clockl",
 			"gesture"
@@ -64,6 +77,31 @@ class CfgGesturesMale {
 			file="RebalanceMod\animations\armst_compass.rtm";
 			speed = 1;
 			mask="LeftHand";			
+		};
+
+
+		class GestureRock: Default
+		{
+			file="RebalanceMod\animations\stp_rock.rtm";
+			looped=0;
+			speed=0.55000001;
+			enableOptics=1;
+			disableWeapons=1;
+			canPullTrigger=0;
+			canReload=0;
+			mask="leftHand";
+			leftHandIKBeg=0;
+			leftHandIKEnd=0;
+			leftHandIKCurve[]={0.050000001};
+			rightHandIKCurve[]={1};
+		};
+		class GesturePaper: GestureRock
+		{
+			file="RebalanceMod\animations\stp_paper.rtm";
+		};
+		class GestureScissors: GestureRock
+		{
+			file="RebalanceMod\animations\stp_scissors.rtm";
 		};
 
 	};

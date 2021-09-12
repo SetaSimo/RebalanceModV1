@@ -32,7 +32,10 @@ openCompas={
 
 
 
-
+RockPaperScissors={	
+	GameAnim=selectRandom ["GestureRock","GesturePaper","GestureScissors"];
+    [player,GameAnim ]remoteExec ["playActionNow",0];
+};
 
 
 
@@ -62,7 +65,7 @@ openCompas={
 
 
 /* CBA Keybinds ======================= */
-
+["Seon Animations", "Камень Ножницы Бумага", ["камень ножницы бумага", " "],{call RockPaperScissors}, {}, [DIK_F1, [false, true, false]]] call CBA_fnc_addKeybind; 
 ["Seon Animations", "Часы", ["Достать часы", " "],{call OpenClock}, {}, [DIK_O, [false, false, false]]] call CBA_fnc_addKeybind; 
 ["Seon Animations", "Компас", ["Достать Компас", " "],{call OpenCompas}, {}, [DIK_K, [false, false, false]]] call CBA_fnc_addKeybind; 
 // передачи
