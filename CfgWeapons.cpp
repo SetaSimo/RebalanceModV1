@@ -175,7 +175,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"								
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"							
 			};
 
 	};
@@ -324,7 +331,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -381,7 +388,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};
 
@@ -402,7 +416,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -459,7 +473,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};
     }; 
@@ -477,7 +498,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -534,7 +555,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};
     }; 
@@ -552,7 +580,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -608,7 +636,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};
     }; 
@@ -626,7 +661,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -683,7 +718,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};
     }; 
@@ -701,7 +743,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -758,7 +800,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};
     }; 
@@ -776,7 +825,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -833,7 +882,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};
     }; 
@@ -851,7 +907,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -908,7 +964,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};
     }; 
@@ -926,7 +989,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -946,7 +1009,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -1003,7 +1066,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};
     }; 
@@ -1021,7 +1091,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -1078,7 +1148,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};
     }; 
@@ -1096,7 +1173,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -1153,7 +1230,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};
     }; 
@@ -1171,7 +1255,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -1228,7 +1312,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};
     }; 
@@ -1246,7 +1337,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -1303,7 +1394,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};
     }; 
@@ -1321,7 +1419,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -1378,7 +1476,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};
     }; 
@@ -1396,7 +1501,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -1453,7 +1558,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};
     }; 
@@ -1471,7 +1583,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -1528,7 +1640,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};
     }; 
@@ -1546,7 +1665,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -1603,7 +1722,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};
     }; 
@@ -1621,7 +1747,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -1678,7 +1804,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};
 
@@ -1697,7 +1830,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -1754,7 +1887,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};
     }; 
@@ -1772,7 +1912,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -1829,7 +1969,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};
     }; 
@@ -1847,7 +1994,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -1904,7 +2051,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};
     }; 
@@ -1922,7 +2076,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -1979,7 +2133,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};
     }; 
@@ -1997,7 +2158,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -2054,7 +2215,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};
     }; 
@@ -2072,7 +2240,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -2129,7 +2297,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};
     }; 
@@ -2148,7 +2323,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -2205,7 +2380,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};
     }; 
@@ -2222,7 +2404,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -2279,7 +2461,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};
     }; 
@@ -2297,7 +2486,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -2354,7 +2543,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};
     }; 
@@ -2372,7 +2568,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -2429,7 +2625,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};
     }; 
@@ -2447,7 +2650,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -2504,7 +2707,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};
     }; 
@@ -2522,7 +2732,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -2579,7 +2789,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};
     }; 
@@ -2597,7 +2814,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -2654,7 +2871,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};
     }; 
@@ -2672,7 +2896,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -2729,7 +2953,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};
     }; 
@@ -2748,7 +2979,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -2805,7 +3036,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};
     }; 
@@ -2822,7 +3060,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="aks74u_recoil";		
 
 		WeaponLength=0.6;//	
@@ -2879,7 +3117,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};
     }; 
@@ -2898,7 +3143,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="aks74u_recoil";	
 
 		WeaponLength=0.6;
@@ -2955,7 +3200,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};	
     }; 
@@ -2984,7 +3236,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="ak100_recoil";
 
 		WeaponLength=1.01;//	
@@ -3041,7 +3293,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};
     }; 
@@ -3060,7 +3319,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="ak100_recoil";
 
 		WeaponLength=1.01;//	
@@ -3117,7 +3376,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};
     }; 
@@ -3136,7 +3402,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="ak100_recoil";
 
 		WeaponLength=1.01;//	
@@ -3193,7 +3459,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};
     }; 
@@ -3212,7 +3485,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="ak100_recoil";
 
 		WeaponLength=1.01;//	
@@ -3269,7 +3542,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};
     }; 
@@ -3288,7 +3568,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="akmm_recoil";
 
 		WeaponLength=1.01;//			
@@ -3309,7 +3589,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="akmm_recoil";
 
 		WeaponLength=1.01;//			
@@ -3330,7 +3610,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="akmm_recoil";
 
 		WeaponLength=0.88;	
@@ -3351,7 +3631,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="akmm_recoil";
 
 		WeaponLength=1.01;//			
@@ -3372,7 +3652,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="akmm_recoil";
 
 		WeaponLength=1.01;//			
@@ -3393,7 +3673,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="akmm_recoil";
 
 		WeaponLength=1.01;//			
@@ -3414,7 +3694,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="akmm_recoil";
 
 		WeaponLength=1.01;//			
@@ -3435,7 +3715,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="akmm_recoil";
 
 		WeaponLength=1.01;//			
@@ -3456,7 +3736,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="akmm_recoil";
 
 		WeaponLength=1.01;//			
@@ -3477,7 +3757,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="akmm_recoil";
 
 		WeaponLength=0.83;//		
@@ -3498,7 +3778,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="akm100_recoil";
 
 		WeaponLength=1.01;//			
@@ -3523,7 +3803,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="akm100_recoil";
 
 		WeaponLength=1.01;//			
@@ -3542,7 +3822,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="akm100_recoil";
 
 		WeaponLength=1.01;//			
@@ -3560,7 +3840,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="akm100_recoil";
 
 		WeaponLength=1.01;//			
@@ -3584,7 +3864,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="akm100_recoil";
 
 		WeaponLength=1.01;//			
@@ -3605,7 +3885,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="akm100_recoil";
 
 		WeaponLength=1.01;//			
@@ -3626,7 +3906,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="akm100_recoil";
 
 		WeaponLength=1.01;//			
@@ -3647,7 +3927,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="akm100_recoil";
 
 		WeaponLength=1.01;//			
@@ -3668,7 +3948,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="akm100_recoil";
 
 		WeaponLength=1.01;//			
@@ -3690,7 +3970,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="akmm_recoil";
 
 		WeaponLength=1.01;//			
@@ -3710,7 +3990,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="akm100_recoil";
 
 		WeaponLength=1.01;//			
@@ -3731,7 +4011,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="akm100_recoil";
 
 		WeaponLength=1.01;//			
@@ -3752,33 +4032,14 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9666;
 		recoil="akm100_recoil";
 
 		WeaponLength=1.01;//			
 
     }; 
 
-	class rhs_pkp_base: Rifle_Long_Base_F
-	{
 
- 
-
-		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
-
-
-		inertia=2.0003;
-		dexterity=1.6129;
-
-
-        aimTransitionSpeed=0.7006;
-		recoil="pkm_recoil";
-
-		WeaponLength=1.3;//		
-
-    }; 
 
 	class rhs_weap_rpk_base: Rifle_Long_Base_F
 	{
@@ -3792,7 +4053,7 @@ class CfgWeapons
 		dexterity=1.6986;
 
 
-        aimTransitionSpeed=0.6986;
+        aimTransitionSpeed=0.9999;
 		recoil="rpk74_recoil";
 
 		WeaponLength=1.08;		
@@ -3849,7 +4110,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};	
 
@@ -3868,7 +4136,7 @@ class CfgWeapons
 		dexterity=1.6986;
 
 
-        aimTransitionSpeed=0.6986;
+        aimTransitionSpeed=0.9999;
 		recoil="rpk74_recoil";
 
 		WeaponLength=1.3;//		
@@ -3924,7 +4192,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};	
 
@@ -3942,7 +4217,7 @@ class CfgWeapons
 		dexterity=1.6986;
 
 
-        aimTransitionSpeed=0.6986;
+        aimTransitionSpeed=0.9999;
 		recoil="rpk74_recoil";
 
 		WeaponLength=1.3;//	
@@ -3998,7 +4273,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};	
 
@@ -4017,7 +4299,7 @@ class CfgWeapons
 		dexterity=1.6986;
 
 
-        aimTransitionSpeed=0.6986;
+        aimTransitionSpeed=0.9999;
 		recoil="rpk74_recoil";
 
 		WeaponLength=1.3;//	
@@ -4074,7 +4356,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};	
 
@@ -4087,7 +4376,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.6986;
+        aimTransitionSpeed=0.9999;
 		recoil="rpk74_recoil";
 
 		WeaponLength=1.3;//	
@@ -4144,7 +4433,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};	
 
@@ -4163,7 +4459,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.6986;
+        aimTransitionSpeed=0.9999;
 		recoil="rpk74_recoil";
 
 		WeaponLength=1.3;//	
@@ -4221,7 +4517,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};	
 
@@ -4231,7 +4534,26 @@ class CfgWeapons
 
 
 
+	class rhs_pkp_base: Rifle_Long_Base_F
+	{
 
+ 
+
+		opticsZoomMin = 0.4;
+		opticsZoomMax = 0.7;
+		opticsZoomInit = 0.7;
+
+
+		inertia=2.0003;
+		dexterity=1.6129;
+
+
+        aimTransitionSpeed=1.0008;
+		recoil="pkm_recoil";
+
+		WeaponLength=1.3;//		
+
+    }; 
 
 	class rhs_weap_pkp: rhs_pkp_base
 	{
@@ -4247,7 +4569,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=1.0008;
 		recoil="pkm_recoil";
 
 		WeaponLength=1.3;//	
@@ -4268,7 +4590,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=1.0008;
 		recoil="pkm_recoil";
 
 		WeaponLength=1.3;//	
@@ -4290,7 +4612,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9006;
 		recoil="svds_recoil";
 
 		WeaponLength=1.35;//
@@ -4311,7 +4633,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9006;
 		recoil="svds_recoil";
 
 		WeaponLength=1.35;//
@@ -4333,7 +4655,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9006;
 		recoil="svds_recoil";
 
 		WeaponLength=1.35;//
@@ -4355,7 +4677,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9006;
 		recoil="svds_recoil";
 
 		WeaponLength=1.35;//
@@ -4377,7 +4699,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9006;
 		recoil="svds_recoil";
 
 		WeaponLength=1.35;//
@@ -4397,7 +4719,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9006;
 		recoil="svds_recoil";
 
 		WeaponLength=1.35;//
@@ -4415,7 +4737,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9006;
 		recoil="svds_recoil";
 
 		WeaponLength=1.35;//
@@ -4434,7 +4756,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9006;
 		recoil="svds_recoil";
 
 		WeaponLength=1.35;//
@@ -4453,7 +4775,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9006;
 		recoil="svds_recoil";
 
 		WeaponLength=1.35;//
@@ -4472,7 +4794,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9006;
 		recoil="svds_recoil";
 
 		WeaponLength=1.35;//
@@ -4491,7 +4813,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.9006;
 		recoil="svds_recoil";
 
 		WeaponLength=1.35;//
@@ -4511,7 +4833,7 @@ class CfgWeapons
 		opticsZoomMax = 0.7;
 		opticsZoomInit = 0.7;
 
-
+        aimTransitionSpeed=0.7006;
 		inertia=2.0003;
 		dexterity=1.6129;
 
@@ -4526,7 +4848,7 @@ class CfgWeapons
 		opticsZoomMax = 0.7;
 		opticsZoomInit = 0.7;
 
-
+        aimTransitionSpeed=0.7006;
 		inertia=2.0003;
 		dexterity=1.6129;
 
@@ -4542,7 +4864,7 @@ class CfgWeapons
 		opticsZoomMax = 0.7;
 		opticsZoomInit = 0.7;
 
-
+        aimTransitionSpeed=0.7006;
 		inertia=2.0003;
 		dexterity=1.6129;
 
@@ -4558,7 +4880,7 @@ class CfgWeapons
 		opticsZoomMax = 0.7;
 		opticsZoomInit = 0.7;
 
-
+        aimTransitionSpeed=0.7006;
 		inertia=2.0003;
 		dexterity=1.6129;
 
@@ -4574,7 +4896,7 @@ class CfgWeapons
 		opticsZoomMax = 0.7;
 		opticsZoomInit = 0.7;
 
-
+        aimTransitionSpeed=0.7006;
 		inertia=2.0003;
 		dexterity=1.6129;
 
@@ -4590,7 +4912,7 @@ class CfgWeapons
 		opticsZoomMax = 0.7;
 		opticsZoomInit = 0.7;
 
-
+        aimTransitionSpeed=0.7006;
 		inertia=2.0003;
 		dexterity=1.6129;
 
@@ -4672,7 +4994,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};
 		
@@ -4692,7 +5021,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.6006;
 		recoil="aks74uFolded_recoil";	
 
 		WeaponLength=0.4;
@@ -4749,7 +5078,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};	
     }; 
@@ -4765,7 +5101,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.6006;
 		recoil="akmm_recoil";
 
 		WeaponLength=0.4;	
@@ -4822,7 +5158,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};
 	};
@@ -4837,7 +5180,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.6006;
 		recoil="ak74Folded_recoil";
 
 		WeaponLength=0.6;//		
@@ -4895,7 +5238,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};
     }; 
@@ -4911,7 +5261,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.6006;
 		recoil="ak74Folded_recoil";
 
 		WeaponLength=0.6;//		
@@ -4969,7 +5319,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};
     }; 
@@ -4985,7 +5342,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.6006;
 		recoil="ak74Folded_recoil";
 
 		WeaponLength=0.6;//		
@@ -5042,7 +5399,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};	
 
@@ -5059,7 +5423,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.6006;
 		recoil="ak74Folded_recoil";
 
 		WeaponLength=0.6;//		
@@ -5116,7 +5480,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};
 
@@ -5133,7 +5504,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.6006;
 		recoil="ak74Folded_recoil";
 
 		WeaponLength=0.6;//		
@@ -5191,7 +5562,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};
     }; 
@@ -5207,7 +5585,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.6006;
 		recoil="ak74Folded_recoil";
 
 		WeaponLength=0.6;//		
@@ -5265,7 +5643,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};
     }; 
@@ -5281,7 +5666,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.6006;
 		recoil="ak74Folded_recoil";
 
 		WeaponLength=0.6;//		
@@ -5338,7 +5723,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};
 
@@ -5354,7 +5746,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.6006;
 		recoil="ak74Folded_recoil";
 
 		WeaponLength=0.6;//		
@@ -5411,7 +5803,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};
 
@@ -5428,7 +5827,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.6006;
 		recoil="ak74Folded_recoil";
 
 		WeaponLength=0.6;//		
@@ -5485,7 +5884,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};
 
@@ -5501,7 +5907,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.6006;
 		recoil="ak74Folded_recoil";
 
 		WeaponLength=0.6;//		
@@ -5558,7 +5964,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};
 
@@ -5575,7 +5988,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.6006;
 		recoil="ak74Folded_recoil";
 
 		WeaponLength=0.6;//		
@@ -5632,7 +6045,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};
 
@@ -5649,7 +6069,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.6006;
 		recoil="akmmFolded_recoil";
 
 		WeaponLength=0.6;//			
@@ -5667,7 +6087,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.6006;
 		recoil="ak74Folded_recoil";
 
 		WeaponLength=0.6;//		
@@ -5686,7 +6106,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.6006;
 		recoil="ak74Folded_recoil";
 
 		WeaponLength=0.6;//		
@@ -5705,7 +6125,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.6006;
 		recoil="ak74Folded_recoil";
 
 		WeaponLength=0.6;//		
@@ -5724,7 +6144,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.6006;
 		recoil="ak74Folded_recoil";
 
 		WeaponLength=0.6;//		
@@ -5743,7 +6163,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.6006;
 		recoil="ak74Folded_recoil";
 
 		WeaponLength=0.6;//		
@@ -5762,7 +6182,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.6006;
 		recoil="ak74Folded_recoil";
 
 		WeaponLength=0.6;//		
@@ -5781,7 +6201,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.6006;
 		recoil="ak74Folded_recoil";
 
 		WeaponLength=0.6;//		
@@ -5800,7 +6220,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.6006;
 		recoil="ak74Folded_recoil";
 
 		WeaponLength=0.6;//		
@@ -5857,7 +6277,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};	
 
@@ -5874,7 +6301,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.6006;
 		recoil="ak74Folded_recoil";
 
 		WeaponLength=0.6;//		
@@ -5893,7 +6320,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.6006;
 		recoil="ak74Folded_recoil";
 
 		WeaponLength=0.6;//		
@@ -5950,7 +6377,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};	
 
@@ -5967,7 +6401,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.6006;
 		recoil="ak74Folded_recoil";
 
 		WeaponLength=0.6;//		
@@ -6024,7 +6458,14 @@ class CfgWeapons
 				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
 				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_camo_AK"	
+				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
+				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
+				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
+				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
+				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
+				"rhs_30Rnd_545x39_7N6_HP_AK"
 								
 			};	
 
@@ -6046,7 +6487,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.6006;
 
 
 		WeaponLength=0.6;//		
@@ -6064,7 +6505,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.6006;
 
 
 		WeaponLength=0.6;//		
@@ -6082,7 +6523,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.6006;
 
 		WeaponLength=0.6;//		
 
@@ -6100,7 +6541,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.6006;
 
 
 		WeaponLength=0.6;//		
@@ -6419,7 +6860,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.896;
 		recoil="m16_recoil";
 
 		WeaponLength=1.02;//			
@@ -6438,7 +6879,7 @@ class CfgWeapons
 		inertia=2.0003;
 		dexterity=1.6129;
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.896;
 		recoil="m16_recoil";
 
 		WeaponLength=1.02;//			
@@ -6457,7 +6898,7 @@ class CfgWeapons
 		inertia=2.0003;
 		dexterity=1.6129;
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.896;
 		recoil="m16_recoil";
 
 		WeaponLength=1.02;//			
@@ -6478,7 +6919,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.896;
 		recoil="m16_recoil";
 
 		WeaponLength=1.02;//			
@@ -6498,7 +6939,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.896;
 		recoil="m16_recoil";
 
 		WeaponLength=1.02;//			
@@ -6518,7 +6959,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.896;
 		recoil="m16_recoil";
 
 		WeaponLength=1.02;//			
@@ -6538,7 +6979,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.896;
 		recoil="m16_recoil";
 
 		WeaponLength=1.02;//			
@@ -6559,7 +7000,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.896;
 		recoil="m16_recoil";
 
 		WeaponLength=1.02;//			
@@ -6580,7 +7021,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.896;
 		recoil="m16_recoil";
 
 		WeaponLength=1.02;//			
@@ -6601,7 +7042,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.896;
 		recoil="m16_recoil";
 
 		WeaponLength=1.02;//			
@@ -6622,7 +7063,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.896;
 		recoil="m16_recoil";
 
 		WeaponLength=1.02;//			
@@ -6643,7 +7084,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.896;
 		recoil="m16_recoil";
 
 		WeaponLength=1.02;//			
@@ -6664,7 +7105,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.896;
 		recoil="m16_recoil";
 
 		WeaponLength=1.02;//			
@@ -6685,7 +7126,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.896;
 		recoil="m16_recoil";
 
 		WeaponLength=1.02;//			
@@ -6706,7 +7147,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.904;
 		recoil="m16_recoil";
 
 		WeaponLength=1.13;	
@@ -6727,7 +7168,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.904;
 		recoil="m16_recoil";
 
 		WeaponLength=1.13;		
@@ -6749,7 +7190,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.904;
 		recoil="m16_recoil";
 
 		WeaponLength=1.13;		
@@ -6770,7 +7211,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.904;
 		recoil="m16_recoil";
 
 		WeaponLength=1.13;		
@@ -6791,7 +7232,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.904;
 		recoil="m16_recoil";
 
 		WeaponLength=1.13;		
@@ -6812,7 +7253,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.904;
 		recoil="m16_recoil";
 
 		WeaponLength=1.13;		
@@ -6834,7 +7275,7 @@ class CfgWeapons
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.904;
 		recoil="m16_recoil";
 
 		WeaponLength=1.13;			
@@ -6855,7 +7296,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.904;
 		recoil="l1a1_recoil";	
 
 		WeaponLength=1.102;
@@ -6875,7 +7316,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.904;
 		recoil="l1a1_recoil";		
 			
 		WeaponLength=1.102;
@@ -6894,7 +7335,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.904;
 		recoil="l1a1_recoil";		
 			
 		WeaponLength=1.102;
@@ -6913,7 +7354,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.904;
 		recoil="l1a1_recoil";		
 			
 		WeaponLength=1.102;
@@ -6932,7 +7373,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.904;
 		recoil="svds_recoil";		
 
 		WeaponLength=1.13;
@@ -6951,7 +7392,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.904;
 		recoil="mg42_recoil";	
 
 		WeaponLength=1.13;
@@ -6969,7 +7410,7 @@ class CfgWeapons
 		inertia=2.0003;
 		dexterity=1.6129;
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.904;
 		recoil="mg42_recoil";	
 
 		WeaponLength=1.13;
@@ -6989,7 +7430,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.904;
 		recoil="l1a1_recoil";	
 
 		WeaponLength=0.999;
@@ -7007,7 +7448,7 @@ class CfgWeapons
 		inertia=2.0003;
 		dexterity=1.6129;
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.904;
 		recoil="l1a1_recoil";		
 			
 		WeaponLength=0.999;
@@ -7027,7 +7468,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.904;
 		recoil="l1a1_recoil";	
 
 		WeaponLength=0.89;
@@ -7046,7 +7487,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.904;
 		recoil="l1a1_recoil";	
 
 		WeaponLength=0.89;
@@ -7088,7 +7529,7 @@ class CfgWeapons
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.904;
 		recoil="m16_recoil";
 
 		WeaponLength=1.02;//		
@@ -7111,7 +7552,7 @@ class CfgWeapons
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.904;
 		recoil="m16_recoil";
 
 		WeaponLength=1.02;//		
@@ -7132,7 +7573,7 @@ class CfgWeapons
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.904;
 		recoil="m16_recoil";
 
 		WeaponLength=1.02;//		
@@ -7155,7 +7596,7 @@ class CfgWeapons
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.904;
 		recoil="m16_recoil";
 
 		WeaponLength=1.02;//		
@@ -7178,7 +7619,7 @@ class CfgWeapons
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.904;
 		recoil="m16_recoil";
 
 		WeaponLength=1.02;//		
@@ -7199,7 +7640,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.904;
 		recoil="m16_recoil";
 
 		WeaponLength=1.02;//		
@@ -7222,7 +7663,7 @@ class CfgWeapons
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.904;
 		recoil="aks74u_recoil";		
 
 		WeaponLength=1.15;
@@ -7243,7 +7684,7 @@ class CfgWeapons
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.904;
 		recoil="aks74u_recoil";		
 
 		WeaponLength=1.15;
@@ -7263,7 +7704,7 @@ class CfgWeapons
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.904;
 		recoil="aks74u_recoil";		
 
 		WeaponLength=1.15;
@@ -7283,7 +7724,7 @@ class CfgWeapons
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.904;
 		recoil="aks74u_recoil";	
 
 		WeaponLength=1.25;
@@ -7303,7 +7744,7 @@ class CfgWeapons
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.904;
 		recoil="aks74u_recoil";		
 			
 		WeaponLength=1.25;
@@ -7323,7 +7764,7 @@ class CfgWeapons
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.8;
 		recoil="m16_recoil";
 
 		WeaponLength=0.77;//		
@@ -7344,7 +7785,7 @@ class CfgWeapons
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.8;
 		recoil="m16_recoil";
 
 		WeaponLength=0.77;//		
@@ -7365,7 +7806,7 @@ class CfgWeapons
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.8;
 		recoil="m16_recoil";
 
 		WeaponLength=0.77;//		
@@ -7386,7 +7827,7 @@ class CfgWeapons
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.94;
 		recoil="m14_recoil";	
 
 		WeaponLength=1.02;//	
@@ -7406,7 +7847,7 @@ class CfgWeapons
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.94;
 		recoil="m14_recoil";		
 
 		WeaponLength=1.02;//	
@@ -7427,7 +7868,7 @@ class CfgWeapons
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.94;
 		recoil="m14_recoil";		
 
 		WeaponLength=1.02;//	
@@ -7447,7 +7888,7 @@ class CfgWeapons
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.94;
 		recoil="m14_recoil";		
 
 		WeaponLength=1.02;//	
@@ -7467,7 +7908,7 @@ class CfgWeapons
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.94;
 		recoil="m14_recoil";		
 
 		WeaponLength=1.02;//	
@@ -7488,7 +7929,7 @@ class CfgWeapons
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.89;
 		recoil="ScarML_recoil";	
 
 		WeaponLength=0.911;	
@@ -7508,7 +7949,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.89;
 		recoil="ScarML_recoil";	
 		
 		WeaponLength=0.911;	
@@ -7529,7 +7970,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.89;
 		recoil="ScarML_recoil";		
 
 		WeaponLength=0.911;	
@@ -7548,7 +7989,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.89;
 		recoil="ScarML_recoil";		
 
 		WeaponLength=0.911;	
@@ -7567,7 +8008,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.89;
 		recoil="ScarML_recoil";	
 
 		WeaponLength=0.911;	
@@ -7586,7 +8027,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.89;
 		recoil="ScarML_recoil";		
 
 		WeaponLength=0.911;	
@@ -7605,7 +8046,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.96;
 		recoil="ScarLR_recoil";	
 
 		WeaponLength=1.02;
@@ -7624,7 +8065,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.96;
 		recoil="ScarLR_recoil";		
 
 		WeaponLength=1.02;
@@ -7643,7 +8084,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.96;
 		recoil="ScarLR_recoil";		
 
 		WeaponLength=1.02;
@@ -7662,7 +8103,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.96;
 		recoil="ScarLR_recoil";		
 
 		WeaponLength=1.02;
@@ -7681,7 +8122,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.96;
 		recoil="ScarSqb_recoil";		
 
 		WeaponLength=0.86;
@@ -7700,7 +8141,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.96;
 		recoil="ScarSqb_recoil";		
 
 		WeaponLength=0.86;
@@ -7719,7 +8160,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.96;
 		recoil="ScarSqb_recoil";		
 
 		WeaponLength=0.86;
@@ -7738,7 +8179,7 @@ class CfgWeapons
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.84;
 		recoil="ScarSqb_recoil";		
 
 		WeaponLength=0.86;
@@ -7758,7 +8199,7 @@ class CfgWeapons
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.84;
 		recoil="m16_recoil";
 
 		WeaponLength=0.89;//	
@@ -7779,7 +8220,7 @@ class CfgWeapons
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.84;
 		recoil="m16_recoil";
 
 		WeaponLength=0.89;//		
@@ -7800,7 +8241,7 @@ class CfgWeapons
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.84;
 		recoil="m16_recoil";
 
 		WeaponLength=0.89;//	
@@ -7823,7 +8264,7 @@ class CfgWeapons
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.84;
 		recoil="m16_recoil";
 
 		WeaponLength=0.89;//			
@@ -7844,7 +8285,7 @@ class CfgWeapons
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.84;
 		recoil="m16_recoil";
 
 		WeaponLength=0.89;//		
@@ -7865,7 +8306,7 @@ class CfgWeapons
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.84;
 		recoil="m16_recoil";
 
 		WeaponLength=0.89;//		
@@ -7886,7 +8327,7 @@ class CfgWeapons
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.84;
 		recoil="m16_recoil";
 
 		WeaponLength=0.89;//		
@@ -7907,7 +8348,7 @@ class CfgWeapons
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.84;
 		recoil="m16_recoil";
 
 		WeaponLength=0.89;//				
@@ -7928,7 +8369,7 @@ class CfgWeapons
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.84;
 		recoil="m14_recoil";
 
 		WeaponLength=1.08;
@@ -7949,7 +8390,7 @@ class rhs_weap_XM2010_Base_F: Rifle_Base_F
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.84;
 		recoil="m24_recoil";		
 // todo
     };
@@ -7969,7 +8410,7 @@ class rhs_weap_XM2010 : rhs_weap_XM2010_Base_F
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.84;
 		recoil="m24_recoil";		
 
     };
@@ -7989,7 +8430,7 @@ class rhs_weap_m24sws : rhs_weap_XM2010_Base_F
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.91;
 		recoil="m24_recoil";		
 
     };
@@ -8010,7 +8451,7 @@ class rhs_weap_m24sws_d : rhs_weap_m24sws
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.91;
 		recoil="m24_recoil";		
 
     };
@@ -8031,7 +8472,7 @@ class rhs_weap_m24sws_wd : rhs_weap_m24sws
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.91;
 		recoil="m24_recoil";		
 
     };
@@ -8052,7 +8493,7 @@ class rhs_weap_m24sws_blk : rhs_weap_m24sws
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.91;
 		recoil="m24_recoil";		
 
     };
@@ -8073,7 +8514,7 @@ class rhs_weap_m24sws_ghillie : rhs_weap_m24sws
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.91;
 		recoil="m24_recoil";		
 
     };
@@ -8095,7 +8536,7 @@ class rhs_weap_m40a5 : rhs_weap_XM2010_Base_F
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.91;
 		recoil="m40_recoil";		
 
     };
@@ -8114,7 +8555,7 @@ class rhs_weap_m40a5_d : rhs_weap_m40a5
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.91;
 		recoil="m40_recoil";		
 
     };
@@ -8135,7 +8576,7 @@ class rhs_weap_m40a5_wd : rhs_weap_m40a5
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.91;
 		recoil="m40_recoil";		
 
     };
@@ -8156,7 +8597,7 @@ class rhs_weap_m14_rail_base : rhs_weap_m14_base
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.91;
 		recoil="m14_recoil";		
 
 		WeaponLength=1.02;//	
@@ -8178,7 +8619,7 @@ class rhs_weap_m14_ris_base : rhs_weap_m14_rail_base
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.91;
 		recoil="m14_recoil";		
 		
 		WeaponLength=1.29;
@@ -8200,7 +8641,7 @@ class rhs_weap_m14_socom_base : rhs_weap_m14_base
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.91;
 		recoil="m14_recoil";		
 		
 		WeaponLength=1.02;//	
@@ -8222,7 +8663,7 @@ class rhs_weap_m14_socom_rail_base : rhs_weap_m14_socom_base
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.91;
 		recoil="m14_recoil";		
 		
 		WeaponLength=1.02;//	
@@ -8244,7 +8685,7 @@ class rhs_weap_m14ebrri_base: rhs_weap_m14_rail_base
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.91;
 		recoil="m14_recoil";		
 		
 		WeaponLength=1.29;
@@ -8266,7 +8707,7 @@ class rhs_weap_m14ebrri : rhs_weap_m14ebrri_base
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.91;
 		recoil="m14_recoil";		
 		
 		WeaponLength=1.29;
@@ -8288,7 +8729,7 @@ class rhs_weap_sr25 : rhs_weap_m14ebrri
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.91;
 		recoil="sr25_recoil";	
 				
 		WeaponLength=1.02;//		
@@ -8311,7 +8752,7 @@ class rhs_weap_sr25_ec : rhs_weap_sr25
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.91;
 		recoil="sr25_recoil";		
 				
 		WeaponLength=1.02;//		
@@ -8333,7 +8774,7 @@ class rhs_weap_sr25_wd : rhs_weap_sr25
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.91;
 		recoil="sr25_recoil";		
 				
 		WeaponLength=1.02;//		
@@ -8355,7 +8796,7 @@ class rhs_weap_sr25_ec_wd : rhs_weap_sr25_wd
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.91;
 		recoil="sr25_recoil";		
 				
 		WeaponLength=1.02;//			
@@ -8377,7 +8818,7 @@ class rhs_weap_sr25_d : rhs_weap_sr25_wd
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.91;
 		recoil="sr25_recoil";		
 				
 		WeaponLength=1.02;//			
@@ -8399,7 +8840,7 @@ class rhs_weap_sr25_ec_d : rhs_weap_sr25_d
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.91;
 		recoil="sr25_recoil";		
 				
 		WeaponLength=1.02;//		
@@ -8421,7 +8862,7 @@ class rhs_weap_m110: rhs_weap_sr25
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.91;
 		recoil="sr25_recoil";		
 				
 		WeaponLength=1.02;//			
@@ -8443,7 +8884,7 @@ class GM6_base_F : Rifle_Long_Base_F {
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.8;
 		recoil="sr25_recoil";		
 
 		WeaponLength=1.15;
@@ -8470,7 +8911,7 @@ class rhs_weap_hk416d10: rhs_weap_m4a1
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.8;
 		recoil="hk416_recoil";		
 
 		WeaponLength=0.77;//	
@@ -8491,7 +8932,7 @@ class rhs_weap_hk416d10_grip: rhs_weap_hk416d10
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.8;
 		recoil="hk416_recoil";		
 
 		WeaponLength=0.77;//	
@@ -8512,7 +8953,7 @@ class rhs_weap_hk416d10_grip2: rhs_weap_hk416d10_grip
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.8;
 		recoil="hk416_recoil";		
 
 		WeaponLength=0.77;//	
@@ -8533,7 +8974,7 @@ class rhs_weap_hk416d10_grip3: rhs_weap_hk416d10_grip2
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.8;
 		recoil="hk416_recoil";		
 
 		WeaponLength=0.77;//	
@@ -8554,7 +8995,7 @@ class rhs_weap_hk416d145: rhs_weap_hk416d10
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.8;
 		recoil="hk416_recoil";		
 
 		WeaponLength=0.77;//	
@@ -8575,7 +9016,7 @@ class rhs_weap_hk416d145_grip: rhs_weap_hk416d145
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.8;
 		recoil="hk416_recoil";		
 
 		WeaponLength=0.77;//	
@@ -8596,7 +9037,7 @@ class rhs_weap_hk416d145_grip2: rhs_weap_hk416d145_grip
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.8;
 		recoil="hk416_recoil";		
 
 		WeaponLength=0.77;//	
@@ -8618,7 +9059,7 @@ class rhs_weap_hk416d145_grip3: rhs_weap_hk416d145_grip2
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.8;
 		recoil="hk416_recoil";		
 
 		WeaponLength=0.77;//	
@@ -8639,7 +9080,7 @@ class rhs_weap_hk416d10_LMT: rhs_weap_hk416d10
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.8;
 		recoil="hk416_recoil";		
 
 		WeaponLength=0.77;//	
@@ -8661,7 +9102,7 @@ class rhs_weap_hk416d10_LMT_grip: rhs_weap_hk416d10_LMT
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.8;
 		recoil="hk416_recoil";		
 
 		WeaponLength=0.77;//	
@@ -8683,7 +9124,7 @@ class rhs_weap_hk416d10_LMT_grip2: rhs_weap_hk416d10_LMT_grip
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.8;
 		recoil="hk416_recoil";		
 
 		WeaponLength=0.77;//	
@@ -8706,7 +9147,7 @@ class rhs_weap_hk416d10_LMT_grip3: rhs_weap_hk416d10_LMT_grip2
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.8;
 		recoil="hk416_recoil";		
 
 		WeaponLength=0.77;//	
@@ -8728,7 +9169,7 @@ class rhs_weap_hk416d10_m320: rhs_weap_hk416d10
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.8;
 		recoil="hk416_recoil";		
 
 		WeaponLength=0.77;//	
@@ -8749,7 +9190,7 @@ class rhs_weap_hk416d145_m320: rhs_weap_hk416d145
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.8;
 		recoil="hk416_recoil";		
 
 		WeaponLength=0.77;//	
@@ -8770,7 +9211,7 @@ class rhs_weap_hk416d10_LMT_d: rhs_weap_hk416d10_LMT
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.8;
 		recoil="hk416_recoil";		
 
 		WeaponLength=0.77;//	
@@ -8791,7 +9232,7 @@ class rhs_weap_hk416d10_LMT_d_grip: rhs_weap_hk416d10_LMT_d
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.8;
 		recoil="hk416_recoil";		
 
 		WeaponLength=0.77;//	
@@ -8812,7 +9253,7 @@ class rhs_weap_hk416d10_LMT_d_grip2: rhs_weap_hk416d10_LMT_d_grip
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.8;
 		recoil="hk416_recoil";		
 
 		WeaponLength=0.77;//	
@@ -8833,7 +9274,7 @@ class rhs_weap_hk416d10_LMT_d_grip3: rhs_weap_hk416d10_LMT_d_grip2
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.8;
 		recoil="hk416_recoil";		
 
 		WeaponLength=0.77;//	
@@ -8854,7 +9295,7 @@ class rhs_weap_hk416d10_LMT_wd: rhs_weap_hk416d10_LMT
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.8;
 		recoil="hk416_recoil";		
 
 		WeaponLength=0.77;//	
@@ -8875,7 +9316,7 @@ class rhs_weap_hk416d10_LMT_wd_grip: rhs_weap_hk416d10_LMT_wd
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.8;
 		recoil="hk416_recoil";		
 
 		WeaponLength=0.77;//	
@@ -8896,7 +9337,7 @@ class rhs_weap_hk416d10_LMT_wd_grip2: rhs_weap_hk416d10_LMT_wd_grip
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.8;
 		recoil="hk416_recoil";		
 
 		WeaponLength=0.77;//	
@@ -8917,7 +9358,7 @@ class rhs_weap_hk416d10_LMT_wd_grip3: rhs_weap_hk416d10_LMT_wd_grip2
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.8;
 		recoil="hk416_recoil";		
 
 		WeaponLength=0.77;//	
@@ -8938,7 +9379,7 @@ class rhs_weap_hk416d145_d: rhs_weap_hk416d145
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.8;
 		recoil="hk416_recoil";		
 
 		WeaponLength=0.77;//	
@@ -8959,7 +9400,7 @@ class rhs_weap_hk416d145_d_grip: rhs_weap_hk416d145_d
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.8;
 		recoil="hk416_recoil";		
 
 		WeaponLength=0.77;//	
@@ -8980,7 +9421,7 @@ class rhs_weap_hk416d145_d_grip2: rhs_weap_hk416d145_d_grip
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.8;
 		recoil="hk416_recoil";		
 
 		WeaponLength=0.77;//	
@@ -9001,7 +9442,7 @@ class rhs_weap_hk416d145_d_grip3: rhs_weap_hk416d145_d_grip2
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.8;
 		recoil="hk416_recoil";		
 
 		WeaponLength=0.77;//	
@@ -9023,7 +9464,7 @@ class rhs_weap_hk416d145_d_2: rhs_weap_hk416d145
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.8;
 		recoil="hk416_recoil";		
 
 		WeaponLength=0.77;//	
@@ -9044,7 +9485,7 @@ class rhs_weap_hk416d145_d_2_grip: rhs_weap_hk416d145_d_2
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.8;
 		recoil="hk416_recoil";		
 
 		WeaponLength=0.77;//	
@@ -9065,7 +9506,7 @@ class rhs_weap_hk416d145_d_2_grip2: rhs_weap_hk416d145_d_2_grip
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.8;
 		recoil="hk416_recoil";		
 
 		WeaponLength=0.77;//	
@@ -9087,7 +9528,7 @@ class rhs_weap_hk416d145_d_2_grip3: rhs_weap_hk416d145_d_2_grip2
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.8;
 		recoil="hk416_recoil";		
 
 		WeaponLength=0.77;//	
@@ -9108,7 +9549,7 @@ class rhs_weap_hk416d145_wd: rhs_weap_hk416d145
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.8;
 		recoil="hk416_recoil";		
 
 		WeaponLength=0.77;//	
@@ -9129,7 +9570,7 @@ class rhs_weap_hk416d145_wd_grip: rhs_weap_hk416d145_wd
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.8;
 		recoil="hk416_recoil";		
 
 		WeaponLength=0.77;//	
@@ -9150,7 +9591,7 @@ class rhs_weap_hk416d145_wd_grip2: rhs_weap_hk416d145_wd_grip
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.8;
 		recoil="hk416_recoil";		
 
 		WeaponLength=0.77;//	
@@ -9171,7 +9612,7 @@ class rhs_weap_hk416d145_wd_grip3: rhs_weap_hk416d145_wd_grip2
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.8;
 		recoil="hk416_recoil";		
 
 		WeaponLength=0.77;//	
@@ -9192,7 +9633,7 @@ class rhs_weap_hk416d145_wd_2: rhs_weap_hk416d145
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.8;
 		recoil="hk416_recoil";		
 
 		WeaponLength=0.77;//	
@@ -9214,7 +9655,7 @@ class rhs_weap_hk416d145_wd_2_grip: rhs_weap_hk416d145_wd_2
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.8;
 		recoil="hk416_recoil";		
 
 		WeaponLength=0.77;//	
@@ -9235,7 +9676,7 @@ class rhs_weap_hk416d145_wd_2_grip2: rhs_weap_hk416d145_wd_2_grip
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.8;
 		recoil="hk416_recoil";		
 
 		WeaponLength=0.77;//	
@@ -9256,7 +9697,7 @@ class rhs_weap_hk416d145_wd_2_grip3: rhs_weap_hk416d145_wd_2_grip2
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.8;
 		recoil="hk416_recoil";		
 
 		WeaponLength=0.77;//	
@@ -9618,7 +10059,7 @@ class rhs_weap_m70ab2 : rhs_weap_m70_base
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.91;
 		recoil="akmm_recoil";	
 };
 
@@ -9634,7 +10075,7 @@ class rhs_weap_m70ab2_fold : rhs_weap_m70ab2
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.91;
 		recoil="akmm_recoil";	
 };
 
@@ -9650,7 +10091,7 @@ class rhs_weap_m70b1 : rhs_weap_m70ab2
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.91;
 		recoil="akmm_recoil";	
 };
 
@@ -9666,7 +10107,7 @@ class rhs_weap_m70b1n : rhs_weap_m70ab2
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.91;
 		recoil="akmm_recoil";	
 };
 
@@ -9682,7 +10123,7 @@ class rhs_weap_m70b3n : rhs_weap_m70ab2
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.91;
 		recoil="akmm_recoil";	
 };
 
@@ -9698,7 +10139,7 @@ class rhs_weap_m70b3n_pbg40 : rhs_weap_m70ab2
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.91;
 		recoil="akmm_recoil";	
 };
 
@@ -9714,7 +10155,7 @@ class rhs_weap_m92 : rhs_weap_m70_base
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.91;
 		recoil="akmm_recoil";	
 };
 class rhs_weap_m92_fold : rhs_weap_m92
@@ -9729,7 +10170,7 @@ class rhs_weap_m92_fold : rhs_weap_m92
 
 
 
-        aimTransitionSpeed=0.7006;
+        aimTransitionSpeed=0.91;
 		recoil="akmm_recoil";	
 };
 
@@ -9886,7 +10327,7 @@ class rhs_weap_m92_fold : rhs_weap_m92
 		dexterity=1.6129;
 
 
-        aimTransitionSpeed=0.6986;
+        aimTransitionSpeed=0.7986;
 		recoil="vog_recoil";
 
 
@@ -9944,463 +10385,7 @@ class rhs_weap_m92_fold : rhs_weap_m92
 
 // sov
 
-
-    class rhs_weap_rpg26: Launcher_Base_F {
-        class OpticsModes {
-            class ironsight {
-				opticsZoomMin = 0.4;
-				opticsZoomMax = 0.7;
-				opticsZoomInit = 0.7;
-            };
-        };
-    };
-    class rhs_weap_strela: launch_O_Titan_F {
-        class OpticsModes {
-            class StepScope {
-				opticsZoomMin = 0.4;
-				opticsZoomMax = 0.7;
-				opticsZoomInit = 0.7;
-            };
-        };
-    };
-
-
-
-
-    class rhs_acc_1p29: rhs_acc_sniper_base {
-        class ItemInfo: InventoryOpticsItem_Base_F {
-            class OpticsModes {
-                class rhs_1p29_iron {
-            		opticsZoomMin = 0.4;
-					opticsZoomMax = 0.7;
-					opticsZoomInit = 0.7;
-                };
-            };
-        };
-    };
-    class rhs_acc_1p78: rhs_acc_1p29 {
-        class ItemInfo: InventoryOpticsItem_Base_F {
-            class OpticsModes {
-                class rhs_above_sight {
-            		opticsZoomMin = 0.4;
-					opticsZoomMax = 0.7;
-					opticsZoomInit = 0.7;
-                };
-            };
-        };
-    };
-    class rhs_acc_pkas: rhs_acc_sniper_base {
-        class ItemInfo: InventoryOpticsItem_Base_F {
-            class OpticsModes {
-                class ACO {
-            		opticsZoomMin = 0.4;
-					opticsZoomMax = 0.7;
-					opticsZoomInit = 0.7;
-                };
-                class rhs_1p29_iron {
-            		opticsZoomMin = 0.4;
-					opticsZoomMax = 0.7;
-					opticsZoomInit = 0.7;
-                };
-            };
-        };
-    };
-    class rhs_acc_1p63: rhs_acc_pkas {
-        class ItemInfo: InventoryOpticsItem_Base_F {
-            class OpticsModes {
-                class ACO {
-					opticsZoomMin = 0.4;
-					opticsZoomMax = 0.7;
-					opticsZoomInit = 0.7;
-                };
-            };
-        };
-    };
-    class rhs_acc_nita: rhs_acc_pkas {
-        class ItemInfo: InventoryOpticsItem_Base_F {
-            class OpticsModes {
-                class rhs_nita_scope {
-					opticsZoomMin = 0.4;
-					opticsZoomMax = 0.7;
-					opticsZoomInit = 0.7;
-                };
-                class rhs_nita_iron {
-					opticsZoomMin = 0.4;
-					opticsZoomMax = 0.7;
-					opticsZoomInit = 0.7;
-                };
-            };
-        };
-    };
-    class rhs_acc_pgo7v: rhs_acc_sniper_base {
-        class ItemInfo: InventoryOpticsItem_Base_F {
-            class OpticsModes {
-                class rhs_pgo7v_iron {
-					opticsZoomMin = 0.4;
-					opticsZoomMax = 0.7;
-					opticsZoomInit = 0.7;
-                };
-            };
-        };
-    };
-    class rhs_acc_pgo7v_ak: rhs_acc_pgo7v {
-        class ItemInfo: ItemInfo {
-            class OpticsModes: OpticsModes {
-                class rhs_pgo7v_iron {
-					opticsZoomMin = 0.4;
-					opticsZoomMax = 0.7;
-					opticsZoomInit = 0.7;
-                };
-            };
-        };
-    };
-    class rhs_acc_1pn93_base: rhs_acc_sniper_base {
-        class ItemInfo: InventoryOpticsItem_Base_F {
-            class OpticsModes {
-                class rhs_1p29_iron {
-					opticsZoomMin = 0.4;
-					opticsZoomMax = 0.7;
-					opticsZoomInit = 0.7;
-                };
-            };
-        };
-    };
-    class rhs_acc_1pn34: rhs_acc_1pn93_base {
-        class ItemInfo: ItemInfo {
-            class OpticsModes {
-
-			class 1pn34_scope
-			{
-				opticsZoomMin = 0.4;
-				opticsZoomMax = 0.7;
-				opticsZoomInit = 0.7;
-				visionMode[]= {"NVG"};
-			};
-			class 1pn34_scope_not_nvg
-			{
-				opticsID						= 3;
-				useModelOptics					= 1;
-				opticsPPEffects[]				= {"OpticsCHAbera1","OpticsBlur1"};
-				discreteDistance[]				= {100};
-				discreteDistanceInitIndex		= 0;
-				opticsZoomMin = 0.4;
-				opticsZoomMax = 0.7;
-				opticsZoomInit = 0.7;
-				memoryPointCamera				= "opticView";
-				visionMode[]					= {"Normal"};
-				opticsFlare						= 1;
-				opticsDisablePeripherialVision	= 1;
-				distanceZoomMin					= 200;
-				distanceZoomMax					= 1000;
-				cameraDir						= "";
-			};
-                class rhs_1pn34_iron {
-					opticsZoomMin = 0.4;
-					opticsZoomMax = 0.7;
-					opticsZoomInit = 0.7;
-                };
-            };
-        };
-    };
-    class rhs_acc_rakursPM : rhs_acc_1p63 {
-        class ItemInfo: InventoryOpticsItem_Base_F {
-            class OpticsModes {
-                class rhs_rakurs_collimator {
-					opticsZoomMin = 0.4;
-					opticsZoomMax = 0.7;
-					opticsZoomInit = 0.7;
-                };
-            };
-        };
-    };
-
-
-//************************** rhsusf_weap_rifle_scar **************************
-
-
-
-//************************** rhsusf_weap_launchers **************************
-    class rhs_weap_smaw: Launcher_Base_F {
-		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
-    };
-    class rhs_weap_smaw_SR: Launcher_Base_F {
-		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
-    };
-    class rhs_weap_maaws: Launcher_Base_F {
-		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
-    };
-    class rhs_weap_M136: Launcher_Base_F {
-        class OpticsModes {
-            class ironsight {
-				opticsZoomMin = 0.4;
-				opticsZoomMax = 0.7;
-				opticsZoomInit = 0.7;
-            };
-        };
-    };
-    class rhs_weap_m72a7 : rhs_weap_M136 {
-        class OpticsModes {
-            class ironsight {
-				opticsZoomMin = 0.4;
-				opticsZoomMax = 0.7;
-				opticsZoomInit = 0.7;
-            };
-        };
-    };
-    class rhs_weap_fim92: launch_O_Titan_F {
-        class OpticsModes {
-            class StepScope {
-					opticsZoomMin = 0.4;
-					opticsZoomMax = 0.7;
-					opticsZoomInit = 0.7;
-            };
-        };
-    };
-
-//****************************** rhsusf_weap_acc ******************************
-    class rhsusf_acc_compm4: ItemCore {
-        class ItemInfo: InventoryOpticsItem_Base_F {
-            class OpticsModes {
-                class ACO {
-					opticsZoomMin = 0.4;
-					opticsZoomMax = 0.7;
-					opticsZoomInit = 0.7;
-                };
-            };
-        };
-    };
-    class rhsusf_acc_anpvs27: ItemCore {
-        class ItemInfo: InventoryOpticsItem_Base_F {
-            class OpticsModes {
-                class PVS27 {
-					opticsZoomMin = 0.4;
-					opticsZoomMax = 0.7;
-					opticsZoomInit = 0.7;
-                };
-            };
-        };
-    };
-    class optic_holosight: ItemCore {
-        class iteminfo: InventoryOpticsItem_Base_F {
-            class OpticsModes {
-                class ACO;
-            };
-        };
-    };
-    class rhsusf_acc_EOTECH: optic_holosight {
-        class ItemInfo: ItemInfo {
-            class OpticsModes: OpticsModes {
-                class ACO: ACO {
-					opticsZoomMin = 0.4;
-					opticsZoomMax = 0.7;
-					opticsZoomInit = 0.7;
-                };
-            };
-        };
-    };
-    class rhsusf_acc_eotech_xps3: optic_Holosight {
-        class ItemInfo: ItemInfo {
-            class OpticsModes: OpticsModes {
-                class ACO: ACO {
-					opticsZoomMin = 0.4;
-					opticsZoomMax = 0.7;
-					opticsZoomInit = 0.7;
-                };
-            };
-        };
-    };
-    class rhsusf_acc_ELCAN: rhsusf_acc_sniper_base {
-        class ItemInfo: InventoryOpticsItem_Base_F {
-            class OpticsModes;
-        };
-    };
-    class rhsusf_acc_ELCAN_pip: rhsusf_acc_ELCAN {
-        class ItemInfo: ItemInfo {
-            class OpticsModes: OpticsModes {
-                class elcan_scope {
-					opticsZoomMin = 0.4;
-					opticsZoomMax = 0.7;
-					opticsZoomInit = 0.7;
-                };
-            };
-        };
-    };
-    class rhsusf_acc_su230_base: ItemCore {
-        class ItemInfo: InventoryOpticsItem_Base_F {
-            class OpticsModes {
-                class Elcan_x1 {
-					opticsZoomMin = 0.4;
-					opticsZoomMax = 0.7;
-					opticsZoomInit = 0.7;
-                };
-                class Elcan_iron {
-					opticsZoomMin = 0.4;
-					opticsZoomMax = 0.7;
-					opticsZoomInit = 0.7;
-                };
-            };
-        };
-    };
-    class rhsusf_acc_ACOG: rhsusf_acc_sniper_base {
-        class ItemInfo: InventoryOpticsItem_Base_F {
-            class OpticsModes {
-                class alternative_view {
-					opticsZoomMin = 0.4;
-					opticsZoomMax = 0.7;
-					opticsZoomInit = 0.7;
-                };
-            };
-        };
-    };
-    class rhsusf_acc_ACOG_pip: rhsusf_acc_ACOG {
-        class ItemInfo: ItemInfo {
-            class OpticsModes: OpticsModes {
-                class elcan_scope {
-					opticsZoomMin = 0.4;
-					opticsZoomMax = 0.7;
-					opticsZoomInit = 0.7;
-                };
-            };
-        };
-    };
-    class rhsusf_acc_LEUPOLDMK4_2: rhsusf_acc_sniper_base {
-        class ItemInfo: InventoryOpticsItem_Base_F {
-            class OpticsModes;
-        };
-    };
-    class rhsusf_acc_LEUPOLDMK4_2_mrds: rhsusf_acc_LEUPOLDMK4_2 {
-        class ItemInfo: ItemInfo {
-            class OpticsModes: OpticsModes {
-                class Mrds {
-					opticsZoomMin = 0.4;
-					opticsZoomMax = 0.7;
-					opticsZoomInit = 0.7;
-                };
-            };
-        };
-    };
-    class rhsusf_acc_premier: rhsusf_acc_LEUPOLDMK4_2 {
-        class ItemInfo: InventoryOpticsItem_Base_F {
-            class OpticsModes;
-        };
-    };
-    class rhsusf_acc_premier_mrds: rhsusf_acc_premier {
-        class ItemInfo: ItemInfo {
-            class OpticsModes: OpticsModes {
-                class Mrds {
-					opticsZoomMin = 0.4;
-					opticsZoomMax = 0.7;
-					opticsZoomInit = 0.7;
-                };
-            };
-        };
-    };
-    class rhsusf_acc_M8541: rhsusf_acc_premier {
-        class ItemInfo: InventoryOpticsItem_Base_F {
-            class OpticsModes;
-        };
-    };
-    class rhsusf_acc_M8541_mrds: rhsusf_acc_M8541 {
-        class ItemInfo: ItemInfo {
-            class OpticsModes: OpticsModes {
-                class Mrds {
-					opticsZoomMin = 0.4;
-					opticsZoomMax = 0.7;
-					opticsZoomInit = 0.7;
-                };
-            };
-        };
-    };
-    class rhsusf_acc_ACOG_MDO: ItemCore {
-        class ItemInfo: InventoryOpticsItem_Base_F {
-            class OpticsModes {
-                class RMR {
-					opticsZoomMin = 0.4;
-					opticsZoomMax = 0.7;
-					opticsZoomInit = 0.7;
-                };
-            };
-        };
-    };
-
-
-//************************** rhsgref_weap_launchers **************************
-    class rhs_weap_rpg75: Launcher_Base_F {
-        class OpticsModes {
-            class ironsight {
-        		opticsZoomMin = 0.4;
-				opticsZoomMax = 0.7;
-				opticsZoomInit = 0.7;
-            };
-        };
-    };
-    class rhs_weap_panzerfaust60: Launcher_Base_F {
-        class OpticsModes {
-            class ironsight {
-					opticsZoomMin = 0.4;
-					opticsZoomMax = 0.7;
-					opticsZoomInit = 0.7;
-            };
-        };
-    };
-
-//****************************** rhsgref_weap_acc ******************************
-    class rhs_acc_scope_base: ItemCore {
-        class ItemInfo: InventoryOpticsItem_Base_F {
-            class OpticsModes {
-                class rhs_1p29_iron {
-					opticsZoomMin = 0.4;
-					opticsZoomMax = 0.7;
-					opticsZoomInit = 0.7;
-                };
-            };
-        };
-    };
-    class rhsgref_mg42_acc_AAsight: ItemCore {
-        class ItemInfo: InventoryOpticsItem_Base_F {
-            class OpticsModes {
-                class ACO {
-					opticsZoomMin = 0.4;
-					opticsZoomMax = 0.7;
-					opticsZoomInit = 0.7;
-                };
-            };
-        };
-    };
-    class rhsgref_acc_l2a2: rhs_acc_scope_base {
-        class ItemInfo: InventoryOpticsItem_Base_F {
-            class OpticsModes {
-                class rhs_iron {
-					opticsZoomMin = 0.4;
-					opticsZoomMax = 0.7;
-					opticsZoomInit = 0.7;
-                };
-            };
-        };
-    };
-    class rhsgref_acc_anpvs2_base: rhs_acc_scope_base {
-        class ItemInfo: InventoryOpticsItem_Base_F {
-            class OpticsModes {
-                class rhs_1p29_iron {
-					opticsZoomMin = 0.4;
-					opticsZoomMax = 0.7;
-					opticsZoomInit = 0.7;
-                };
-            };
-        };
-    };
-
-
-
-
-
-
+#include "Scopes.cpp"
 
 	
 

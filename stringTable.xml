@@ -210,6 +210,53 @@
                 <Russian>30Птр. АК-74 (2x/Камуф.) 7T3M</Russian>
             </Key>
 
+            <!--HP  -->
+            <Key ID="STR_Bak7N6Hp">
+                <English>30rd AK-74 HP  (Bakelite)</English>
+                <Russian>30Птр. АК-74 (Бакелит) HP</Russian>
+            </Key>
+
+            <Key ID="STR_Bak7N6HpGreen">
+                <English>30rd AK-74 HP  (Green)</English>
+                <Russian>30Птр. АК-74 (Зеленый) HP</Russian>
+            </Key>
+
+            <Key ID="STR_Bak7N6HpDesert">
+                <English>30rd AK-74 HP  (Desert)</English>
+                <Russian>30Птр. АК-74 (Пуст.) HP</Russian>
+            </Key>
+
+            <Key ID="STR_Bak7N6HpСam">
+                <English>30rd AK-74 HP  (Camo)</English>
+                <Russian>30Птр. АК-74 (Камуф.) HP</Russian>
+            </Key>
+
+            <Key ID="STR_SparHp">
+                <English>30rd AK-74 HP (2x/Bakelite)</English>
+                <Russian>30Птр. АК-74 (2x/Бакелит) HP</Russian>
+            </Key>
+
+            <Key ID="STR_SparHpPlum">
+                <English>30rd AK-74 HP (2x/Plum)</English>
+                <Russian>30Птр. АК-74 (2x/Слива) HP</Russian>
+            </Key>
+
+            <Key ID="STR_SparHpPlum">
+                <English>30rd AK-74 HP (2x/Plum)</English>
+                <Russian>30Птр. АК-74 (2x/Слива) HP</Russian>
+            </Key>
+
+            <Key ID="STR_SparHpDes">
+                <English>30rd AK-74 HP (2x/Des)</English>
+                <Russian>30Птр. АК-74 (2x/Пуст.) HP</Russian>
+            </Key>
+
+            <Key ID="STR_SparHpCamo">
+                <English>30rd AK-74 HP (2x/Camo)</English>
+                <Russian>30Птр. АК-74 (2x/камуф.) HP</Russian>
+            </Key>
+
+
 
     </Package>
 </Project>

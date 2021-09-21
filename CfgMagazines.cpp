@@ -2,24 +2,19 @@ class CfgMagazines
 {
 	class CA_Magazine;
 
-
-
     	class rhs_30Rnd_545x39_AK : CA_Magazine 
 	{
-
 		tracersEvery=3;
 		lastRoundsTracer=3;
     };
 
 	class rhs_30Rnd_545x39_7N6_AK : rhs_30Rnd_545x39_AK
 	{
-
 		tracersEvery=3;
 		lastRoundsTracer=3;
     };        
 	class rhs_30Rnd_545x39_7N10_AK : rhs_30Rnd_545x39_7N6_AK
 	{
-
 		tracersEvery=3;
 		lastRoundsTracer=3;
     };
@@ -605,10 +600,97 @@ class CfgMagazines
 
 
 
+// HP
 
+	class rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK : rhs_30Rnd_545x39_7N10_2mag_camo_AK
+	{
 
+		displayName					= $STR_SparHpCamo;
+		displayNameShort			= "HP";
+		ammo						= rhs_B_545x39_HP;
+		mass						= 6,95;
 
+		tracersEvery=3;
+		lastRoundsTracer=3;
+	};
+
+	class rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK : rhs_30Rnd_545x39_7N10_2mag_desert_AK
+	{
+
+		displayName					= $STR_SparHpDes;
+		displayNameShort			= "HP";
+		ammo						= rhs_B_545x39_HP;
+		mass						= 6,95;
+
+		tracersEvery=3;
+		lastRoundsTracer=3;
+	};
+
+	class rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK : rhs_30Rnd_545x39_7N10_2mag_plum_AK
+	{
+
+		displayName					= $STR_SparHpPlum;
+		displayNameShort			= "HP";
+		ammo						= rhs_B_545x39_HP;
+		mass						= 6,95;
+
+		tracersEvery=3;
+		lastRoundsTracer=3;
+	};
 	
+	class rhs_30Rnd_545x39_7N6_HP_2mag_AK : rhs_30Rnd_545x39_7N10_2mag_AK
+	{
+
+		displayName					= $STR_SparHp;
+		displayNameShort			= "7N6";
+		ammo						= rhs_B_545x39_7N6_Ball;
+		mass						= 6,95;
+
+		tracersEvery=3;
+		lastRoundsTracer=3;
+	};
+
+	class rhs_30Rnd_545x39_7N6_HP_camo_AK : rhs_30Rnd_545x39_7N10_camo_AK
+	{
+		displayName					= $STR_Bak7N6HpСam;
+		displayNameShort			= "HP";
+		ammo						= rhs_B_545x39_HP;
+
+		tracersEvery=3;
+		lastRoundsTracer=3;
+	};
+
+	class rhs_30Rnd_545x39_7N6_HP_AK_Deser : rhs_30Rnd_545x39_7N10_desert_AK
+	{
+
+		displayName					= $STR_Bak7N6HpDesert;
+		displayNameShort			= "HP";
+		ammo						= rhs_B_545x39_HP;
+
+		tracersEvery=3;
+		lastRoundsTracer=3;
+	};
+
+	class rhs_30Rnd_545x39_7N6_HP_AK_Green : rhs_30Rnd_545x39_AK
+	{
+
+		displayName					= $STR_Bak7N6HpGreen;
+		displayNameShort			= "HP";
+		ammo						= rhs_B_545x39_HP;
+
+		tracersEvery=3;
+		lastRoundsTracer=3;
+	};
+
+	class rhs_30Rnd_545x39_7N6_HP_AK : rhs_30Rnd_545x39_7N6_AK
+	{
+		displayName					= $STR_Bak7N6Hp;
+		displayNameShort			= "HP";
+		ammo						= rhs_B_545x39_HP;
+
+		tracersEvery=3;
+		lastRoundsTracer=3;
+    };
 
 
 };
