@@ -7,6 +7,38 @@ if (isDedicated) exitWith {};
 #include "\a3\ui_f\hpp\defineDIKCodes.inc"
   
 
+Whistle_radius= 15;
+Whistle_Max_radius= 600;
+Whistle_Step= 5;
+
+Whistle={	
+    _sound =  selectRandom ["RebalanceMod\sounds\whistle1.ogg","fox_whistle\sounds\whistle2.ogg"];
+    playSound3D [ _sound, player, false, getPosASL player, 1, 1, Whistle_radius];
+
+};
+
+Whistle_Pl={	
+    if (Whistle_radius + Whistle_Step < Whistle_Max_radius) then {
+        Whistle_radius = Whistle_radius + Whistle_Step;
+        hint format["Текущая дистанция свиста: %1",Whistle_radius];
+    }
+    else {
+        hint "вы не можете свистеть на такую дистанцию";
+    };
+
+};
+
+Whistle_Mn={	
+    if (Whistle_radius - Whistle_Step < 0) then {
+        hint "Нельзя свистеть на отрицательную дистанцию";
+    }
+    else {
+        Whistle_radius = Whistle_radius - Whistle_Step;
+        hint format["Текущая дистанция свиста: %1",Whistle_radius];
+    };
+
+};
+
 
 
 
@@ -61,7 +93,44 @@ RockPaperScissors={
 
 /* CBA Settings ======================= */
 
+[
+    "Дистанция свиста",
+    "Editbox",
+    ["Дистанция свиста"," "],
+    "Seon Whistle",
+    "15",
+    nil,
+    {  
+        params ["_value"];
+        Whistle_radius = parseNumber _value;
+    }
+] call CBA_Settings_fnc_init;
 
+[
+    "Максимальная дистанция свиста",
+    "Editbox",
+    ["Максимальная дистанция свиста"," "],
+    "Seon Whistle",
+    "600",
+    2,
+    {  
+        params ["_value"];
+        Whistle_Max_radius = parseNumber _value;
+    }
+] call CBA_Settings_fnc_init;
+
+[
+    "Шаг увеличения/уменьшения дистанции",
+    "Editbox",
+    ["Шаг увеличения/уменьшения дистанции"," "],
+    "Seon Whistle",
+    "5",
+    nil,
+    {  
+        params ["_value"];
+        Whistle_Step = parseNumber _value;
+    }
+] call CBA_Settings_fnc_init;
 
 
 /* CBA Keybinds ======================= */
@@ -73,3 +142,10 @@ RockPaperScissors={
 // UI
 ["Seon Hud", "Спрятать интерфейс", ["Спрятать интерфейс", " "],{call UiOff}, {}, [DIK_F2, [true, true, false]]] call CBA_fnc_addKeybind; 
 ["Seon Hud", "Вернуть интерфейс", ["Вернуть интерфейс", " "],{call UiOn}, {}, [DIK_F3, [true, true, false]]] call CBA_fnc_addKeybind; 
+// свист
+
+["Seon Whistle", "Свист", ["Cвистнуть", "Персонаж свиснет после нажатия этой кнопки"],{call Whistle}, {}, [DIK_1, [false, true, false]]] call CBA_fnc_addKeybind; 
+["Seon Whistle", "Сделать свист громче", ["Сделать свист громче", "Персонаж будет свистеть на большую дистанцию, после нажатия этой кнопки"],{call Whistle_Pl}, {}, [DIK_2, [false, true, false]]] call CBA_fnc_addKeybind; 
+["Seon Whistle", "Сделать свист тише", ["Сделать свист тише", "Персонаж будет свистеть на меньшую дистанцию, после нажатия этой кнопки"],{call Whistle_Mn}, {}, [DIK_3, [false, true, false]]] call CBA_fnc_addKeybind; 
+
+

@@ -10334,7 +10334,7 @@ class rhs_weap_m92_fold : rhs_weap_m92
 
     }; 
 
-/*
+
 	class M203_GL: UGL_F
 	{
 		scope = 1;
@@ -10353,7 +10353,7 @@ class rhs_weap_m92_fold : rhs_weap_m92
 
 
     }; 
-
+/*
 	class M320_GL: M203_GL
 	{
 		scope = 1;
