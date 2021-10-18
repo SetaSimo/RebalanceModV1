@@ -35,7 +35,7 @@ class CfgGesturesMale {
 			canPullTrigger=1;
 			disableWeapons=0;
 			disableWeaponsLong=1;
-			canReload=0;
+			canReload=1;
 			enableBinocular=0;
 			enableMissile=0;
 			headBobMode=2;
@@ -59,7 +59,7 @@ class CfgGesturesMale {
 			canPullTrigger=1;
 			disableWeapons=0;
 			disableWeaponsLong=1;
-			canReload=0;
+			canReload=1;
 			enableBinocular=0;
 			enableMissile=0;
 			headBobMode=2;
@@ -86,9 +86,8 @@ class CfgGesturesMale {
 			looped=0;
 			speed=0.55000001;
 			enableOptics=1;
-			disableWeapons=1;
-			canPullTrigger=0;
-			canReload=0;
+			canPullTrigger=1;
+			canReload=1;
 			mask="leftHand";
 			leftHandIKBeg=0;
 			leftHandIKEnd=0;

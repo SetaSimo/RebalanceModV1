@@ -10453,6 +10453,23 @@ class CfgCloudlets
 		angle=0;
 		position[]={0,0,0};
 	};
+/////////////////////////////cont
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 };
 class RHS_SmokeShell_RGD2_White
 {

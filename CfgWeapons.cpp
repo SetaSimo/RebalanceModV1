@@ -100,12 +100,12 @@ class CfgWeapons
 	class rhs_weap_m4_Base: arifle_MX_Base_F
 	{
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -201,12 +201,12 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -220,12 +220,12 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
         aimTransitionSpeed=0.5386;
 		recoil="m38_recoil";
@@ -238,12 +238,12 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
         aimTransitionSpeed=0.5386;
 		recoil="m38_recoil";
@@ -256,12 +256,12 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.7006;
@@ -275,12 +275,12 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.7006;
@@ -295,12 +295,12 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.7006;
@@ -318,8 +318,8 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
 
@@ -327,11 +327,11 @@ class CfgWeapons
 
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -408,15 +408,15 @@ class CfgWeapons
 	{
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -490,15 +490,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -572,15 +572,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -653,15 +653,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -735,15 +735,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -817,15 +817,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -899,15 +899,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -981,15 +981,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -1001,15 +1001,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -1083,15 +1083,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -1165,15 +1165,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -1247,15 +1247,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -1329,15 +1329,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -1411,15 +1411,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -1493,15 +1493,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -1575,15 +1575,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -1657,15 +1657,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -1739,15 +1739,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -1822,15 +1822,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -1904,15 +1904,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -1986,15 +1986,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -2068,15 +2068,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -2150,15 +2150,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -2232,15 +2232,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -2315,15 +2315,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -2396,15 +2396,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -2478,15 +2478,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -2560,15 +2560,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -2642,15 +2642,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -2724,15 +2724,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -2806,15 +2806,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -2888,15 +2888,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -2971,15 +2971,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="ak74_recoil";
 
 		WeaponLength=1.01;//	
@@ -3052,15 +3052,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="aks74u_recoil";		
 
 		WeaponLength=0.6;//	
@@ -3135,15 +3135,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="aks74u_recoil";	
 
 		WeaponLength=0.6;
@@ -3228,15 +3228,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="ak100_recoil";
 
 		WeaponLength=1.01;//	
@@ -3311,15 +3311,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="ak100_recoil";
 
 		WeaponLength=1.01;//	
@@ -3394,15 +3394,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="ak100_recoil";
 
 		WeaponLength=1.01;//	
@@ -3477,15 +3477,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="ak100_recoil";
 
 		WeaponLength=1.01;//	
@@ -3560,15 +3560,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="akmm_recoil";
 
 		WeaponLength=1.01;//			
@@ -3581,15 +3581,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="akmm_recoil";
 
 		WeaponLength=1.01;//			
@@ -3602,15 +3602,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="akmm_recoil";
 
 		WeaponLength=0.88;	
@@ -3623,15 +3623,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="akmm_recoil";
 
 		WeaponLength=1.01;//			
@@ -3644,15 +3644,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="akmm_recoil";
 
 		WeaponLength=1.01;//			
@@ -3665,15 +3665,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="akmm_recoil";
 
 		WeaponLength=1.01;//			
@@ -3686,15 +3686,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="akmm_recoil";
 
 		WeaponLength=1.01;//			
@@ -3707,15 +3707,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="akmm_recoil";
 
 		WeaponLength=1.01;//			
@@ -3728,15 +3728,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="akmm_recoil";
 
 		WeaponLength=1.01;//			
@@ -3749,15 +3749,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="akmm_recoil";
 
 		WeaponLength=0.83;//		
@@ -3770,15 +3770,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="akm100_recoil";
 
 		WeaponLength=1.01;//			
@@ -3795,15 +3795,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="akm100_recoil";
 
 		WeaponLength=1.01;//			
@@ -3814,15 +3814,15 @@ class CfgWeapons
 	{
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="akm100_recoil";
 
 		WeaponLength=1.01;//			
@@ -3832,15 +3832,15 @@ class CfgWeapons
 	class rhs_weap_ak103_2 : rhs_weap_ak103_base
 	{
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="akm100_recoil";
 
 		WeaponLength=1.01;//			
@@ -3856,15 +3856,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="akm100_recoil";
 
 		WeaponLength=1.01;//			
@@ -3877,15 +3877,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="akm100_recoil";
 
 		WeaponLength=1.01;//			
@@ -3898,15 +3898,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="akm100_recoil";
 
 		WeaponLength=1.01;//			
@@ -3919,15 +3919,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="akm100_recoil";
 
 		WeaponLength=1.01;//			
@@ -3940,15 +3940,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="akm100_recoil";
 
 		WeaponLength=1.01;//			
@@ -3962,15 +3962,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="akmm_recoil";
 
 		WeaponLength=1.01;//			
@@ -3982,15 +3982,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="akm100_recoil";
 
 		WeaponLength=1.01;//			
@@ -4003,15 +4003,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="akm100_recoil";
 
 		WeaponLength=1.01;//			
@@ -4024,15 +4024,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9666;
+        aimTransitionSpeed=0.7666;
 		recoil="akm100_recoil";
 
 		WeaponLength=1.01;//			
@@ -4045,15 +4045,15 @@ class CfgWeapons
 	{
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
+		inertia=2.4003;
 		dexterity=1.6986;
 
 
-        aimTransitionSpeed=0.9999;
+        aimTransitionSpeed=0.6999;
 		recoil="rpk74_recoil";
 
 		WeaponLength=1.08;		
@@ -4128,15 +4128,15 @@ class CfgWeapons
 	{
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
+		inertia=2.4003;
 		dexterity=1.6986;
 
 
-        aimTransitionSpeed=0.9999;
+        aimTransitionSpeed=0.6999;
 		recoil="rpk74_recoil";
 
 		WeaponLength=1.3;//		
@@ -4209,15 +4209,15 @@ class CfgWeapons
 	class rhs_weap_rpk74: rhs_weap_rpk74_base
 	{
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
+		inertia=2.4003;
 		dexterity=1.6986;
 
 
-        aimTransitionSpeed=0.9999;
+        aimTransitionSpeed=0.6999;
 		recoil="rpk74_recoil";
 
 		WeaponLength=1.3;//	
@@ -4291,15 +4291,15 @@ class CfgWeapons
 	class rhs_weap_rpk74n: rhs_weap_rpk74
 	{
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
+		inertia=2.4003;
 		dexterity=1.6986;
 
 
-        aimTransitionSpeed=0.9999;
+        aimTransitionSpeed=0.6999;
 		recoil="rpk74_recoil";
 
 		WeaponLength=1.3;//	
@@ -4373,10 +4373,10 @@ class CfgWeapons
 	class rhs_weap_rpk74m: rhs_weap_rpk74n
 	{
 		inertia=1.3003;
-		dexterity=1.6129;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9999;
+        aimTransitionSpeed=0.6999;
 		recoil="rpk74_recoil";
 
 		WeaponLength=1.3;//	
@@ -4451,15 +4451,15 @@ class CfgWeapons
 	class rhs_weap_rpk74m_npz: rhs_weap_rpk74m
 	{
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.9999;
+        aimTransitionSpeed=0.6999;
 		recoil="rpk74_recoil";
 
 		WeaponLength=1.3;//	
@@ -4540,15 +4540,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=1.0008;
+        aimTransitionSpeed=0.6;
 		recoil="pkm_recoil";
 
 		WeaponLength=1.3;//		
@@ -4561,15 +4561,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=1.0008;
+        aimTransitionSpeed=0.6;
 		recoil="pkm_recoil";
 
 		WeaponLength=1.3;//	
@@ -4582,15 +4582,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=1.0008;
+        aimTransitionSpeed=0.6;
 		recoil="pkm_recoil";
 
 		WeaponLength=1.3;//	
@@ -4604,12 +4604,12 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.9006;
@@ -4625,12 +4625,12 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.9006;
@@ -4647,12 +4647,12 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.9006;
@@ -4669,12 +4669,12 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.9006;
@@ -4691,12 +4691,12 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.9006;
@@ -4711,12 +4711,12 @@ class CfgWeapons
 	{
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.9006;
@@ -4729,12 +4729,12 @@ class CfgWeapons
 	{
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.9006;
@@ -4748,12 +4748,12 @@ class CfgWeapons
 	{
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.9006;
@@ -4767,12 +4767,12 @@ class CfgWeapons
 	{
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.9006;
@@ -4786,12 +4786,12 @@ class CfgWeapons
 	{
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.9006;
@@ -4805,12 +4805,12 @@ class CfgWeapons
 	{
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.9006;
@@ -4830,12 +4830,12 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
         aimTransitionSpeed=0.7006;
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 		WeaponLength=0.83;//
 
@@ -4845,12 +4845,12 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
         aimTransitionSpeed=0.7006;
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 		WeaponLength=0.83;//
 		
@@ -4861,12 +4861,12 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
         aimTransitionSpeed=0.7006;
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 		WeaponLength=0.83;//
 		
@@ -4877,12 +4877,12 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
         aimTransitionSpeed=0.7006;
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 		WeaponLength=0.83;//
 		
@@ -4893,12 +4893,12 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
         aimTransitionSpeed=0.7006;
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 		WeaponLength=0.83;//
 		
@@ -4909,12 +4909,12 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
         aimTransitionSpeed=0.7006;
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 		WeaponLength=0.83;//
 		
@@ -4929,12 +4929,12 @@ class CfgWeapons
 	class rhs_weap_rpk74m_folded: rhs_weap_rpk74m
 	{
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.6986;
@@ -5013,12 +5013,12 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.6006;
@@ -5093,12 +5093,12 @@ class CfgWeapons
 	class rhs_weap_aks74un_folded : rhs_weap_aks74un
 	{
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.6006;
@@ -5172,12 +5172,12 @@ class CfgWeapons
 	class rhs_weap_ak74m_folded : rhs_weap_ak74m
 	{
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.6006;
@@ -5253,12 +5253,12 @@ class CfgWeapons
 	class rhs_weap_ak74m_camo_folded : rhs_weap_ak74m_folded
 	{
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.6006;
@@ -5334,12 +5334,12 @@ class CfgWeapons
 	class rhs_weap_ak74m_desert_folded : rhs_weap_ak74m_folded
 	{
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.6006;
@@ -5415,12 +5415,12 @@ class CfgWeapons
 	class rhs_weap_ak74m_plummag_folded : rhs_weap_ak74m_folded
 	{
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.6006;
@@ -5496,12 +5496,12 @@ class CfgWeapons
 	class rhs_weap_ak74m_gp25_folded : rhs_weap_ak74m_folded
 	{
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.6006;
@@ -5577,12 +5577,12 @@ class CfgWeapons
 	class rhs_weap_ak74m_fullplum_folded : rhs_weap_ak74m_folded
 	{
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.6006;
@@ -5658,12 +5658,12 @@ class CfgWeapons
 	class rhs_weap_ak74m_fullplum_gp25_folded : rhs_weap_ak74m_gp25_folded
 	{
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.6006;
@@ -5738,12 +5738,12 @@ class CfgWeapons
 	class rhs_weap_ak74mr_folded : rhs_weap_ak74mr
 	{
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.6006;
@@ -5819,12 +5819,12 @@ class CfgWeapons
 	class rhs_weap_ak74mr_folded_grip1 : rhs_weap_ak74mr_folded
 	{
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.6006;
@@ -5899,12 +5899,12 @@ class CfgWeapons
 	class rhs_weap_ak74mr_folded_afg : rhs_weap_ak74mr_folded
 	{
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.6006;
@@ -5980,12 +5980,12 @@ class CfgWeapons
 	class rhs_weap_ak105_folded : rhs_weap_ak105
 	{
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.6006;
@@ -6061,12 +6061,12 @@ class CfgWeapons
 	class rhs_weap_akms_folded : rhs_weap_akms
 	{
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.6006;
@@ -6079,12 +6079,12 @@ class CfgWeapons
 	class rhs_weap_ak103_folded : rhs_weap_ak103
 	{
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.6006;
@@ -6098,12 +6098,12 @@ class CfgWeapons
 	class rhs_weap_ak103_zenitco01_folded : rhs_weap_ak103_zenitco01
 	{
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.6006;
@@ -6117,12 +6117,12 @@ class CfgWeapons
 	class rhs_weap_ak103_zenitco01_folded_grip1 : rhs_weap_ak103_zenitco01_folded
 	{
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.6006;
@@ -6136,12 +6136,12 @@ class CfgWeapons
 	class rhs_weap_ak103_zenitco01_folded_afg : rhs_weap_ak103_zenitco01_folded
 	{
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.6006;
@@ -6155,12 +6155,12 @@ class CfgWeapons
 	class rhs_weap_ak103_1_folded : rhs_weap_ak103_1
 	{
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.6006;
@@ -6174,12 +6174,12 @@ class CfgWeapons
 	class rhs_weap_ak103_2_folded : rhs_weap_ak103_2
 	{
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.6006;
@@ -6193,12 +6193,12 @@ class CfgWeapons
 	class rhs_weap_ak104_folded : rhs_weap_ak104
 	{
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.6006;
@@ -6212,12 +6212,12 @@ class CfgWeapons
 	class rhs_weap_aks74_folded: rhs_weap_aks74
 	{
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.6006;
@@ -6293,12 +6293,12 @@ class CfgWeapons
 	class rhs_weap_aks74_2_folded: rhs_weap_aks74_folded
 	{
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.6006;
@@ -6312,12 +6312,12 @@ class CfgWeapons
 	class rhs_weap_aks74n_folded : rhs_weap_aks74
 	{
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.6006;
@@ -6393,12 +6393,12 @@ class CfgWeapons
 	class rhs_weap_aks74n_2_folded : rhs_weap_aks74n_folded
 	{
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.6006;
@@ -6479,12 +6479,12 @@ class CfgWeapons
 	class rhs_weap_asval_folded : rhs_weap_asval
 	{
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.6006;
@@ -6497,12 +6497,12 @@ class CfgWeapons
 	class rhs_weap_asval_grip_folded : rhs_weap_asval_grip
 	{
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.6006;
@@ -6515,12 +6515,12 @@ class CfgWeapons
 	class rhs_weap_asval_folded_grip1 : rhs_weap_asval_grip_folded
 	{
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.6006;
@@ -6533,12 +6533,12 @@ class CfgWeapons
 	class rhs_weap_asval_folded_afg : rhs_weap_asval_grip_folded
 	{
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.6006;
@@ -6601,12 +6601,12 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 		recoil="akmm_recoil";
 
@@ -6620,12 +6620,12 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 		recoil="akmm_recoil";
 
@@ -6639,12 +6639,12 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 		recoil="akmm_recoil";
 
@@ -6658,12 +6658,12 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 		recoil="akmm_recoil";
 
@@ -6677,12 +6677,12 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 		recoil="akmm_recoil";
 
@@ -6696,12 +6696,12 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 		recoil="akmm_recoil";
 
@@ -6715,12 +6715,12 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 		recoil="akmm_recoil";
 
@@ -6734,12 +6734,12 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 		recoil="akmm_recoil";
 
@@ -6753,12 +6753,12 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 		recoil="akmm_recoil";
 
@@ -6772,12 +6772,12 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 		recoil="akmm_recoil";
 
@@ -6791,12 +6791,12 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 		recoil="akmm_recoil";
 
@@ -6810,12 +6810,12 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 		recoil="akmm_recoil";
 
@@ -6829,8 +6829,8 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
 		inertia=4.0003;
@@ -6852,15 +6852,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.896;
+        aimTransitionSpeed=0.799;
 		recoil="m16_recoil";
 
 		WeaponLength=1.02;//			
@@ -6872,14 +6872,14 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
-        aimTransitionSpeed=0.896;
+        aimTransitionSpeed=0.799;
 		recoil="m16_recoil";
 
 		WeaponLength=1.02;//			
@@ -6891,14 +6891,14 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
-        aimTransitionSpeed=0.896;
+        aimTransitionSpeed=0.799;
 		recoil="m16_recoil";
 
 		WeaponLength=1.02;//			
@@ -6911,15 +6911,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.896;
+        aimTransitionSpeed=0.799;
 		recoil="m16_recoil";
 
 		WeaponLength=1.02;//			
@@ -6931,15 +6931,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.896;
+        aimTransitionSpeed=0.799;
 		recoil="m16_recoil";
 
 		WeaponLength=1.02;//			
@@ -6951,15 +6951,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.896;
+        aimTransitionSpeed=0.799;
 		recoil="m16_recoil";
 
 		WeaponLength=1.02;//			
@@ -6971,15 +6971,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.896;
+        aimTransitionSpeed=0.799;
 		recoil="m16_recoil";
 
 		WeaponLength=1.02;//			
@@ -6992,15 +6992,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.896;
+        aimTransitionSpeed=0.799;
 		recoil="m16_recoil";
 
 		WeaponLength=1.02;//			
@@ -7013,15 +7013,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.896;
+        aimTransitionSpeed=0.799;
 		recoil="m16_recoil";
 
 		WeaponLength=1.02;//			
@@ -7034,15 +7034,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.896;
+        aimTransitionSpeed=0.799;
 		recoil="m16_recoil";
 
 		WeaponLength=1.02;//			
@@ -7055,15 +7055,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.896;
+        aimTransitionSpeed=0.799;
 		recoil="m16_recoil";
 
 		WeaponLength=1.02;//			
@@ -7076,15 +7076,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.896;
+        aimTransitionSpeed=0.799;
 		recoil="m16_recoil";
 
 		WeaponLength=1.02;//			
@@ -7097,15 +7097,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.896;
+        aimTransitionSpeed=0.799;
 		recoil="m16_recoil";
 
 		WeaponLength=1.02;//			
@@ -7118,15 +7118,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.896;
+        aimTransitionSpeed=0.799;
 		recoil="m16_recoil";
 
 		WeaponLength=1.02;//			
@@ -7139,15 +7139,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.904;
+        aimTransitionSpeed=0.6999;
 		recoil="m16_recoil";
 
 		WeaponLength=1.13;	
@@ -7160,15 +7160,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.904;
+        aimTransitionSpeed=0.6999;
 		recoil="m16_recoil";
 
 		WeaponLength=1.13;		
@@ -7182,15 +7182,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.904;
+        aimTransitionSpeed=0.6999;
 		recoil="m16_recoil";
 
 		WeaponLength=1.13;		
@@ -7203,15 +7203,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.904;
+        aimTransitionSpeed=0.6999;
 		recoil="m16_recoil";
 
 		WeaponLength=1.13;		
@@ -7224,15 +7224,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.904;
+        aimTransitionSpeed=0.6999;
 		recoil="m16_recoil";
 
 		WeaponLength=1.13;		
@@ -7245,15 +7245,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.904;
+        aimTransitionSpeed=0.6999;
 		recoil="m16_recoil";
 
 		WeaponLength=1.13;		
@@ -7266,16 +7266,16 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
-        aimTransitionSpeed=0.904;
+        aimTransitionSpeed=0.6999;
 		recoil="m16_recoil";
 
 		WeaponLength=1.13;			
@@ -7288,15 +7288,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.904;
+        aimTransitionSpeed=0.6999;
 		recoil="l1a1_recoil";	
 
 		WeaponLength=1.102;
@@ -7308,15 +7308,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.904;
+        aimTransitionSpeed=0.6999;
 		recoil="l1a1_recoil";		
 			
 		WeaponLength=1.102;
@@ -7327,15 +7327,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.904;
+        aimTransitionSpeed=0.6999;
 		recoil="l1a1_recoil";		
 			
 		WeaponLength=1.102;
@@ -7346,15 +7346,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.904;
+        aimTransitionSpeed=0.6999;
 		recoil="l1a1_recoil";		
 			
 		WeaponLength=1.102;
@@ -7365,15 +7365,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.904;
+        aimTransitionSpeed=0.6999;
 		recoil="svds_recoil";		
 
 		WeaponLength=1.13;
@@ -7384,15 +7384,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.904;
+        aimTransitionSpeed=0.6999;
 		recoil="mg42_recoil";	
 
 		WeaponLength=1.13;
@@ -7403,14 +7403,14 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
-        aimTransitionSpeed=0.904;
+        aimTransitionSpeed=0.6999;
 		recoil="mg42_recoil";	
 
 		WeaponLength=1.13;
@@ -7422,15 +7422,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.904;
+        aimTransitionSpeed=0.6999;
 		recoil="l1a1_recoil";	
 
 		WeaponLength=0.999;
@@ -7441,14 +7441,14 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
-        aimTransitionSpeed=0.904;
+        aimTransitionSpeed=0.6999;
 		recoil="l1a1_recoil";		
 			
 		WeaponLength=0.999;
@@ -7460,15 +7460,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.904;
+        aimTransitionSpeed=0.6999;
 		recoil="l1a1_recoil";	
 
 		WeaponLength=0.89;
@@ -7479,15 +7479,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.904;
+        aimTransitionSpeed=0.6999;
 		recoil="l1a1_recoil";	
 
 		WeaponLength=0.89;
@@ -7498,12 +7498,12 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -7520,16 +7520,16 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
-        aimTransitionSpeed=0.904;
+        aimTransitionSpeed=0.6999;
 		recoil="m16_recoil";
 
 		WeaponLength=1.02;//		
@@ -7543,16 +7543,16 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
-        aimTransitionSpeed=0.904;
+        aimTransitionSpeed=0.6999;
 		recoil="m16_recoil";
 
 		WeaponLength=1.02;//		
@@ -7564,16 +7564,16 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
-        aimTransitionSpeed=0.904;
+        aimTransitionSpeed=0.6999;
 		recoil="m16_recoil";
 
 		WeaponLength=1.02;//		
@@ -7587,16 +7587,16 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
-        aimTransitionSpeed=0.904;
+        aimTransitionSpeed=0.6999;
 		recoil="m16_recoil";
 
 		WeaponLength=1.02;//		
@@ -7610,16 +7610,16 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
-        aimTransitionSpeed=0.904;
+        aimTransitionSpeed=0.6999;
 		recoil="m16_recoil";
 
 		WeaponLength=1.02;//		
@@ -7632,15 +7632,15 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
-        aimTransitionSpeed=0.904;
+        aimTransitionSpeed=0.6999;
 		recoil="m16_recoil";
 
 		WeaponLength=1.02;//		
@@ -7654,16 +7654,16 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
-        aimTransitionSpeed=0.904;
+        aimTransitionSpeed=0.6999;
 		recoil="aks74u_recoil";		
 
 		WeaponLength=1.15;
@@ -7675,16 +7675,16 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
-        aimTransitionSpeed=0.904;
+        aimTransitionSpeed=0.6999;
 		recoil="aks74u_recoil";		
 
 		WeaponLength=1.15;
@@ -7695,16 +7695,16 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
-        aimTransitionSpeed=0.904;
+        aimTransitionSpeed=0.6999;
 		recoil="aks74u_recoil";		
 
 		WeaponLength=1.15;
@@ -7715,16 +7715,16 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
-        aimTransitionSpeed=0.904;
+        aimTransitionSpeed=0.6999;
 		recoil="aks74u_recoil";	
 
 		WeaponLength=1.25;
@@ -7735,16 +7735,16 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
-        aimTransitionSpeed=0.904;
+        aimTransitionSpeed=0.6999;
 		recoil="aks74u_recoil";		
 			
 		WeaponLength=1.25;
@@ -7755,12 +7755,12 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -7776,12 +7776,12 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -7797,12 +7797,12 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -7818,16 +7818,16 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
-        aimTransitionSpeed=0.94;
+        aimTransitionSpeed=0.74;
 		recoil="m14_recoil";	
 
 		WeaponLength=1.02;//	
@@ -7838,16 +7838,16 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
-        aimTransitionSpeed=0.94;
+        aimTransitionSpeed=0.74;
 		recoil="m14_recoil";		
 
 		WeaponLength=1.02;//	
@@ -7859,16 +7859,16 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
-        aimTransitionSpeed=0.94;
+        aimTransitionSpeed=0.74;
 		recoil="m14_recoil";		
 
 		WeaponLength=1.02;//	
@@ -7879,16 +7879,16 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
-        aimTransitionSpeed=0.94;
+        aimTransitionSpeed=0.74;
 		recoil="m14_recoil";		
 
 		WeaponLength=1.02;//	
@@ -7899,16 +7899,16 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
-        aimTransitionSpeed=0.94;
+        aimTransitionSpeed=0.74;
 		recoil="m14_recoil";		
 
 		WeaponLength=1.02;//	
@@ -7920,12 +7920,12 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -7941,12 +7941,12 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.89;
@@ -7962,12 +7962,12 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.89;
@@ -7981,12 +7981,12 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.89;
@@ -8000,12 +8000,12 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.89;
@@ -8019,12 +8019,12 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.89;
@@ -8038,12 +8038,12 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.96;
@@ -8057,12 +8057,12 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.96;
@@ -8076,12 +8076,12 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.96;
@@ -8095,12 +8095,12 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.96;
@@ -8114,12 +8114,12 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.96;
@@ -8133,12 +8133,12 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.96;
@@ -8152,12 +8152,12 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.96;
@@ -8171,12 +8171,12 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.84;
@@ -8190,12 +8190,12 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -8211,12 +8211,12 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -8232,12 +8232,12 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -8255,12 +8255,12 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -8276,12 +8276,12 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -8297,12 +8297,12 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -8318,12 +8318,12 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -8339,12 +8339,12 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -8360,12 +8360,12 @@ class CfgWeapons
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -8381,12 +8381,12 @@ class rhs_weap_XM2010_Base_F: Rifle_Base_F
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -8401,12 +8401,12 @@ class rhs_weap_XM2010 : rhs_weap_XM2010_Base_F
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -8421,16 +8421,16 @@ class rhs_weap_m24sws : rhs_weap_XM2010_Base_F
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
-        aimTransitionSpeed=0.91;
+        aimTransitionSpeed=0.699;
 		recoil="m24_recoil";		
 
     };
@@ -8442,16 +8442,16 @@ class rhs_weap_m24sws_d : rhs_weap_m24sws
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
-        aimTransitionSpeed=0.91;
+        aimTransitionSpeed=0.699;
 		recoil="m24_recoil";		
 
     };
@@ -8463,16 +8463,16 @@ class rhs_weap_m24sws_wd : rhs_weap_m24sws
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
-        aimTransitionSpeed=0.91;
+        aimTransitionSpeed=0.699;
 		recoil="m24_recoil";		
 
     };
@@ -8484,16 +8484,16 @@ class rhs_weap_m24sws_blk : rhs_weap_m24sws
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
-        aimTransitionSpeed=0.91;
+        aimTransitionSpeed=0.699;
 		recoil="m24_recoil";		
 
     };
@@ -8505,16 +8505,16 @@ class rhs_weap_m24sws_ghillie : rhs_weap_m24sws
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
-        aimTransitionSpeed=0.91;
+        aimTransitionSpeed=0.699;
 		recoil="m24_recoil";		
 
     };
@@ -8527,16 +8527,16 @@ class rhs_weap_m40a5 : rhs_weap_XM2010_Base_F
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
-        aimTransitionSpeed=0.91;
+        aimTransitionSpeed=0.699;
 		recoil="m40_recoil";		
 
     };
@@ -8546,16 +8546,16 @@ class rhs_weap_m40a5_d : rhs_weap_m40a5
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
-        aimTransitionSpeed=0.91;
+        aimTransitionSpeed=0.699;
 		recoil="m40_recoil";		
 
     };
@@ -8567,16 +8567,16 @@ class rhs_weap_m40a5_wd : rhs_weap_m40a5
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
-        aimTransitionSpeed=0.91;
+        aimTransitionSpeed=0.699;
 		recoil="m40_recoil";		
 
     };
@@ -8588,16 +8588,16 @@ class rhs_weap_m14_rail_base : rhs_weap_m14_base
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
-        aimTransitionSpeed=0.91;
+        aimTransitionSpeed=0.699;
 		recoil="m14_recoil";		
 
 		WeaponLength=1.02;//	
@@ -8610,16 +8610,16 @@ class rhs_weap_m14_ris_base : rhs_weap_m14_rail_base
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
-        aimTransitionSpeed=0.91;
+        aimTransitionSpeed=0.699;
 		recoil="m14_recoil";		
 		
 		WeaponLength=1.29;
@@ -8632,16 +8632,16 @@ class rhs_weap_m14_socom_base : rhs_weap_m14_base
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
-        aimTransitionSpeed=0.91;
+        aimTransitionSpeed=0.699;
 		recoil="m14_recoil";		
 		
 		WeaponLength=1.02;//	
@@ -8654,16 +8654,16 @@ class rhs_weap_m14_socom_rail_base : rhs_weap_m14_socom_base
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
-        aimTransitionSpeed=0.91;
+        aimTransitionSpeed=0.699;
 		recoil="m14_recoil";		
 		
 		WeaponLength=1.02;//	
@@ -8676,16 +8676,16 @@ class rhs_weap_m14ebrri_base: rhs_weap_m14_rail_base
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
-        aimTransitionSpeed=0.91;
+        aimTransitionSpeed=0.699;
 		recoil="m14_recoil";		
 		
 		WeaponLength=1.29;
@@ -8698,16 +8698,16 @@ class rhs_weap_m14ebrri : rhs_weap_m14ebrri_base
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
-        aimTransitionSpeed=0.91;
+        aimTransitionSpeed=0.699;
 		recoil="m14_recoil";		
 		
 		WeaponLength=1.29;
@@ -8720,16 +8720,16 @@ class rhs_weap_sr25 : rhs_weap_m14ebrri
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
-        aimTransitionSpeed=0.91;
+        aimTransitionSpeed=0.699;
 		recoil="sr25_recoil";	
 				
 		WeaponLength=1.02;//		
@@ -8743,16 +8743,16 @@ class rhs_weap_sr25_ec : rhs_weap_sr25
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
-        aimTransitionSpeed=0.91;
+        aimTransitionSpeed=0.699;
 		recoil="sr25_recoil";		
 				
 		WeaponLength=1.02;//		
@@ -8765,16 +8765,16 @@ class rhs_weap_sr25_wd : rhs_weap_sr25
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
-        aimTransitionSpeed=0.91;
+        aimTransitionSpeed=0.699;
 		recoil="sr25_recoil";		
 				
 		WeaponLength=1.02;//		
@@ -8787,16 +8787,16 @@ class rhs_weap_sr25_ec_wd : rhs_weap_sr25_wd
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
-        aimTransitionSpeed=0.91;
+        aimTransitionSpeed=0.699;
 		recoil="sr25_recoil";		
 				
 		WeaponLength=1.02;//			
@@ -8809,16 +8809,16 @@ class rhs_weap_sr25_d : rhs_weap_sr25_wd
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
-        aimTransitionSpeed=0.91;
+        aimTransitionSpeed=0.699;
 		recoil="sr25_recoil";		
 				
 		WeaponLength=1.02;//			
@@ -8831,16 +8831,16 @@ class rhs_weap_sr25_ec_d : rhs_weap_sr25_d
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
-        aimTransitionSpeed=0.91;
+        aimTransitionSpeed=0.699;
 		recoil="sr25_recoil";		
 				
 		WeaponLength=1.02;//		
@@ -8853,16 +8853,16 @@ class rhs_weap_m110: rhs_weap_sr25
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
-        aimTransitionSpeed=0.91;
+        aimTransitionSpeed=0.699;
 		recoil="sr25_recoil";		
 				
 		WeaponLength=1.02;//			
@@ -8875,12 +8875,12 @@ class GM6_base_F : Rifle_Long_Base_F {
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -8902,12 +8902,12 @@ class rhs_weap_hk416d10: rhs_weap_m4a1
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -8923,12 +8923,12 @@ class rhs_weap_hk416d10_grip: rhs_weap_hk416d10
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -8944,12 +8944,12 @@ class rhs_weap_hk416d10_grip2: rhs_weap_hk416d10_grip
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -8965,12 +8965,12 @@ class rhs_weap_hk416d10_grip3: rhs_weap_hk416d10_grip2
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -8986,12 +8986,12 @@ class rhs_weap_hk416d145: rhs_weap_hk416d10
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -9007,12 +9007,12 @@ class rhs_weap_hk416d145_grip: rhs_weap_hk416d145
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -9028,12 +9028,12 @@ class rhs_weap_hk416d145_grip2: rhs_weap_hk416d145_grip
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -9050,12 +9050,12 @@ class rhs_weap_hk416d145_grip3: rhs_weap_hk416d145_grip2
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -9071,12 +9071,12 @@ class rhs_weap_hk416d10_LMT: rhs_weap_hk416d10
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -9093,12 +9093,12 @@ class rhs_weap_hk416d10_LMT_grip: rhs_weap_hk416d10_LMT
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -9115,12 +9115,12 @@ class rhs_weap_hk416d10_LMT_grip2: rhs_weap_hk416d10_LMT_grip
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -9138,12 +9138,12 @@ class rhs_weap_hk416d10_LMT_grip3: rhs_weap_hk416d10_LMT_grip2
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -9160,12 +9160,12 @@ class rhs_weap_hk416d10_m320: rhs_weap_hk416d10
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -9181,12 +9181,12 @@ class rhs_weap_hk416d145_m320: rhs_weap_hk416d145
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -9202,12 +9202,12 @@ class rhs_weap_hk416d10_LMT_d: rhs_weap_hk416d10_LMT
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -9223,12 +9223,12 @@ class rhs_weap_hk416d10_LMT_d_grip: rhs_weap_hk416d10_LMT_d
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -9244,12 +9244,12 @@ class rhs_weap_hk416d10_LMT_d_grip2: rhs_weap_hk416d10_LMT_d_grip
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -9265,12 +9265,12 @@ class rhs_weap_hk416d10_LMT_d_grip3: rhs_weap_hk416d10_LMT_d_grip2
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -9286,12 +9286,12 @@ class rhs_weap_hk416d10_LMT_wd: rhs_weap_hk416d10_LMT
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -9307,12 +9307,12 @@ class rhs_weap_hk416d10_LMT_wd_grip: rhs_weap_hk416d10_LMT_wd
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -9328,12 +9328,12 @@ class rhs_weap_hk416d10_LMT_wd_grip2: rhs_weap_hk416d10_LMT_wd_grip
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -9349,12 +9349,12 @@ class rhs_weap_hk416d10_LMT_wd_grip3: rhs_weap_hk416d10_LMT_wd_grip2
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -9370,12 +9370,12 @@ class rhs_weap_hk416d145_d: rhs_weap_hk416d145
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -9391,12 +9391,12 @@ class rhs_weap_hk416d145_d_grip: rhs_weap_hk416d145_d
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -9412,12 +9412,12 @@ class rhs_weap_hk416d145_d_grip2: rhs_weap_hk416d145_d_grip
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -9433,12 +9433,12 @@ class rhs_weap_hk416d145_d_grip3: rhs_weap_hk416d145_d_grip2
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -9455,12 +9455,12 @@ class rhs_weap_hk416d145_d_2: rhs_weap_hk416d145
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -9476,12 +9476,12 @@ class rhs_weap_hk416d145_d_2_grip: rhs_weap_hk416d145_d_2
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -9497,12 +9497,12 @@ class rhs_weap_hk416d145_d_2_grip2: rhs_weap_hk416d145_d_2_grip
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -9519,12 +9519,12 @@ class rhs_weap_hk416d145_d_2_grip3: rhs_weap_hk416d145_d_2_grip2
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -9540,12 +9540,12 @@ class rhs_weap_hk416d145_wd: rhs_weap_hk416d145
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -9561,12 +9561,12 @@ class rhs_weap_hk416d145_wd_grip: rhs_weap_hk416d145_wd
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -9582,12 +9582,12 @@ class rhs_weap_hk416d145_wd_grip2: rhs_weap_hk416d145_wd_grip
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -9603,12 +9603,12 @@ class rhs_weap_hk416d145_wd_grip3: rhs_weap_hk416d145_wd_grip2
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -9624,12 +9624,12 @@ class rhs_weap_hk416d145_wd_2: rhs_weap_hk416d145
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -9646,12 +9646,12 @@ class rhs_weap_hk416d145_wd_2_grip: rhs_weap_hk416d145_wd_2
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -9667,12 +9667,12 @@ class rhs_weap_hk416d145_wd_2_grip2: rhs_weap_hk416d145_wd_2_grip
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -9688,12 +9688,12 @@ class rhs_weap_hk416d145_wd_2_grip3: rhs_weap_hk416d145_wd_2_grip2
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -9713,12 +9713,12 @@ class rhsusf_weap_MP7A1_base_f: SMG_02_base_F
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -9734,12 +9734,12 @@ class rhsusf_weap_MP7A2: rhsusf_weap_MP7A1_base_f
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -9753,12 +9753,12 @@ class rhsusf_weap_MP7A2_grip1: rhsusf_weap_MP7A2
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -9772,12 +9772,12 @@ class rhsusf_weap_MP7A2_grip2: rhsusf_weap_MP7A2
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -9791,12 +9791,12 @@ class rhsusf_weap_MP7A2_grip3: rhsusf_weap_MP7A2
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -9809,12 +9809,12 @@ class rhsusf_weap_MP7A2_winter: rhsusf_weap_MP7A2
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -9830,12 +9830,12 @@ class rhsusf_weap_MP7A2_winter_grip1: rhsusf_weap_MP7A2_winter
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -9849,12 +9849,12 @@ class rhsusf_weap_MP7A2_winter_grip2: rhsusf_weap_MP7A2_winter
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -9868,12 +9868,12 @@ class rhsusf_weap_MP7A2_winter_grip3: rhsusf_weap_MP7A2_winter
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -9888,12 +9888,12 @@ class rhsusf_weap_MP7A2_desert: rhsusf_weap_MP7A2
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -9910,12 +9910,12 @@ class rhsusf_weap_MP7A2_desert_grip1: rhsusf_weap_MP7A2_desert
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -9929,12 +9929,12 @@ class rhsusf_weap_MP7A2_desert_grip2: rhsusf_weap_MP7A2_desert
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -9948,12 +9948,12 @@ class rhsusf_weap_MP7A2_desert_grip3: rhsusf_weap_MP7A2_desert
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -9969,12 +9969,12 @@ class rhsusf_weap_MP7A2_aor1: rhsusf_weap_MP7A2
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -9987,12 +9987,12 @@ class rhsusf_weap_MP7A2_aor1_grip1: rhsusf_weap_MP7A2_aor1
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -10006,12 +10006,12 @@ class rhsusf_weap_MP7A2_aor1_grip2: rhsusf_weap_MP7A2_aor1
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -10025,12 +10025,12 @@ class rhsusf_weap_MP7A2_aor1_grip3: rhsusf_weap_MP7A2_aor1
  
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
@@ -10050,127 +10050,127 @@ class rhsusf_weap_MP7A2_aor1_grip3: rhsusf_weap_MP7A2_aor1
 class rhs_weap_m70ab2 : rhs_weap_m70_base
 {
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
-        aimTransitionSpeed=0.91;
+        aimTransitionSpeed=0.699;
 		recoil="akmm_recoil";	
 };
 
 class rhs_weap_m70ab2_fold : rhs_weap_m70ab2
 {
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
-        aimTransitionSpeed=0.91;
+        aimTransitionSpeed=0.699;
 		recoil="akmm_recoil";	
 };
 
 class rhs_weap_m70b1 : rhs_weap_m70ab2
 {
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
-        aimTransitionSpeed=0.91;
+        aimTransitionSpeed=0.699;
 		recoil="akmm_recoil";	
 };
 
 class rhs_weap_m70b1n : rhs_weap_m70ab2
 {
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
-        aimTransitionSpeed=0.91;
+        aimTransitionSpeed=0.699;
 		recoil="akmm_recoil";	
 };
 
 class rhs_weap_m70b3n : rhs_weap_m70ab2
 {
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
-        aimTransitionSpeed=0.91;
+        aimTransitionSpeed=0.699;
 		recoil="akmm_recoil";	
 };
 
 class rhs_weap_m70b3n_pbg40 : rhs_weap_m70ab2
 {
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
-        aimTransitionSpeed=0.91;
+        aimTransitionSpeed=0.699;
 		recoil="akmm_recoil";	
 };
 
 class rhs_weap_m92 : rhs_weap_m70_base
 {
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
-        aimTransitionSpeed=0.91;
+        aimTransitionSpeed=0.699;
 		recoil="akmm_recoil";	
 };
 class rhs_weap_m92_fold : rhs_weap_m92
 {
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
 
-        aimTransitionSpeed=0.91;
+        aimTransitionSpeed=0.699;
 		recoil="akmm_recoil";	
 };
 
@@ -10190,12 +10190,12 @@ class rhs_weap_m92_fold : rhs_weap_m92
 	class CUP_arifle_RPK74: CUP_arifle_AK_Base
 		{
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.6986;
@@ -10208,12 +10208,12 @@ class rhs_weap_m92_fold : rhs_weap_m92
 	class CUP_arifle_RPK74_top_rail: CUP_arifle_RPK74
 		{
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.6986;
@@ -10226,12 +10226,12 @@ class rhs_weap_m92_fold : rhs_weap_m92
 	class CUP_arifle_RPK74_45: CUP_arifle_RPK74
 		{
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.6986;
@@ -10244,12 +10244,12 @@ class rhs_weap_m92_fold : rhs_weap_m92
 	class CUP_arifle_RPK74_45_top_rail: CUP_arifle_RPK74_45
 		{
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.6986;
@@ -10262,12 +10262,12 @@ class rhs_weap_m92_fold : rhs_weap_m92
 	class CUP_arifle_RPK74M: CUP_arifle_RPK74
 		{
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.6986;
@@ -10280,12 +10280,12 @@ class rhs_weap_m92_fold : rhs_weap_m92
 	class CUP_arifle_RPK74M_top_rail: CUP_arifle_RPK74M
 		{
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.6986;
@@ -10299,12 +10299,12 @@ class rhs_weap_m92_fold : rhs_weap_m92
 	class CUP_arifle_RPK74M_railed: CUP_arifle_RPK74M_top_rail
 		{
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.6986;
@@ -10318,13 +10318,13 @@ class rhs_weap_m92_fold : rhs_weap_m92
 	class GP25_Base: UGL_F
 	{
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
 
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.7986;
@@ -10340,11 +10340,11 @@ class rhs_weap_m92_fold : rhs_weap_m92
 		scope = 1;
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.6986;
@@ -10359,11 +10359,11 @@ class rhs_weap_m92_fold : rhs_weap_m92
 		scope = 1;
 
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.7;
-		opticsZoomInit = 0.7;
+		opticsZoomMax = 0.75;
+		opticsZoomInit = 0.75;
 
-		inertia=2.0003;
-		dexterity=1.6129;
+		inertia=2.4003;
+		dexterity=1.1129;
 
 
         aimTransitionSpeed=0.6986;

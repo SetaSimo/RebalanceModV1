@@ -55,18 +55,18 @@ UiOn = {
 
 
 openClock={	
-	[player,"Gesturearmst_clockl" ]remoteExec ["playActionNow",0];
+	[player,"Gesturearmst_clockl" ]remoteExec ["playAction",0];
 };
 
 openCompas={	
-    [player,"Gesturecompass" ]remoteExec ["playActionNow",0];
+    [player,"Gesturecompass" ]remoteExec ["playAction",0];
 };
 
 
 
 RockPaperScissors={	
 	GameAnim=selectRandom ["GestureRock","GesturePaper","GestureScissors"];
-    [player,GameAnim ]remoteExec ["playActionNow",0];
+    [player,GameAnim ]remoteExec ["playAction",0];
 };
 
 
