@@ -17,7 +17,7 @@ class cfgAmmo
 	
 
 	class SmokeShell;
-
+	class GrenadeHand;
 
 
 
@@ -259,6 +259,9 @@ class cfgAmmo
 
 	//explosives and smokes
 
+	class rhs_ammo_rgd5 : GrenadeHand
+	{
+	};
 	class rhs_ammo_rdg2_white: SmokeShell
 	{
 		effectsSmoke="RHS_SmokeShell_RGD2_White";
@@ -357,6 +360,13 @@ class cfgAmmo
 	};
 
 	//Rockets
+
+    class R_PG32V_F: RocketBase {};
+    class rhs_rpg26_rocket: R_PG32V_F {};
+    class rhs_rpg7v2_pg7vl: rhs_rpg26_rocket {};
+    class rhs_rpg7v2_tbg7v: rhs_rpg7v2_pg7vl {};
+
+
 	class rhs_rshg2_rocket : rhs_rpg7v2_tbg7v{
         ace_frag_enabled = 1;
         ace_frag_metal = 700;
