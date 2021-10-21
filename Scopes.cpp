@@ -3,8 +3,8 @@
         class OpticsModes {
             class ironsight {
 				opticsZoomMin = 0.4;
-				opticsZoomMax = 0.75;
-				opticsZoomInit = 0.75;
+				opticsZoomMax = 0.71;
+				opticsZoomInit = 0.71;
             };
         };
     };
@@ -12,8 +12,8 @@
         class OpticsModes {
             class StepScope {
 				opticsZoomMin = 0.4;
-				opticsZoomMax = 0.75;
-				opticsZoomInit = 0.75;
+				opticsZoomMax = 0.71;
+				opticsZoomInit = 0.71;
             };
         };
     };
@@ -26,8 +26,8 @@
             class OpticsModes {
                 class rhs_1p29_iron {
             		opticsZoomMin = 0.4;
-					opticsZoomMax = 0.75;
-					opticsZoomInit = 0.75;
+					opticsZoomMax = 0.71;
+					opticsZoomInit = 0.71;
                 };
             };
         };
@@ -37,8 +37,8 @@
             class OpticsModes {
                 class rhs_above_sight {
             		opticsZoomMin = 0.4;
-					opticsZoomMax = 0.75;
-					opticsZoomInit = 0.75;
+					opticsZoomMax = 0.71;
+					opticsZoomInit = 0.71;
                 };
             };
         };
@@ -48,13 +48,13 @@
             class OpticsModes {
                 class ACO {
             		opticsZoomMin = 0.4;
-					opticsZoomMax = 0.75;
-					opticsZoomInit = 0.75;
+					opticsZoomMax = 0.71;
+					opticsZoomInit = 0.71;
                 };
                 class rhs_1p29_iron {
             		opticsZoomMin = 0.4;
-					opticsZoomMax = 0.75;
-					opticsZoomInit = 0.75;
+					opticsZoomMax = 0.71;
+					opticsZoomInit = 0.71;
                 };
             };
         };
@@ -64,8 +64,8 @@
             class OpticsModes {
                 class ACO {
 					opticsZoomMin = 0.4;
-					opticsZoomMax = 0.75;
-					opticsZoomInit = 0.75;
+					opticsZoomMax = 0.71;
+					opticsZoomInit = 0.71;
                 };
             };
         };
@@ -75,13 +75,13 @@
             class OpticsModes {
                 class rhs_nita_scope {
 					opticsZoomMin = 0.4;
-					opticsZoomMax = 0.75;
-					opticsZoomInit = 0.75;
+					opticsZoomMax = 0.71;
+					opticsZoomInit = 0.71;
                 };
                 class rhs_nita_iron {
 					opticsZoomMin = 0.4;
-					opticsZoomMax = 0.75;
-					opticsZoomInit = 0.75;
+					opticsZoomMax = 0.71;
+					opticsZoomInit = 0.71;
                 };
             };
         };
@@ -91,8 +91,8 @@
             class OpticsModes {
                 class rhs_pgo7v_iron {
 					opticsZoomMin = 0.4;
-					opticsZoomMax = 0.75;
-					opticsZoomInit = 0.75;
+					opticsZoomMax = 0.71;
+					opticsZoomInit = 0.71;
                 };
             };
         };
@@ -102,8 +102,8 @@
             class OpticsModes: OpticsModes {
                 class rhs_pgo7v_iron {
 					opticsZoomMin = 0.4;
-					opticsZoomMax = 0.75;
-					opticsZoomInit = 0.75;
+					opticsZoomMax = 0.71;
+					opticsZoomInit = 0.71;
                 };
             };
         };
@@ -113,8 +113,8 @@
             class OpticsModes {
                 class rhs_1p29_iron {
 					opticsZoomMin = 0.4;
-					opticsZoomMax = 0.75;
-					opticsZoomInit = 0.75;
+					opticsZoomMax = 0.71;
+					opticsZoomInit = 0.71;
                 };
             };
         };
@@ -126,8 +126,8 @@
 			class 1pn34_scope
 			{
 				opticsZoomMin = 0.4;
-				opticsZoomMax = 0.75;
-				opticsZoomInit = 0.75;
+				opticsZoomMax = 0.71;
+				opticsZoomInit = 0.71;
 				visionMode[]= {"NVG"};
 			};
 			class 1pn34_scope_not_nvg
@@ -138,8 +138,8 @@
 				discreteDistance[]				= {100};
 				discreteDistanceInitIndex		= 0;
 				opticsZoomMin = 0.4;
-				opticsZoomMax = 0.75;
-				opticsZoomInit = 0.75;
+				opticsZoomMax = 0.71;
+				opticsZoomInit = 0.71;
 				memoryPointCamera				= "opticView";
 				visionMode[]					= {"Normal"};
 				opticsFlare						= 1;
@@ -150,8 +150,8 @@
 			};
                 class rhs_1pn34_iron {
 					opticsZoomMin = 0.4;
-					opticsZoomMax = 0.75;
-					opticsZoomInit = 0.75;
+					opticsZoomMax = 0.71;
+					opticsZoomInit = 0.71;
                 };
             };
         };
@@ -161,8 +161,8 @@
             class OpticsModes {
                 class rhs_rakurs_collimator {
 					opticsZoomMin = 0.4;
-					opticsZoomMax = 0.75;
-					opticsZoomInit = 0.75;
+					opticsZoomMax = 0.71;
+					opticsZoomInit = 0.71;
                 };
             };
         };
@@ -176,25 +176,25 @@
 //************************** rhsusf_weap_launchers **************************
     class rhs_weap_smaw: Launcher_Base_F {
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.75;
-		opticsZoomInit = 0.75;
+		opticsZoomMax = 0.71;
+		opticsZoomInit = 0.71;
     };
     class rhs_weap_smaw_SR: Launcher_Base_F {
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.75;
-		opticsZoomInit = 0.75;
+		opticsZoomMax = 0.71;
+		opticsZoomInit = 0.71;
     };
     class rhs_weap_maaws: Launcher_Base_F {
 		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.75;
-		opticsZoomInit = 0.75;
+		opticsZoomMax = 0.71;
+		opticsZoomInit = 0.71;
     };
     class rhs_weap_M136: Launcher_Base_F {
         class OpticsModes {
             class ironsight {
 				opticsZoomMin = 0.4;
-				opticsZoomMax = 0.75;
-				opticsZoomInit = 0.75;
+				opticsZoomMax = 0.71;
+				opticsZoomInit = 0.71;
             };
         };
     };
@@ -202,8 +202,8 @@
         class OpticsModes {
             class ironsight {
 				opticsZoomMin = 0.4;
-				opticsZoomMax = 0.75;
-				opticsZoomInit = 0.75;
+				opticsZoomMax = 0.71;
+				opticsZoomInit = 0.71;
             };
         };
     };
@@ -211,8 +211,8 @@
         class OpticsModes {
             class StepScope {
 					opticsZoomMin = 0.4;
-					opticsZoomMax = 0.75;
-					opticsZoomInit = 0.75;
+					opticsZoomMax = 0.71;
+					opticsZoomInit = 0.71;
             };
         };
     };
@@ -223,8 +223,8 @@
             class OpticsModes {
                 class ACO {
 					opticsZoomMin = 0.4;
-					opticsZoomMax = 0.75;
-					opticsZoomInit = 0.75;
+					opticsZoomMax = 0.71;
+					opticsZoomInit = 0.71;
                 };
             };
         };
@@ -234,8 +234,8 @@
             class OpticsModes {
                 class PVS27 {
 					opticsZoomMin = 0.4;
-					opticsZoomMax = 0.75;
-					opticsZoomInit = 0.75;
+					opticsZoomMax = 0.71;
+					opticsZoomInit = 0.71;
                 };
             };
         };
@@ -252,8 +252,8 @@
             class OpticsModes: OpticsModes {
                 class ACO: ACO {
 					opticsZoomMin = 0.4;
-					opticsZoomMax = 0.75;
-					opticsZoomInit = 0.75;
+					opticsZoomMax = 0.71;
+					opticsZoomInit = 0.71;
                 };
             };
         };
@@ -263,8 +263,8 @@
             class OpticsModes: OpticsModes {
                 class ACO: ACO {
 					opticsZoomMin = 0.4;
-					opticsZoomMax = 0.75;
-					opticsZoomInit = 0.75;
+					opticsZoomMax = 0.71;
+					opticsZoomInit = 0.71;
                 };
             };
         };
@@ -279,8 +279,8 @@
             class OpticsModes: OpticsModes {
                 class elcan_scope {
 					opticsZoomMin = 0.4;
-					opticsZoomMax = 0.75;
-					opticsZoomInit = 0.75;
+					opticsZoomMax = 0.71;
+					opticsZoomInit = 0.71;
                 };
             };
         };
@@ -290,13 +290,13 @@
             class OpticsModes {
                 class Elcan_x1 {
 					opticsZoomMin = 0.4;
-					opticsZoomMax = 0.75;
-					opticsZoomInit = 0.75;
+					opticsZoomMax = 0.71;
+					opticsZoomInit = 0.71;
                 };
                 class Elcan_iron {
 					opticsZoomMin = 0.4;
-					opticsZoomMax = 0.75;
-					opticsZoomInit = 0.75;
+					opticsZoomMax = 0.71;
+					opticsZoomInit = 0.71;
                 };
             };
         };
@@ -306,8 +306,8 @@
             class OpticsModes {
                 class alternative_view {
 					opticsZoomMin = 0.4;
-					opticsZoomMax = 0.75;
-					opticsZoomInit = 0.75;
+					opticsZoomMax = 0.71;
+					opticsZoomInit = 0.71;
                 };
             };
         };
@@ -317,8 +317,8 @@
             class OpticsModes: OpticsModes {
                 class elcan_scope {
 					opticsZoomMin = 0.4;
-					opticsZoomMax = 0.75;
-					opticsZoomInit = 0.75;
+					opticsZoomMax = 0.71;
+					opticsZoomInit = 0.71;
                 };
             };
         };
@@ -333,8 +333,8 @@
             class OpticsModes: OpticsModes {
                 class Mrds {
 					opticsZoomMin = 0.4;
-					opticsZoomMax = 0.75;
-					opticsZoomInit = 0.75;
+					opticsZoomMax = 0.71;
+					opticsZoomInit = 0.71;
                 };
             };
         };
@@ -349,8 +349,8 @@
             class OpticsModes: OpticsModes {
                 class Mrds {
 					opticsZoomMin = 0.4;
-					opticsZoomMax = 0.75;
-					opticsZoomInit = 0.75;
+					opticsZoomMax = 0.71;
+					opticsZoomInit = 0.71;
                 };
             };
         };
@@ -365,8 +365,8 @@
             class OpticsModes: OpticsModes {
                 class Mrds {
 					opticsZoomMin = 0.4;
-					opticsZoomMax = 0.75;
-					opticsZoomInit = 0.75;
+					opticsZoomMax = 0.71;
+					opticsZoomInit = 0.71;
                 };
             };
         };
@@ -376,8 +376,8 @@
             class OpticsModes {
                 class RMR {
 					opticsZoomMin = 0.4;
-					opticsZoomMax = 0.75;
-					opticsZoomInit = 0.75;
+					opticsZoomMax = 0.71;
+					opticsZoomInit = 0.71;
                 };
             };
         };
@@ -389,8 +389,8 @@
         class OpticsModes {
             class ironsight {
         		opticsZoomMin = 0.4;
-				opticsZoomMax = 0.75;
-				opticsZoomInit = 0.75;
+				opticsZoomMax = 0.71;
+				opticsZoomInit = 0.71;
             };
         };
     };
@@ -398,8 +398,8 @@
         class OpticsModes {
             class ironsight {
 					opticsZoomMin = 0.4;
-					opticsZoomMax = 0.75;
-					opticsZoomInit = 0.75;
+					opticsZoomMax = 0.71;
+					opticsZoomInit = 0.71;
             };
         };
     };
@@ -410,8 +410,8 @@
             class OpticsModes {
                 class rhs_1p29_iron {
 					opticsZoomMin = 0.4;
-					opticsZoomMax = 0.75;
-					opticsZoomInit = 0.75;
+					opticsZoomMax = 0.71;
+					opticsZoomInit = 0.71;
                 };
             };
         };
@@ -421,8 +421,8 @@
             class OpticsModes {
                 class ACO {
 					opticsZoomMin = 0.4;
-					opticsZoomMax = 0.75;
-					opticsZoomInit = 0.75;
+					opticsZoomMax = 0.71;
+					opticsZoomInit = 0.71;
                 };
             };
         };
@@ -432,8 +432,8 @@
             class OpticsModes {
                 class rhs_iron {
 					opticsZoomMin = 0.4;
-					opticsZoomMax = 0.75;
-					opticsZoomInit = 0.75;
+					opticsZoomMax = 0.71;
+					opticsZoomInit = 0.71;
                 };
             };
         };
@@ -443,8 +443,8 @@
             class OpticsModes {
                 class rhs_1p29_iron {
 					opticsZoomMin = 0.4;
-					opticsZoomMax = 0.75;
-					opticsZoomInit = 0.75;
+					opticsZoomMax = 0.71;
+					opticsZoomInit = 0.71;
                 };
             };
         };
