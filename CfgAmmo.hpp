@@ -45,7 +45,7 @@ class cfgAmmo
 	{
 		model = "\vtn_tracer_md\vtn_tracer_green";
 		tracerScale=1.11;
-		ACE_bulletMass=6.00048;
+		caliber = 1.1;
 		ACE_bulletMass=3.62;
 	};
 	class rhs_B_545x39_7N10_Ball: rhs_B_545x39_Ball
@@ -150,7 +150,7 @@ class cfgAmmo
 	{
 		model 	= "\vtn_tracer_md\vtn_tracer_green";
 		tracerScale=1.1981;
-		caliber = 1.6;
+		caliber = 1;
 		ACE_bulletMass=12.55;
 	};
 
@@ -403,16 +403,6 @@ class cfgAmmo
 
 	//explosives and smokes
 
-	class rhs_ammo_rgd5 : GrenadeHand
-	{
-	};
-	class rhs_ammo_rgn : rhs_ammo_rgd5
-	{
-	};
-
-	class rhs_ammo_rgo : rhs_ammo_rgn
-	{
-	};
 
 
 	class rhs_ammo_rdg2_white: SmokeShell
@@ -427,11 +417,23 @@ class cfgAmmo
 	{
 		effectsSmoke="RHS_SmokeShell_M18_Green";
 	};
+	//грамы/грамы
+	class rhs_ammo_rgd5 : GrenadeHand
+	{
+		ace_frag_enabled = 1;
+        ace_frag_metal = 310;
+        ace_frag_charge = 110;
+        ace_frag_gurney_c = 2440;
+        ace_frag_gurney_k = "3/5";
+        ace_frag_classes[] = {"ACE_frag_small_HD"};
+        ace_frag_skip = 0;
+        ace_frag_force = 1;
+	};
 
 		class rhs_ammo_f1: GrenadeHand{
         ace_frag_enabled = 1;
-        ace_frag_metal = 300;
-        ace_frag_charge = 130;
+        ace_frag_metal = 600;
+        ace_frag_charge = 60;
         ace_frag_gurney_c = 2440;
         ace_frag_gurney_k = "3/5";
         ace_frag_classes[] = {"ACE_frag_small_HD"};
@@ -440,7 +442,12 @@ class cfgAmmo
 		};
 
 
-
+	class rhs_ammo_rgn : rhs_ammo_rgd5
+	{
+	};
+	class rhs_ammo_rgo : rhs_ammo_rgn
+	{  
+	};
 	/*class rhs_ammo_rgn_impact : rhs_ammo_rgn
 	{
         ace_frag_enabled = 1;
@@ -464,6 +471,8 @@ class cfgAmmo
         ace_frag_skip = 0;
         ace_frag_force = 1;
 	};*/
+
+
 	class rhs_grenade_vog17_ammo: GrenadeHand{		
 		indirectHit = 5;
 		indirectHitRange = 1.5;
@@ -557,9 +566,18 @@ class cfgAmmo
     class R_PG32V_F: RocketBase {};
     class rhs_rpg26_rocket: R_PG32V_F {};
     class rhs_rpg7v2_pg7vl: rhs_rpg26_rocket {};
-    class rhs_rpg7v2_tbg7v: rhs_rpg7v2_pg7vl {};
+    class rhs_rpg7v2_tbg7v: rhs_rpg7v2_pg7vl {
+        ace_frag_enabled = 1;
+        ace_frag_metal = 4500;
+        ace_frag_charge = 1800;
+        ace_frag_gurney_c = 2900;
+        ace_frag_gurney_k = "3/5";
+        ace_frag_classes[] = {"ACE_frag_medium_HD"};
+        ace_frag_skip = 0;
+        ace_frag_force = 1;
+	};
 
-	//грамы/грамы
+
 	class rhs_rshg2_rocket : rhs_rpg7v2_tbg7v{
         ace_frag_enabled = 1;
         ace_frag_metal = 3200;
@@ -582,10 +600,14 @@ class cfgAmmo
         ace_frag_force = 1;
     };
 
+	// mortars and artylleru
+	class 8Rnd_82mm_Mo_shells{
 
+	};
 
+	class 32Rnd_155mm_Mo_shells{
 
-
+	};
 /*
 
 	class rhs_ammo_556x45_M193_Ball: B_556x45_Ball

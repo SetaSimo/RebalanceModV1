@@ -256,7 +256,17 @@
                 <Russian>30Птр. АК-74 (2x/камуф.) HP</Russian>
             </Key>
         </Container>
+        <Container name="Res">
+            
+            <Key ID="STR_T_5000_Winter">
+                <English>T-5000 (Winter)</English>
+                <Russian>T-5000 (Зимний)</Russian>
+            </Key>
+            <Key ID="STR_T_5000_Woodland">
+                <English>T-5000 (Woodland)</English>
+                <Russian>T-5000 (Лесной)</Russian>
+            </Key>
 
-
+        </Container>
     </Package>
 </Project>

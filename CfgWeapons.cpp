@@ -187,7 +187,7 @@ class CfgWeapons
 
 	};
 
-
+    class rhs_weap_t5000;
 
 
 
@@ -4821,6 +4821,25 @@ class CfgWeapons
     }; 
 
 
+
+    class rhs_weap_t5000_woodland: rhs_weap_t5000
+    {
+        author="Potato";
+        baseWeapon="rhs_weap_t5000_woodland";
+        scope=2;
+        displayName = $STR_T_5000_Woodland;
+        model = "\rhsafrf\addons\rhs_weapons3\orsis\rhs_t5000.p3d";
+        hiddenSelectionsTextures[] = {"\RebalanceMod\textures\t5000woodland_co.paa"};
+    };
+    class rhs_weap_t5000_winter: rhs_weap_t5000
+    {
+        author="Potato";
+        baseWeapon="rhs_weap_t5000_winter";
+        scope=2;
+        displayName =  $STR_T_5000_Winter;
+        model = "\rhsafrf\addons\rhs_weapons3\orsis\rhs_t5000.p3d";
+        hiddenSelectionsTextures[] = {"\RebalanceMod\textures\t5000winter_co.paa"};
+    };
 
 
 

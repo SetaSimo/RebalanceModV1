@@ -22,6 +22,7 @@
 
 
     class rhs_acc_1p29: rhs_acc_sniper_base {
+                inertia = -0.6;
         class ItemInfo: InventoryOpticsItem_Base_F {
             class OpticsModes {
                 class rhs_1p29_iron {
@@ -33,6 +34,7 @@
         };
     };
     class rhs_acc_1p78: rhs_acc_1p29 {
+                inertia = -0.6;
         class ItemInfo: InventoryOpticsItem_Base_F {
             class OpticsModes {
                 class rhs_above_sight {
@@ -44,6 +46,7 @@
         };
     };
     class rhs_acc_pkas: rhs_acc_sniper_base {
+        inertia = -0.6;
         class ItemInfo: InventoryOpticsItem_Base_F {
             class OpticsModes {
                 class ACO {
@@ -60,6 +63,7 @@
         };
     };
     class rhs_acc_1p63: rhs_acc_pkas {
+        inertia = -0.6;
         class ItemInfo: InventoryOpticsItem_Base_F {
             class OpticsModes {
                 class ACO {
@@ -71,6 +75,8 @@
         };
     };
     class rhs_acc_nita: rhs_acc_pkas {
+        
+        inertia = -0.6;
         class ItemInfo: InventoryOpticsItem_Base_F {
             class OpticsModes {
                 class rhs_nita_scope {
@@ -120,6 +126,7 @@
         };
     };
     class rhs_acc_1pn34: rhs_acc_1pn93_base {
+        inertia = -0.8;
         class ItemInfo: ItemInfo {
             class OpticsModes {
 
@@ -219,6 +226,7 @@
 
 //****************************** rhsusf_weap_acc ******************************
     class rhsusf_acc_compm4: ItemCore {
+        inertia = -0.8;
         class ItemInfo: InventoryOpticsItem_Base_F {
             class OpticsModes {
                 class ACO {
@@ -241,6 +249,7 @@
         };
     };
     class optic_holosight: ItemCore {
+        inertia = -0.8;
         class iteminfo: InventoryOpticsItem_Base_F {
             class OpticsModes {
                 class ACO;
@@ -248,6 +257,7 @@
         };
     };
     class rhsusf_acc_EOTECH: optic_holosight {
+        inertia = -0.8;
         class ItemInfo: ItemInfo {
             class OpticsModes: OpticsModes {
                 class ACO: ACO {
@@ -259,6 +269,7 @@
         };
     };
     class rhsusf_acc_eotech_xps3: optic_Holosight {
+        inertia = -0.8;
         class ItemInfo: ItemInfo {
             class OpticsModes: OpticsModes {
                 class ACO: ACO {
