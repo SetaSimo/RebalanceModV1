@@ -49,6 +49,34 @@ class CfgFunctions{
 			};
 		};
     };
+	class po_canteen
+	{
+		class functions
+		{
+			file="\RebalanceMod\scripts\cateen";
+			class canteenDrink
+			{
+			};
+			class pourWater
+			{
+			};
+		};
+	};
+};
+
+
+class RscStandardDisplay;
+class RscDisplayMain: RscStandardDisplay {
+	enableDisplay = 0;
+	delete Spotlight;
+	class controls {
+		delete Spotlight1;
+		delete Spotlight2;
+		delete Spotlight3;
+		delete BackgroundSpotlightRight;
+		delete BackgroundSpotlightLeft;
+		delete BackgroundSpotlight;
+	};
 };
 
 

@@ -1,5 +1,6 @@
 class acc_pointer_IR;
 //RF
+//разные параметры инерции
 class rhs_acc_grip_rk2 : acc_pointer_IR{
 
 	inertia = -0.8;

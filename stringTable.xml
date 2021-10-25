@@ -255,8 +255,60 @@
                 <English>30rd AK-74 HP (2x/Camo)</English>
                 <Russian>30Птр. АК-74 (2x/камуф.) HP</Russian>
             </Key>
+        </Container>
+        <Container name="Res">
+            
+            <Key ID="STR_T_5000_Winter">
+                <English>T-5000 (Winter)</English>
+                <Russian>T-5000 (Зимний)</Russian>
+            </Key>
+            <Key ID="STR_T_5000_Woodland">
+                <English>T-5000 (Woodland)</English>
+                <Russian>T-5000 (Лесной)</Russian>
+            </Key>
+        </Container>
+        <Container name="Canteen">
+
+            <Key ID="STR_Cateen">
+                <English>Cateen</English>
+                <Russian>Фляга</Russian>
+            </Key>
+
+            <Key ID="STR_Water_Heal">
+                <English>Pour water</English>
+                <Russian>Облить водой</Russian>
+            </Key>
 
 
 
+            <Key ID="STR_Half_Cateen">
+                <English>You drink from canteen. Now it's half-filled</English>
+                <Russian>Вы попили из фляги, теперь она на половину полная</Russian>
+            </Key>
+            <Key ID="STR_Empty_Cateen">
+                <English>You drink from canteen. Now it's empty</English>
+                <Russian>Вы попили из фляги, теперь она на половину полная</Russian>
+            </Key>
+            <Key ID="STR_Half_Bottle">
+                <English>You drink from Bottle. Now it's half-filled</English>
+                <Russian>Вы попили из бутылки, теперь она пустая</Russian>
+            </Key>
+            <Key ID="STR_Empty_Bottle">
+                <English>You drink from Bottle. Now it's empty</English>
+                <Russian>Вы попили из бутылки, теперь она пустая</Russian>
+            </Key>
+
+
+            
+            <Key ID="STR_Water_Wake_Up">
+                <English>You doused the soldier with water, he will wake up soon</English>
+                <Russian>Вы облили бойца водой, он скоро встанет</Russian>
+            </Key>
+            <Key ID="STR_Water_No_Result">
+                <English>You doused the soldier with water, he's still unconscious</English>
+                <Russian>Вы облили бойца водой, он все еще без сознания</Russian>
+            </Key>
+
+        </Container>         
     </Package>
 </Project>

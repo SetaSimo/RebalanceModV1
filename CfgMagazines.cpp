@@ -1,7 +1,7 @@
 class CfgMagazines
 {
 	class CA_Magazine;
-
+	// конфиги под 60 и 45
     	class rhs_30Rnd_545x39_AK : CA_Magazine 
 	{
 		tracersEvery=3;
