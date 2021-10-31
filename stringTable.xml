@@ -309,6 +309,40 @@
                 <Russian>Вы облили бойца водой, он все еще без сознания</Russian>
             </Key>
 
-        </Container>         
+        </Container>   
+
+
+
+        <Container name="briefing">
+
+            <Key ID="$STR_Important">
+                <English>Important things</English>
+                <Russian>Важные штуки</Russian>
+            </Key>
+            <Key ID="STR_Cateen_info">
+                <English>Заглушка</English>
+                <Russian>Заглушка</Russian>
+            </Key>
+            <Key ID="STR_Animations_header">
+                <English>Заглушка</English>
+                <Russian>Заглушка</Russian>
+            </Key>
+            <Key ID="STR_Animations_info">
+                <English>Заглушка</English>
+                <Russian>Заглушка</Russian>
+            </Key>
+            <Key ID="STR_Whistle_header">
+                <English>Заглушка</English>
+                <Russian>Взайствие с механникой свиста</Russian>
+            </Key>
+            <Key ID="STR_Whistle_info">
+                <English>Заглушка</English>
+                <Russian>Заглушка</Russian>
+            </Key>
+
+        </Container>   
+
+
+
     </Package>
 </Project>
