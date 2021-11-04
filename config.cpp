@@ -16,8 +16,8 @@ class CfgPatches
 {
 	class recoilV2
 	{
-
-
+		name = "RebalanceMod";
+		author = "AIR Team";
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 1.1;
@@ -62,6 +62,8 @@ class CfgFunctions{
 			};
 		};
 	};
+
+=======
 	class Seon_Smoke
 	{
 		class functions
@@ -72,11 +74,15 @@ class CfgFunctions{
 			};
 		};
 	};
-
-
-
-
-
+	class Kot
+    {
+        class WeaponInteractions
+        {
+            file = "\RebalanceMod\scripts\maghold";
+            
+            class addWeapon {};
+        };
+    };
 };
 
 

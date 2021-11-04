@@ -1,21 +1,24 @@
-
 /*
-
 todo 
 
 mk18
 Снайперские винтовки US
 Дробовики 
 Гранатометы
-
-
-
 */
 
+/*
+Вот так создаются макросы
+https://community.bistudio.com/wiki/PreProcessor_Commands#Multi-line
+*/
 
-
-
-
+#define CREATECLASS(BASECLASS,HOLDCLASS,FOLDCLASS,NPZCLASS)\
+class HOLDCLASS:BASECLASS  {\
+    scope=1;\
+    handAnim[]={"OFP2_ManSkeleton", "\rhsafrf\addons\rhs_c_weapons\anims\rhs_hand_akmr.rtm"};\
+    rhs_fold = FOLDCLASS;\
+    rhs_npz = NPZCLASS;\
+};
 
 class CfgWeapons
 {
@@ -31,8 +34,6 @@ class CfgWeapons
 
 	class launch_O_Titan_F;
 	
-
-
 	class Default;
 
 
@@ -315,93 +316,17 @@ class CfgWeapons
 	// sov
 		class rhs_weap_ak74m: rhs_weap_ak74m_Base_F
 	{
- 
-
 		opticsZoomMin = 0.4;
 		opticsZoomMax = 0.71;
 		opticsZoomInit = 0.71;
 
-
-
-
-
-
-
 		inertia=2.4003;
 		dexterity=2.1129;
 
-
-        aimTransitionSpeed=0.7541;
+	    aimTransitionSpeed=0.7541;
 		recoil="ak74_recoil";
 
-		WeaponLength=1.03;//	
-
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};
-
-
-
-
+		WeaponLength=1.03;
     }; 
 
 	class rhs_weap_ak74mr : rhs_weap_ak74m
@@ -411,7 +336,6 @@ class CfgWeapons
 		opticsZoomMax = 0.71;
 		opticsZoomInit = 0.71;
 
-
 		inertia=2.4003;
 		dexterity=2.1129;
 
@@ -421,313 +345,6 @@ class CfgWeapons
 
 		WeaponLength=1.03;//	
 
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};
-    }; 
-
-	class rhs_weap_ak74m_fullplum: rhs_weap_ak74m
-	{
- 
-
-		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.71;
-		opticsZoomInit = 0.71;
-
-
-		inertia=2.4003;
-		dexterity=2.1129;
-
-
-        aimTransitionSpeed=0.7541;
-		recoil="ak74_recoil";
-
-		WeaponLength=1.03;//	
-
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};
-    }; 
-
-	class rhs_weap_ak74m_camo: rhs_weap_ak74m
-	{
- 
-
-		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.71;
-		opticsZoomInit = 0.71;
-
-
-		inertia=2.4003;
-		dexterity=2.1129;
-
-
-        aimTransitionSpeed=0.7541;
-		recoil="ak74_recoil";
-
-		WeaponLength=1.03;//	
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};
-    }; 
-
-	class rhs_weap_ak74m_desert: rhs_weap_ak74m
-	{
- 
-
-		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.71;
-		opticsZoomInit = 0.71;
-
-
-		inertia=2.4003;
-		dexterity=2.1129;
-
-
-        aimTransitionSpeed=0.7541;
-		recoil="ak74_recoil";
-
-		WeaponLength=1.03;//	
-
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};
     }; 
 
 	class rhs_weap_ak74m_zenitco01: rhs_weap_ak74m_Base_F
@@ -748,335 +365,10 @@ class CfgWeapons
 
 		WeaponLength=1.03;//	
 		
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};
-    }; 
-
-	class rhs_weap_ak74m_npz: rhs_weap_ak74m
-	{
- 
-
-		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.71;
-		opticsZoomInit = 0.71;
-
-
-		inertia=2.4003;
-		dexterity=2.1129;
-
-
-        aimTransitionSpeed=0.7541;
-		recoil="ak74_recoil";
-
-		WeaponLength=1.03;//	
 		
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};
     }; 
 
-	class rhs_weap_ak74m_fullplum_npz: rhs_weap_ak74m_npz
-	{
- 
-
-		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.71;
-		opticsZoomInit = 0.71;
-
-
-		inertia=2.4003;
-		dexterity=2.1129;
-
-
-        aimTransitionSpeed=0.7541;
-		recoil="ak74_recoil";
-
-		WeaponLength=1.03;//	
-		
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};
-    }; 
-
-	class rhs_weap_ak74m_camo_npz: rhs_weap_ak74m_npz
-	{
- 
-
-		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.71;
-		opticsZoomInit = 0.71;
-
-
-		inertia=2.4003;
-		dexterity=2.1129;
-
-
-        aimTransitionSpeed=0.7541;
-		recoil="ak74_recoil";
-
-		WeaponLength=1.03;//	
-
-    }; 
-
-	class rhs_weap_ak74m_desert_npz: rhs_weap_ak74m_npz
-	{
- 
-
-		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.71;
-		opticsZoomInit = 0.71;
-
-
-		inertia=2.4003;
-		dexterity=2.1129;
-
-
-        aimTransitionSpeed=0.7541;
-		recoil="ak74_recoil";
-
-		WeaponLength=1.03;//	
-		
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};
-    }; 
+	class rhs_weap_ak74m_npz: rhs_weap_ak74m {}; 
 
 	class rhs_weap_ak74m_gp25: rhs_weap_ak74m
 	{
@@ -1096,68 +388,7 @@ class CfgWeapons
 
 		WeaponLength=1.03;//	
 		
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};
+		
     }; 
 
 	class rhs_weap_ak74m_fullplum_gp25: rhs_weap_ak74m_gp25
@@ -1178,68 +409,7 @@ class CfgWeapons
 
 		WeaponLength=1.03;//	
 		
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};
+		
     }; 
 
 	class rhs_weap_ak74m_gp25_npz: rhs_weap_ak74m_gp25
@@ -1260,68 +430,7 @@ class CfgWeapons
 
 		WeaponLength=1.03;//	
 		
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};
+		
     }; 
 
 	class rhs_weap_ak74m_fullplum_gp25_npz: rhs_weap_ak74m_gp25_npz
@@ -1342,68 +451,7 @@ class CfgWeapons
 
 		WeaponLength=1.03;//	
 		
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};
+		
     }; 
 
 	class rhs_weap_ak74: rhs_weap_ak74m
@@ -1424,68 +472,7 @@ class CfgWeapons
 
 		WeaponLength=1.03;//	
 		
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};
+		
     }; 
 
 	class rhs_weap_ak74n_npz: rhs_weap_ak74
@@ -1506,68 +493,7 @@ class CfgWeapons
 
 		WeaponLength=1.03;//	
 		
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};
+		
     }; 
 
 	class rhs_weap_ak74n_2_npz: rhs_weap_ak74
@@ -1588,68 +514,7 @@ class CfgWeapons
 
 		WeaponLength=1.03;//	
 		
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};
+		
     }; 
 
 	class rhs_weap_ak74_2: rhs_weap_ak74
@@ -1670,68 +535,7 @@ class CfgWeapons
 
 		WeaponLength=1.03;//	
 		
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};
+		
     }; 
 
 	class rhs_weap_ak74n: rhs_weap_ak74
@@ -1752,68 +556,7 @@ class CfgWeapons
 
 		WeaponLength=1.03;//	
 
-				magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};
+				
 
     }; 
 
@@ -1835,68 +578,7 @@ class CfgWeapons
 
 		WeaponLength=1.03;//	
 		
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};
+		
     }; 
 
 	class rhs_weap_ak74_gp25: rhs_weap_ak74
@@ -1917,68 +599,7 @@ class CfgWeapons
 
 		WeaponLength=1.03;//	
 		
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};
+		
     }; 
 
 	class rhs_weap_ak74n_gp25_npz: rhs_weap_ak74_gp25
@@ -1999,68 +620,7 @@ class CfgWeapons
 
 		WeaponLength=1.03;//	
 		
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};
+		
     }; 
 
 	class rhs_weap_ak74n_2_gp25_npz: rhs_weap_ak74_gp25
@@ -2081,68 +641,7 @@ class CfgWeapons
 
 		WeaponLength=1.03;//	
 		
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};
+		
     }; 
 
 	class rhs_weap_ak74n_gp25: rhs_weap_ak74_gp25
@@ -2163,68 +662,7 @@ class CfgWeapons
 
 		WeaponLength=1.03;//	
 		
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};
+		
     }; 
 
 	class rhs_weap_ak74n_2_gp25: rhs_weap_ak74n_gp25
@@ -2245,68 +683,7 @@ class CfgWeapons
 
 		WeaponLength=1.03;//	
 		
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};
+		
     }; 
 
 	class rhs_weap_aks74: rhs_weap_ak74
@@ -2328,68 +705,7 @@ class CfgWeapons
 
 		WeaponLength=1.03;//	
 		
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};
+		
     }; 
 	class rhs_weap_aks74_gp25: rhs_weap_aks74
 	{
@@ -2409,68 +725,7 @@ class CfgWeapons
 
 		WeaponLength=1.03;//	
 		
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};
+		
     }; 
 
 	class rhs_weap_aks74n_gp25: rhs_weap_aks74_gp25
@@ -2491,68 +746,7 @@ class CfgWeapons
 
 		WeaponLength=1.03;//	
 		
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};
+		
     }; 
 
 	class rhs_weap_aks74n_gp25_npz: rhs_weap_aks74n_gp25
@@ -2573,68 +767,7 @@ class CfgWeapons
 
 		WeaponLength=1.03;//	
 		
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};
+		
     }; 
 
 	class rhs_weap_aks74_2: rhs_weap_aks74
@@ -2655,68 +788,7 @@ class CfgWeapons
 
 		WeaponLength=1.03;//	
 		
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};
+		
     }; 
 
 	class rhs_weap_aks74n: rhs_weap_aks74
@@ -2737,68 +809,7 @@ class CfgWeapons
 
 		WeaponLength=1.03;//	
 		
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};
+		
     }; 
 
 	class rhs_weap_aks74n_2_npz: rhs_weap_aks74n
@@ -2819,68 +830,7 @@ class CfgWeapons
 
 		WeaponLength=1.03;//	
 		
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};
+		
     }; 
 
 	class rhs_weap_aks74n_npz: rhs_weap_aks74n
@@ -2901,68 +851,7 @@ class CfgWeapons
 
 		WeaponLength=1.03;//	
 		
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};
+		
     }; 
 
 	class rhs_weap_aks74n_2: rhs_weap_aks74n
@@ -2984,68 +873,7 @@ class CfgWeapons
 
 		WeaponLength=1.03;//	
 		
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};
+		
     }; 
 	class rhs_weap_aks74u: rhs_weap_aks74
 	{
@@ -3065,68 +893,7 @@ class CfgWeapons
 
 		WeaponLength=0.6;//	
 				
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};
+		
     }; 
 
 	class rhs_weap_aks74un: rhs_weap_aks74u
@@ -3148,68 +915,7 @@ class CfgWeapons
 
 		WeaponLength=0.6;
 				
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};	
+			
     }; 
 
 
@@ -3241,68 +947,7 @@ class CfgWeapons
 
 		WeaponLength=1.03;//	
 		
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};
+		
     }; 
 
 	class rhs_weap_ak105_npz: rhs_weap_ak105
@@ -3324,68 +969,7 @@ class CfgWeapons
 
 		WeaponLength=1.03;//	
 		
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};
+		
     }; 
 
 	class rhs_weap_ak105_zenitco01: rhs_weap_ak105
@@ -3407,68 +991,7 @@ class CfgWeapons
 
 		WeaponLength=1.03;//	
 		
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};
+		
     }; 
 
 	class rhs_weap_ak105_zenitco01_b33: rhs_weap_ak105_zenitco01
@@ -3490,68 +1013,7 @@ class CfgWeapons
 
 		WeaponLength=1.03;//	
 		
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};
+		
     }; 
 
 	class rhs_weap_akm : rhs_weap_ak74m
@@ -4058,68 +1520,7 @@ class CfgWeapons
 
 		WeaponLength=1.08;		
 
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};	
+			
 
 
     }; 
@@ -4140,68 +1541,7 @@ class CfgWeapons
 		recoil="rpk74_recoil";
 
 		WeaponLength=1.35;//		
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};	
+			
 
 
 	}; 
@@ -4221,68 +1561,7 @@ class CfgWeapons
 		recoil="rpk74_recoil";
 
 		WeaponLength=1.35;//	
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};	
+			
 
 
 
@@ -4304,68 +1583,7 @@ class CfgWeapons
 
 		WeaponLength=1.35;//	
 
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};	
+			
 
 
     }; 
@@ -4381,68 +1599,7 @@ class CfgWeapons
 
 		WeaponLength=1.35;//	
 
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};	
+			
 
 
 
@@ -4465,68 +1622,7 @@ class CfgWeapons
 		WeaponLength=1.35;//	
 
 
-				magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};	
+					
 
     }; 
 
@@ -4961,68 +2057,7 @@ class CfgWeapons
 
 		WeaponLength=0.8;	
 				
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};
+		
 		
     }; 
 
@@ -5045,68 +2080,7 @@ class CfgWeapons
 
 		WeaponLength=0.4;
 				
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};	
+			
     }; 
 
 	class rhs_weap_aks74un_folded : rhs_weap_aks74un
@@ -5121,72 +2095,11 @@ class CfgWeapons
 
 
         aimTransitionSpeed=0.6006;
-		recoil="akmm_recoil";
+		recoil="aks74uFolded_recoil";
 
 		WeaponLength=0.4;	
 		
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};
+		
 	};
 	class rhs_weap_ak74m_folded : rhs_weap_ak74m
 	{
@@ -5205,312 +2118,9 @@ class CfgWeapons
 		WeaponLength=0.6;//		
 	
 		
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};
-    }; 
-
-	class rhs_weap_ak74m_camo_folded : rhs_weap_ak74m_folded
-	{
-		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.71;
-		opticsZoomInit = 0.71;
-
-
-		inertia=2.4003;
-		dexterity=2.1129;
-
-
-        aimTransitionSpeed=0.6006;
-		recoil="ak74Folded_recoil";
-
-		WeaponLength=0.6;//		
-	
 		
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};
     }; 
 
-	class rhs_weap_ak74m_desert_folded : rhs_weap_ak74m_folded
-	{
-		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.71;
-		opticsZoomInit = 0.71;
-
-
-		inertia=2.4003;
-		dexterity=2.1129;
-
-
-        aimTransitionSpeed=0.6006;
-		recoil="ak74Folded_recoil";
-
-		WeaponLength=0.6;//		
-		
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};	
-
-    }; 
-
-	class rhs_weap_ak74m_plummag_folded : rhs_weap_ak74m_folded
-	{
-		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.71;
-		opticsZoomInit = 0.71;
-
-
-		inertia=2.4003;
-		dexterity=2.1129;
-
-
-        aimTransitionSpeed=0.6006;
-		recoil="ak74Folded_recoil";
-
-		WeaponLength=0.6;//		
-			
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};
-
-    }; 
 
 	class rhs_weap_ak74m_gp25_folded : rhs_weap_ak74m_folded
 	{
@@ -5529,231 +2139,9 @@ class CfgWeapons
 		WeaponLength=0.6;//		
 	
 		
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};
-    }; 
-
-	class rhs_weap_ak74m_fullplum_folded : rhs_weap_ak74m_folded
-	{
-		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.71;
-		opticsZoomInit = 0.71;
-
-
-		inertia=2.4003;
-		dexterity=2.1129;
-
-
-        aimTransitionSpeed=0.6006;
-		recoil="ak74Folded_recoil";
-
-		WeaponLength=0.6;//		
-	
 		
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};
     }; 
 	
-	class rhs_weap_ak74m_fullplum_gp25_folded : rhs_weap_ak74m_gp25_folded
-	{
-		opticsZoomMin = 0.4;
-		opticsZoomMax = 0.71;
-		opticsZoomInit = 0.71;
-
-
-		inertia=2.4003;
-		dexterity=2.1129;
-
-
-        aimTransitionSpeed=0.6006;
-		recoil="ak74Folded_recoil";
-
-		WeaponLength=0.6;//		
-			
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};
-
-    }; 
 	class rhs_weap_ak74mr_folded : rhs_weap_ak74mr
 	{
 		opticsZoomMin = 0.4;
@@ -5770,68 +2158,7 @@ class CfgWeapons
 
 		WeaponLength=0.6;//		
 			
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};
+		
 
     }; 
 
@@ -5851,68 +2178,7 @@ class CfgWeapons
 
 		WeaponLength=0.6;//		
 			
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};
+		
 
     }; 
 	class rhs_weap_ak74mr_folded_afg : rhs_weap_ak74mr_folded
@@ -5931,68 +2197,7 @@ class CfgWeapons
 
 		WeaponLength=0.6;//		
 			
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};
+		
 
     }; 
 	
@@ -6012,68 +2217,7 @@ class CfgWeapons
 
 		WeaponLength=0.6;//		
 			
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};
+		
 
     }; 
 	
@@ -6244,68 +2388,7 @@ class CfgWeapons
 
 		WeaponLength=0.6;//		
 			
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};	
+			
 
     }; 
 	
@@ -6344,68 +2427,7 @@ class CfgWeapons
 
 		WeaponLength=0.6;//		
 			
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};	
+			
 
     }; 
 	
@@ -6425,68 +2447,7 @@ class CfgWeapons
 
 		WeaponLength=0.6;//		
 		
-		magazines[]=
-			{
-				"rhs_30Rnd_545x39_AK",
-				"rhs_30Rnd_545x39_7N6_AK",
-				"rhs_30Rnd_545x39_AK_green",
-				"rhs_30Rnd_545x39_AK_plum_green",
-				"rhs_30Rnd_545x39_7N6M_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N22_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N24_Bakelite_AK",
-				"rhs_30Rnd_545x39_7U1_Bakelite_AK",
-				"rhs_30Rnd_545x39_7N6_green_AK",
-				"rhs_30Rnd_545x39_7N10_AK_Green",
-				"rhs_30Rnd_545x39_7N22_AK_Green",
-				"rhs_30Rnd_545x39_7N24_AK_Green",
-				"rhs_30Rnd_545x39_7U1_AK_Green",
-				"rhs_30Rnd_545x39_7T3M_AK_Green",
-				"rhs_30Rnd_545x39_7N6M_plum_AK",
-				"rhs_30Rnd_545x39_7N10_AK",
-				"rhs_30Rnd_545x39_7N10_plum_AK",
-				"rhs_30Rnd_545x39_7N10_desert_AK",
-				"rhs_30Rnd_545x39_7N6_AK_Deser",
-				"rhs_30Rnd_545x39_7N24_AK_Deser",
-				"rhs_30Rnd_545x39_7U1_AK_Deser",
-				"rhs_30Rnd_545x39_7N10_camo_AK",
-				"rhs_30Rnd_545x39_7N6_camo_AK",
-				"rhs_30Rnd_545x39_7N24_camo_AK",
-				"rhs_30Rnd_545x39_7U1_camo_AK",
-				"rhs_30Rnd_545x39_7T3M_camo_AK",
-				"rhs_30Rnd_545x39_7N22_AK",
-				"rhs_30Rnd_545x39_7N22_plum_AK",
-				"rhs_30Rnd_545x39_7N22_desert_AK",
-				"rhs_30Rnd_545x39_7N22_camo_AK",
-				"rhs_30Rnd_545x39_7U1_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7T3M_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N10_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N22_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N24_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7NU1_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK",
-				"rhs_30Rnd_545x39_7N6_HP_2mag_AK",
-				"rhs_30Rnd_545x39_7N6_HP_camo_AK",
-				"rhs_30Rnd_545x39_7N6_HP_AK_Deser",	
-				"rhs_30Rnd_545x39_7N6_HP_AK_Green",
-				"rhs_30Rnd_545x39_7N6_HP_AK"
-								
-			};	
+			
 
     }; 
 	
@@ -10390,7 +6351,70 @@ class rhs_weap_m92_fold : rhs_weap_m92
 
 
 
-    }; 
+    };
+
+	
+	CREATECLASS(rhs_weap_ak74m, rhs_weap_ak74m_maghold, "rhs_weap_ak74m_folded_maghold", "rhs_weap_ak74m_npz_maghold");
+    CREATECLASS(rhs_weap_ak74m_npz, rhs_weap_ak74m_npz_maghold, "rhs_weap_ak74m_folded_maghold", "rhs_weap_ak74m_maghold");
+    CREATECLASS(rhs_weap_ak74m_folded, rhs_weap_ak74m_folded_maghold, "rhs_weap_ak74m_maghold", "rhs_weap_ak74m_npz_maghold");
+    CREATECLASS(rhs_weap_ak74m_gp25, rhs_weap_ak74m_gp25_maghold, "rhs_weap_ak74m_gp25_folded_maghold", "rhs_weap_ak74m_gp25_npz_maghold");
+    CREATECLASS(rhs_weap_ak74m_gp25_npz, rhs_weap_ak74m_gp25_npz_maghold, "rhs_weap_ak74m_gp25_folded_maghold", "rhs_weap_ak74m_gp25_maghold");
+    CREATECLASS(rhs_weap_ak74m_gp25_folded, rhs_weap_ak74m_gp25_folded_maghold, "rhs_weap_ak74m_gp25_maghold", "rhs_weap_ak74m_gp25_npz_maghold");
+    
+	class rhs_weap_ak74m_gp25_pkas;
+	class rhs_weap_ak74m_gp25_1p63;
+	class rhs_weap_ak74m_gp25_pso1m2;
+	class rhs_weap_ak74m_gp25_1p29;
+	CREATECLASS(rhs_weap_ak74m_gp25_pkas, rhs_weap_ak74m_gp25_pkas_maghold, "rhs_weap_ak74m_gp25_folded_maghold", "rhs_weap_ak74m_gp25_maghold");
+	CREATECLASS(rhs_weap_ak74m_gp25_1p63, rhs_weap_ak74m_gp25_1p63_maghold, "rhs_weap_ak74m_gp25_folded_maghold", "rhs_weap_ak74m_gp25_maghold");
+	CREATECLASS(rhs_weap_ak74m_gp25_pso1m2, rhs_weap_ak74m_gp25_pso1m2_maghold, "rhs_weap_ak74m_gp25_folded_maghold", "rhs_weap_ak74m_gp25_maghold");
+	CREATECLASS(rhs_weap_ak74m_gp25_1p29, rhs_weap_ak74m_gp25_1p29_maghold, "rhs_weap_ak74m_gp25_folded_maghold", "rhs_weap_ak74m_gp25_maghold");
+    
+	class rhs_weap_ak74m_camo;
+	class rhs_weap_ak74m_camo_npz;
+	class rhs_weap_ak74m_camo_folded;
+	class rhs_weap_ak74m_camo_pkas;
+	class rhs_weap_ak74m_camo_1p63;
+	class rhs_weap_ak74m_camo_pso1m2;
+	class rhs_weap_ak74m_camo_1p29;
+    CREATECLASS(rhs_weap_ak74m_camo, rhs_weap_ak74m_camo_maghold, "rhs_weap_ak74m_camo_folded_maghold", "rhs_weap_ak74m_camo_npz_maghold");
+    CREATECLASS(rhs_weap_ak74m_camo_npz, rhs_weap_ak74m_camo_npz_maghold, "rhs_weap_ak74m_camo_folded_maghold", "rhs_weap_ak74m_camo_maghold");
+    CREATECLASS(rhs_weap_ak74m_camo_folded, rhs_weap_ak74m_camo_folded_maghold, "rhs_weap_ak74m_camo_maghold", "rhs_weap_ak74m_camo_npz_maghold");
+	CREATECLASS(rhs_weap_ak74m_camo_pkas, rhs_weap_ak74m_camo_pkas_maghold, "rhs_weap_ak74m_camo_folded_maghold", "rhs_weap_ak74m_camo_maghold");
+	CREATECLASS(rhs_weap_ak74m_camo_1p63, rhs_weap_ak74m_camo_1p63_maghold, "rhs_weap_ak74m_camo_folded_maghold", "rhs_weap_ak74m_camo_maghold");
+	CREATECLASS(rhs_weap_ak74m_camo_pso1m2, rhs_weap_ak74m_camo_pso1m2_maghold, "rhs_weap_ak74m_camo_folded_maghold", "rhs_weap_ak74m_camo_maghold");
+	CREATECLASS(rhs_weap_ak74m_camo_1p29, rhs_weap_ak74m_camo_1p29_maghold, "rhs_weap_ak74m_camo_folded_maghold", "rhs_weap_ak74m_camo_maghold");
+    
+	class rhs_weap_ak74m_desert;
+	class rhs_weap_ak74m_desert_npz;
+	class rhs_weap_ak74m_desert_folded;
+    CREATECLASS(rhs_weap_ak74m_desert, rhs_weap_ak74m_desert_maghold, "rhs_weap_ak74m_desert_folded_maghold", "rhs_weap_ak74m_desert_npz_maghold");
+    CREATECLASS(rhs_weap_ak74m_desert_npz, rhs_weap_ak74m_desert_npz_maghold, "rhs_weap_ak74m_desert_folded_maghold", "rhs_weap_ak74m_desert_maghold");
+    CREATECLASS(rhs_weap_ak74m_desert_folded, rhs_weap_ak74m_desert_folded_maghold, "rhs_weap_ak74m_desert_maghold", "rhs_weap_ak74m_desert_npz_maghold");
+    
+    class rhs_weap_ak74m_fullplum;
+	class rhs_weap_ak74m_fullplum_npz;
+	class rhs_weap_ak74m_fullplum_folded;
+	class rhs_weap_ak74m_fullplum_gp25_folded;
+    CREATECLASS(rhs_weap_ak74m_fullplum, rhs_weap_ak74m_fullplum_maghold, "rhs_weap_ak74m_fullplum_folded_maghold", "rhs_weap_ak74m_fullplum_npz_maghold");
+    CREATECLASS(rhs_weap_ak74m_fullplum_npz, rhs_weap_ak74m_fullplum_npz_maghold, "rhs_weap_ak74m_fullplum_folded_maghold", "rhs_weap_ak74m_fullplum_npz_maghold");
+    CREATECLASS(rhs_weap_ak74m_fullplum_folded, rhs_weap_ak74m_fullplum_folded_maghold, "rhs_weap_ak74m_fullplum_maghold", "rhs_weap_ak74m_fullplum_npz_maghold");
+    CREATECLASS(rhs_weap_ak74m_fullplum_gp25, rhs_weap_ak74m_fullplum_gp25_maghold, "rhs_weap_ak74m_fullplum_gp25_folded_maghold", "rhs_weap_ak74m_fullplum_gp25_npz_maghold");
+    CREATECLASS(rhs_weap_ak74m_fullplum_gp25_npz, rhs_weap_ak74m_fullplum_gp25_npz_maghold, "rhs_weap_ak74m_fullplum_gp25_folded_maghold", "rhs_weap_ak74m_fullplum_gp25_maghold");
+    CREATECLASS(rhs_weap_ak74m_fullplum_gp25_folded, rhs_weap_ak74m_fullplum_gp25_folded_maghold, "rhs_weap_ak74m_fullplum_gp25_maghold", "rhs_weap_ak74m_fullplum_gp25_npz_maghold");
+    
+    class rhs_weap_ak74m_zenitco01_grip1;
+	class rhs_weap_ak74m_zenitco01_afg;
+	class rhs_weap_ak74m_zenitco01_npz_grip1;
+	class rhs_weap_ak74m_zenitco01_npz_afg;
+	class rhs_weap_ak74m_zenitco01_b33_grip1;
+	class rhs_weap_ak74m_zenitco01_b33_afg;
+    CREATECLASS(rhs_weap_ak74m_zenitco01_grip1, rhs_weap_ak74m_zenitco01_grip1_maghold, "rhs_weap_ak74m_zenitco01_grip1_maghold", "rhs_weap_ak74m_zenitco01_npz_grip1_maghold");
+    CREATECLASS(rhs_weap_ak74m_zenitco01_afg, rhs_weap_ak74m_zenitco01_afg_maghold, "rhs_weap_ak74m_zenitco01_afg_maghold", "rhs_weap_ak74m_zenitco01_npz_afg_maghold");
+    CREATECLASS(rhs_weap_ak74m_zenitco01_npz_grip1, rhs_weap_ak74m_zenitco01_npz_grip1_maghold, "rhs_weap_ak74m_zenitco01_npz_grip1_maghold", "rhs_weap_ak74m_zenitco01_grip1_maghold");
+    CREATECLASS(rhs_weap_ak74m_zenitco01_npz_afg, rhs_weap_ak74m_zenitco01_npz_afg_maghold, "rhs_weap_ak74m_zenitco01_npz_afg_maghold", "rhs_weap_ak74m_zenitco01_afg_maghold");
+    CREATECLASS(rhs_weap_ak74m_zenitco01_b33_grip1, rhs_weap_ak74m_zenitco01_b33_grip1_maghold, "rhs_weap_ak74m_zenitco01_b33_grip1_maghold", "rhs_weap_ak74m_zenitco01_b33_grip1_maghold");
+    CREATECLASS(rhs_weap_ak74m_zenitco01_b33_afg, rhs_weap_ak74m_zenitco01_b33_afg_maghold, "rhs_weap_ak74m_zenitco01_b33_afg_maghold", "rhs_weap_ak74m_zenitco01_b33_afg_maghold");
 
 
 
@@ -10409,13 +6433,3 @@ class rhs_weap_m92_fold : rhs_weap_m92
 	
 
 };
-
-
-
-
-  
-
-  
-  
-  
-  
