@@ -7,7 +7,7 @@
 #include "CfgVehicles.cpp" 
 #include "CfgAmmo.hpp" 
 #include "CfgMoves.hpp" 
-
+#include "CfgSounds.cpp" 
 
 
 
@@ -58,6 +58,18 @@ class CfgFunctions{
 			{
 			};
 			class pourWater
+			{
+			};
+		};
+	};
+
+=======
+	class Seon_Smoke
+	{
+		class functions
+		{
+			file="\RebalanceMod\scripts\smoke";
+			class PlayerCough
 			{
 			};
 		};
