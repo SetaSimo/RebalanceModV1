@@ -127,3 +127,36 @@ RockPaperScissors={
 ["Seon Whistle", "Сделать свист тише", ["Сделать свист тише", "Персонаж будет свистеть на меньшую дистанцию, после нажатия этой кнопки"], {
     call Whistle_Mn
 }, {}, [DIK_3, [false, true, false]]] call CBA_fnc_addKeybind;
+<<<<<<< Updated upstream
+=======
+
+/* EventHandlers ======================= */
+/*
+player addEventHandler ["fired",
+    {
+        params ["_unit", "_weapon", "_muzzle", "_mode", "_ammo", "_magazine", "_projectile", "_gunner"];
+        if ((_this select 4) isKindOf "SmokeShell") then {
+
+            //_trg settriggerStatements ["this", "[_this select 0,_character] call po_canteen_fnc_PlayerCough",""];
+            //_trg settriggerStatements ["this", "hint 'trigger on'", "hint 'trigger off'"];
+            //windDir
+            //windStr
+            _trg =createTrigger ["EmptyDetector",getPos (_this select 6),true];
+            _trg settriggerArea [100, 50, 45, false];
+            _trg settriggerActivation ["ANY", "PRESENT", true];
+            _trg settriggerStatements ["this", "[this,_character] execVM '\Rebalancemod\scripts\smoke\fn_PlayerCough.sqf'",""];
+
+            _trg setTriggerInterval 1;
+
+
+
+
+        };
+    }];*/
+    
+    // if (goggles player!=_GasMasks)
+    
+    /* пояснения для игроков ======================= */
+    
+[] execVM '\Rebalancemod\scripts\AddtoBreafing.sqf';
+>>>>>>> Stashed changes
