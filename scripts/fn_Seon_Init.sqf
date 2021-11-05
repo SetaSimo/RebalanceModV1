@@ -6,8 +6,11 @@ Whistle_radius= 15;
 Whistle_max_radius= 600;
 Whistle_step= 5;
 
+_character = selectRandom["1","2"];
+_GasMasks = "U_B_CBRN_Suit_01_Wdl_F";
+
 Whistle={
-    _sound = selectRandom ["Rebalancemod\sounds\whistle1.ogg", "fox_whistle\sounds\whistle2.ogg"];
+    _sound = selectRandom ["Rebalancemod\sounds\whistle\whistle1.ogg", "Rebalancemod\sounds\whistle\whistle2.ogg"];
     playSound3D [ _sound, player, false, getPosASL player, 1, 1, Whistle_radius];
 };
 
@@ -127,8 +130,7 @@ RockPaperScissors={
 ["Seon Whistle", "Сделать свист тише", ["Сделать свист тише", "Персонаж будет свистеть на меньшую дистанцию, после нажатия этой кнопки"], {
     call Whistle_Mn
 }, {}, [DIK_3, [false, true, false]]] call CBA_fnc_addKeybind;
-<<<<<<< Updated upstream
-=======
+
 
 /* EventHandlers ======================= */
 /*
@@ -159,4 +161,3 @@ player addEventHandler ["fired",
     /* пояснения для игроков ======================= */
     
 [] execVM '\Rebalancemod\scripts\AddtoBreafing.sqf';
->>>>>>> Stashed changes

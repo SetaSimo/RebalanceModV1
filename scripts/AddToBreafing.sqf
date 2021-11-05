@@ -12,8 +12,3 @@ player createDiaryRecord [localize "STR_Important", [localize "STR_Cateen",  loc
 player createDiaryRecord [localize "STR_Important", [localize "STR_Control_header",  localize "STR_Control_info"]];
 
 
-
-
-
-
-

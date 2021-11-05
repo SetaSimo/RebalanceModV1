@@ -57,10 +57,20 @@ class CfgVehicles
 					condition = " 'ACE_WaterBottle_Half' in items _player || 'ACE_WaterBottle' in items _player || 'ACE_Canteen' in items _player || 'ACE_Canteen_Half' in items _player || 'ACE_Can_RedGull' in items _player || 'ACE_Can_Franta' in items _player || 'ACE_Can_Spirit' in items _player";
 					exceptions[] = {};
 					icon = "\po_canteen\canteen_action_icon.paa";
-					statement = "[player] call po_canteen_fnc_canteenDrink";
-					//icon = "\RebalanceMod\pics\canteen_action_icon_2.paa";
-				}
-			}
+
+
+					statement = "[_player] call po_canteen_fnc_canteenDrink";
+					//icon = "\RebalanceMod\pics\canteen_action_icon.paa";
+				};
+			};
+
+			class holdingMethod {
+                displayName = "Change method of holding";
+                condition = "(('rhs_weap_ak74m' in primaryWeapon _player) and !('rhs_weap_ak74mr' in primaryWeapon _player) and (weaponState _player select 6 isEqualTo 0))";
+                exceptions[] = {"notOnMap"};
+                statement = "[_target, _player, _actionParams] call Kot_fnc_addWeapon";
+            };
+
 		};
 		class ACE_Actions
 		{
@@ -76,8 +86,8 @@ class CfgVehicles
 					showDisabled = 1;
 					priority = 1;
 					icon = "\RebalanceMod\pics\canteen_action_icon.paa";
-				}
-			}
-		}
+				};
+			};
+		};
 	};
 };

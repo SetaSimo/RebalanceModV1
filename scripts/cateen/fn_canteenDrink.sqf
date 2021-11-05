@@ -1,7 +1,7 @@
-﻿params ["_unit"];
+params ["_unit"];
 
 _IsUsed=true;
-<<<<<<< Updated upstream
+
 /* ACE_WaterBottle_Empty,ACE_WaterBottle_Half,ACE_WaterBottle/ACE_Canteen,ACE_Canteen_Half,ACE_Canteen_Empty,
 ACE_Can_RedGull,ACE_Can_Franta,ACE_Can_Spirit
 Stringable
@@ -151,6 +151,6 @@ if ("ACE_Can_Spirit" in items _unit && _IsUsed) then {
     _unit removeItem "ACE_Can_Spirit";
     _unit setFatigue 0;
     _unit setStamina 600;
->>>>>>> Stashed changes
+
 };
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
