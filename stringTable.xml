@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project name="RebalanceMod">
     <Package name="RebalanceMod">
 
@@ -60,7 +60,8 @@
                 <Russian>30Птр. АК-74 (пуст.) 7Т3М</Russian>
             </Key>
 
-            <Key ID="STR_BakCamo7N6">STR_BakCamo7N6
+            <Key ID="STR_BakCamo7N6">
+                STR_BakCamo7N6
                 <English>30rd AK-74 7N22 (Camo)</English>
                 <Russian>30Птр. АК-74 (камуф.) 7Н22</Russian>
             </Key>
@@ -78,8 +79,8 @@
             </Key>
 
 
-
-            <Key ID="STR_BakPlum7N6">STR_BakPlum7N6
+            <Key ID="STR_BakPlum7N6">
+                STR_BakPlum7N6
                 <English>30rd AK-74 7N22 </English>
                 <Russian>30Птр. АК-74  7Н22</Russian>
             </Key>
@@ -95,14 +96,6 @@
                 <English>30rd AK-74 7T3M </English>
                 <Russian>30Птр. АК-74  7Т3М</Russian>
             </Key>
-
-
-
-
-
-
-
-
 
 
             <Key ID="STR_Spar7N6">
@@ -129,10 +122,6 @@
                 <English>30rd AK-74 (2x/Plum) 7T3M Tracer</English>
                 <Russian>30Птр. АК-74 2x 7Т3М</Russian>
             </Key>
-
-
-
-
 
 
             <Key ID="STR_Spar7N6Plum">
@@ -256,8 +245,10 @@
                 <Russian>30Птр. АК-74 (2x/камуф.) HP</Russian>
             </Key>
         </Container>
+
+        
         <Container name="Res">
-            
+
             <Key ID="STR_T_5000_Winter">
                 <English>T-5000 (Winter)</English>
                 <Russian>T-5000 (Зимний)</Russian>
@@ -267,6 +258,8 @@
                 <Russian>T-5000 (Лесной)</Russian>
             </Key>
         </Container>
+
+
         <Container name="Canteen">
 
             <Key ID="STR_Cateen">
@@ -278,8 +271,10 @@
                 <English>Pour water</English>
                 <Russian>Облить водой</Russian>
             </Key>
-
-
+            <Key ID="STR_Drink_Cateen">
+                <English>Drink</English>
+                <Russian>Попить</Russian>
+            </Key>
 
             <Key ID="STR_Half_Cateen">
                 <English>You drink from canteen. Now it's half-filled</English>
@@ -299,48 +294,62 @@
             </Key>
 
 
-            
             <Key ID="STR_Water_Wake_Up">
                 <English>You doused the soldier with water, he will wake up soon</English>
-                <Russian>Вы облили бойца водой, он скоро встанет</Russian>
+                <Russian>Вы облили бойца водой, он скоро очнется</Russian>
             </Key>
             <Key ID="STR_Water_No_Result">
                 <English>You doused the soldier with water, he's still unconscious</English>
                 <Russian>Вы облили бойца водой, он все еще без сознания</Russian>
             </Key>
 
-        </Container>   
 
+        </Container>         
+
+        </Container>
 
 
         <Container name="briefing">
 
-            <Key ID="$STR_Important">
+            <Key ID="STR_Important">
                 <English>Important things</English>
                 <Russian>Важные штуки</Russian>
             </Key>
             <Key ID="STR_Cateen_info">
-                <English>Заглушка</English>
-                <Russian>Заглушка</Russian>
+                <English>
+                The flask / water bottle can be used 3 times, there are 2 options for its use:&lt;br/&gt;
+                1) To restore stamina,&lt;br/&gt;
+                2) To speed up recovery from unconsciousness.&lt;br/&gt;
+            </English>
+                <Russian>
+                Флягой/бутылкой с водой можно воспользоваться 3 раза, есть 2 варианта ее использования:&lt;br/&gt;
+                1)Для восстановления стамины, &lt;br/&gt;
+                2)Для ускорения восстановления из безсознательного состояния.&lt;br/&gt;
+            </Russian>
             </Key>
-            <Key ID="STR_Animations_header">
-                <English>Заглушка</English>
-                <Russian>Заглушка</Russian>
+            <Key ID="STR_Control_header">
+                <English>Control</English>
+                <Russian>Управление</Russian>
             </Key>
-            <Key ID="STR_Animations_info">
-                <English>Заглушка</English>
-                <Russian>Заглушка</Russian>
+            <Key ID="STR_Control_info">
+                <English>
+                    Turn off interface: Ctrl + Shift + F2, &lt;br/&gt;
+                    Enable interface: Ctrl + Shift + F3,&lt;br/&gt;
+                    Stone, scissors, paper: Shift + 1,&lt;br/&gt;
+                    Whistle: Ctrl + 1,&lt;br/&gt;
+                    Increase whistle distance: Ctrl + 2,&lt;br/&gt;
+                    Decrease whistle distance: Ctrl + 3.&lt;br/&gt;
+                </English>
+                <Russian>
+                    Выключить интерфейс: Ctrl+Shift+F2,&lt;br/&gt;
+                    Включить интерфейс: Ctrl+Shift+F3,&lt;br/&gt;
+                    Камень,ножницы,бумага: Shift+1,&lt;br/&gt;
+                    Свист: Ctrl+1,&lt;br/&gt;
+                    Увеличить дистанцию свиста: Ctrl+2,&lt;br/&gt;
+                    Уменьшить дистанцию свиста: Ctrl+3.&lt;br/&gt;
+                </Russian>
             </Key>
-            <Key ID="STR_Whistle_header">
-                <English>Заглушка</English>
-                <Russian>Взайствие с механникой свиста</Russian>
-            </Key>
-            <Key ID="STR_Whistle_info">
-                <English>Заглушка</English>
-                <Russian>Заглушка</Russian>
-            </Key>
-
-        </Container>   
+        </Container>
 
 
 

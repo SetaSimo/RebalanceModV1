@@ -131,6 +131,7 @@ RockPaperScissors={
     call Whistle_Mn
 }, {}, [DIK_3, [false, true, false]]] call CBA_fnc_addKeybind;
 
+
 /* EventHandlers ======================= */
 /*
 player addEventHandler ["fired",
@@ -159,4 +160,4 @@ player addEventHandler ["fired",
     
     /* пояснения для игроков ======================= */
     
-    // [] execVM '\Rebalancemod\scripts\AddtoBreafing.sqf';
+[] execVM '\Rebalancemod\scripts\AddtoBreafing.sqf';

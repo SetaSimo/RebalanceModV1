@@ -57,6 +57,8 @@ class CfgVehicles
 					condition = " 'ACE_WaterBottle_Half' in items _player || 'ACE_WaterBottle' in items _player || 'ACE_Canteen' in items _player || 'ACE_Canteen_Half' in items _player || 'ACE_Can_RedGull' in items _player || 'ACE_Can_Franta' in items _player || 'ACE_Can_Spirit' in items _player";
 					exceptions[] = {};
 					icon = "\po_canteen\canteen_action_icon.paa";
+
+
 					statement = "[_player] call po_canteen_fnc_canteenDrink";
 					//icon = "\RebalanceMod\pics\canteen_action_icon.paa";
 				};
@@ -68,6 +70,7 @@ class CfgVehicles
                 exceptions[] = {"notOnMap"};
                 statement = "[_target, _player, _actionParams] call Kot_fnc_addWeapon";
             };
+
 		};
 		class ACE_Actions
 		{
@@ -78,7 +81,7 @@ class CfgVehicles
 					displayName = $STR_Water_Heal;
 					distance = 2.0;
 					condition = "('ACE_WaterBottle_Half' in items _player || 'ACE_WaterBottle' in items _player || 'ACE_Canteen' in items _player || 'ACE_Canteen_Half' in items _player) && _target getVariable ['ACE_isUnconscious',false]";
-					statement = "[_player, _target] call po_canteen_fnc_pourWater";
+					statement = "[player, _target] call po_canteen_fnc_pourWater";
 					exceptions[] = {};
 					showDisabled = 1;
 					priority = 1;
