@@ -520,7 +520,8 @@ class cfgAmmo
 	};
 
 	//Gp
-	class G_40mm_HE{
+	class G_40mm_HE;
+	/*class G_40mm_HE{
 		airFriction = -0.00046; 
 		timeToLive = 60;
 		ace_frag_metal = 190;     
@@ -531,7 +532,7 @@ class cfgAmmo
 		ace_frag_force = 1;
 		indirectHit = 5;
 		indirectHitRange = 1.4;
-	};
+	};*/
 	class rhs_ammo_VOG30: G_40mm_HE
 	{
 		indirectHit = 6;

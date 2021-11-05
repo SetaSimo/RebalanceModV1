@@ -7,7 +7,7 @@
 #include "CfgVehicles.cpp" 
 #include "CfgAmmo.hpp" 
 #include "CfgMoves.hpp" 
-
+#include "CfgSounds.cpp" 
 
 
 
@@ -16,8 +16,8 @@ class CfgPatches
 {
 	class recoilV2
 	{
-
-
+		name = "RebalanceMod";
+		author = "AIR Team";
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 1.1;
@@ -62,6 +62,27 @@ class CfgFunctions{
 			};
 		};
 	};
+
+=======
+	class Seon_Smoke
+	{
+		class functions
+		{
+			file="\RebalanceMod\scripts\smoke";
+			class PlayerCough
+			{
+			};
+		};
+	};
+	class Kot
+    {
+        class WeaponInteractions
+        {
+            file = "\RebalanceMod\scripts\maghold";
+            
+            class addWeapon {};
+        };
+    };
 };
 
 
