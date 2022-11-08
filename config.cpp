@@ -8,7 +8,7 @@
 #include "CfgAmmo.hpp" 
 #include "CfgMoves.hpp" 
 #include "CfgSounds.cpp" 
-
+#include "CfgCswGroups.cpp"
 
 
 
@@ -34,7 +34,8 @@ class CfgPatches
 			"rhsgref_c_weapons",
 			"rhsusf_c_weapons",
 			"ace_noidle",
-			"ace_compat_rhs_afrf3"
+			"ace_compat_rhs_afrf3",
+			"ace_grenades"
 		};
 	};
 };
@@ -62,18 +63,6 @@ class CfgFunctions{
 			};
 		};
 	};
-
-=======
-	class Seon_Smoke
-	{
-		class functions
-		{
-			file="\RebalanceMod\scripts\smoke";
-			class PlayerCough
-			{
-			};
-		};
-	};
 	class Kot
     {
         class WeaponInteractions
@@ -84,7 +73,6 @@ class CfgFunctions{
         };
     };
 };
-
 
 class RscStandardDisplay;
 class RscDisplayMain: RscStandardDisplay {

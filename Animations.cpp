@@ -35,7 +35,7 @@ class CfgGesturesMale {
 			canPullTrigger=1;
 			disableWeapons=0;
 			disableWeaponsLong=0;
-			canReload=0;
+			canReload = 1;
 			enableBinocular=0;
 			enableMissile=0;
 			headBobMode=2;
@@ -59,7 +59,7 @@ class CfgGesturesMale {
 			canPullTrigger=1;
 			disableWeapons=0;
 			disableWeaponsLong=0;
-			canReload=0;
+			canReload = 1;
 			enableBinocular=0;
 			enableMissile=0;
 			headBobMode=2;
@@ -87,7 +87,7 @@ class CfgGesturesMale {
 			speed=0.55000001;
 			enableOptics=1;
 			canPullTrigger=1;
-			canReload=0;
+			canReload = 1;
 			mask="leftHand";
 			leftHandIKBeg=0;
 			leftHandIKEnd=0;
@@ -105,70 +105,3 @@ class CfgGesturesMale {
 
 	};
 };
-
-
-
-
-
-
-
-
-
-
-// class DefaultEventhandlers;
-// class CfgMovesBasic
-// {
-
-
-// 	class Actions
-// 	{
-// 		class ManActions{
-
-// 		Gesturearmst_clockl="Gesturearmst_clockl";
-// 		Gesturecompass = "Gesturecompass";
-
-// 		};
-
-
-// 		class NoActions: ManActions
-// 			{
-
-// 				Gesturearmst_clockl[] = {"Gesturearmst_clockl", "Gesture"};
-// 				Gesturecompass[] = {"Gesturecompass", "Gesture"};
-
-// 		};
-
-// 	};
-
-// };
-
-// class CfgGesturesMale
-// {
-// 	skeletonName="OFP2_ManSkeleton";
-
-// 	class Default;
-// 	class States
-// 	{
-
-
-// 		class Gesturearmst_clockl : Default
-// 		{
-// 			looped = 0;
-// 			file = "RebalanceMod\animations\armst_clockl.rtm";
-// 			speed = 1;
-// 			mask = "LeftHand";
-// 			rightHandIKCurve[] = {1, 1, 0.05, 1, 0.95, 1, 1, 1};
-// 			leftHandIKCurve[] = {0.1};
-// 		};
-
-// 		class Gesturecompass : Default
-// 		{
-// 			looped = 0;
-// 			file = "RebalanceMod\animations\armst_compass.rtm";
-// 			speed = 1;
-// 			mask = "LeftHand";
-// 			rightHandIKCurve[] = {1, 1, 0.05, 1, 0.95, 1, 1, 1};
-// 			leftHandIKCurve[] = {0.1};
-// 		};
-// 	};
-// };

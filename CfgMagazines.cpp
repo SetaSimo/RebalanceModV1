@@ -1,696 +1,535 @@
 class CfgMagazines
 {
 	class CA_Magazine;
-	// конфиги под 60 и 45
-    	class rhs_30Rnd_545x39_AK : CA_Magazine 
+	class VehicleMagazine;
+	class RHS_mag_VOG17m_30;
+
+	class RHS_mag_VOG30_30 : VehicleMagazine
 	{
-		tracersEvery=3;
-		lastRoundsTracer=3;
-    };
+		ace_isbelt = 1;
+	};
+	class RHS_mag_GPD30_30 : RHS_mag_VOG30_30
+	{
+		picture = "\vtn_tripode_ags30_cf\ico\vtn_ags30_30mag_ca.paa";
+		model = "vtn_tripode_ags30_md\ags_magaz";
+	};
+
+	class rhs_mag_127x108mm_50 : VehicleMagazine
+	{
+		model = "\vtn_tripode_nsvs_6t7_md\nsvs_6t7_magaz.p3d";
+		picture = "\vtn_tripode_kord_6t20_cf\ico\vtn_kord_50s_api_ca.paa";
+	};
+	class rhs_mag_127x108mm_150 : rhs_mag_127x108mm_50
+	{
+		model = "\vtn_tripode_nsvs_6t7_md\nsvs_6t7_magaz.p3d";
+		picture = "\vtn_tripode_kord_6t20_cf\ico\vtn_kord_50s_api_ca.paa";
+	};
+	class rhs_mag_127x108mm_1470 : rhs_mag_127x108mm_50
+	{
+		model = "\vtn_tripode_nsvs_6t7_md\nsvs_6t7_magaz.p3d";
+		picture = "\vtn_tripode_kord_6t20_cf\ico\vtn_kord_50s_api_ca.paa";
+	};
+
+	// конфиги под 60 и 45
+	class rhs_30Rnd_545x39_AK : CA_Magazine
+	{
+		tracersEvery = 3;
+		lastRoundsTracer = 3;
+	};
 
 	class rhs_30Rnd_545x39_7N6_AK : rhs_30Rnd_545x39_AK
 	{
-		tracersEvery=3;
-		lastRoundsTracer=3;
-    };        
+		tracersEvery = 3;
+		lastRoundsTracer = 3;
+	};
 	class rhs_30Rnd_545x39_7N10_AK : rhs_30Rnd_545x39_7N6_AK
 	{
-		tracersEvery=3;
-		lastRoundsTracer=3;
-    };
-
-
-
+		tracersEvery = 3;
+		lastRoundsTracer = 3;
+	};
 
 	class rhs_30Rnd_545x39_7N22_Bakelite_AK : rhs_30Rnd_545x39_7N6_AK
 	{
+		displayName = $STR_Bak7N22;
+		displayNameShort = "7N22";
+		ammo = rhs_B_545x39_7N22_Ball;
 
-		displayName					= $STR_Bak7N22;
-		displayNameShort			= "7N22";
-		ammo						= rhs_B_545x39_7N22_Ball;
-
-		tracersEvery=3;
-		lastRoundsTracer=3;
+		tracersEvery = 3;
+		lastRoundsTracer = 3;
 	};
 	class rhs_30Rnd_545x39_7N24_Bakelite_AK : rhs_30Rnd_545x39_7N6_AK
 	{
+		displayName = $STR_Bak7N24;
+		displayNameShort = "7N24";
+		ammo = rhs_B_545x39_7N24_Ball;
 
-		displayName					= $STR_Bak7N24;
-		displayNameShort			= "7N24";
-		ammo						= rhs_B_545x39_7N24_Ball;
-
-		tracersEvery=3;
-		lastRoundsTracer=3;
+		tracersEvery = 3;
+		lastRoundsTracer = 3;
 	};
 
 	class rhs_30Rnd_545x39_7U1_Bakelite_AK : rhs_30Rnd_545x39_7N6_AK
 	{
+		displayName = $STR_Bak7U1;
+		displayNameShort = "7U1";
+		ammo = rhs_B_545x39_7U1_Ball;
 
-		displayName					= $STR_Bak7U1;
-		displayNameShort			= "7U1";
-		ammo						= rhs_B_545x39_7U1_Ball;
-
-		tracersEvery=3;
-		lastRoundsTracer=3;
+		tracersEvery = 3;
+		lastRoundsTracer = 3;
 	};
-
-
 
 	//Бакелит зеленый
 
-
 	class rhs_30Rnd_545x39_7N6_green_AK : rhs_30Rnd_545x39_7N6_AK
 	{
-
-		tracersEvery=3;
-		lastRoundsTracer=3;
+		tracersEvery = 3;
+		lastRoundsTracer = 3;
 	};
-	
+
 	class rhs_30Rnd_545x39_7N10_AK_Green : rhs_30Rnd_545x39_AK
 	{
+		displayName = $STR_Bak7N10;
+		displayNameShort = "7N10";
+		ammo = rhs_B_545x39_7N10_Ball;
 
-		displayName					= $STR_Bak7N10;
-		displayNameShort			= "7N10";
-		ammo						= rhs_B_545x39_7N10_Ball;
-
-		tracersEvery=3;
-		lastRoundsTracer=3;
+		tracersEvery = 3;
+		lastRoundsTracer = 3;
 	};
 
 	class rhs_30Rnd_545x39_7N22_AK_Green : rhs_30Rnd_545x39_7N6_green_AK
 	{
+		displayName = $STR_BakGreen7N22;
+		displayNameShort = "7N22";
+		ammo = rhs_B_545x39_7N22_Ball;
 
-		displayName					= $STR_BakGreen7N22;
-		displayNameShort			= "7N22";
-		ammo						= rhs_B_545x39_7N22_Ball;
-
-		tracersEvery=3;
-		lastRoundsTracer=3;
+		tracersEvery = 3;
+		lastRoundsTracer = 3;
 	};
 
 	class rhs_30Rnd_545x39_7N24_AK_Green : rhs_30Rnd_545x39_7N6_green_AK
 	{
+		displayName = $STR_BakGreen7N24;
+		displayNameShort = "7N24";
+		ammo = rhs_B_545x39_7N24_Ball;
 
-		displayName					= $STR_BakGreen7N24;
-		displayNameShort			= "7N24";
-		ammo						= rhs_B_545x39_7N24_Ball;
-
-		tracersEvery=3;
-		lastRoundsTracer=3;
+		tracersEvery = 3;
+		lastRoundsTracer = 3;
 	};
 
 	class rhs_30Rnd_545x39_7U1_AK_Green : rhs_30Rnd_545x39_7N6_green_AK
 	{
+		displayName = $STR_BakGreen7U1;
+		displayNameShort = "7U1";
+		ammo = rhs_B_545x39_7U1_Ball;
 
-		displayName					= $STR_BakGreen7U1;
-		displayNameShort			= "7U1";
-		ammo						= rhs_B_545x39_7U1_Ball;
-
-		tracersEvery=3;
-		lastRoundsTracer=3;
+		tracersEvery = 3;
+		lastRoundsTracer = 3;
 	};
 
 	class rhs_30Rnd_545x39_7T3M_AK_Green : rhs_30Rnd_545x39_7N6_green_AK
 	{
-
-		displayName					= $STR_BakGreen7T3M;
-		displayNameShort			= "7T3M Tracer";
-		ammo						=rhs_B_545x39_Ball_Tracer_Green;
-		tracersEvery				= 1;
+		displayName = $STR_BakGreen7T3M;
+		displayNameShort = "7T3M Tracer";
+		ammo = rhs_B_545x39_Ball_Tracer_Green;
+		tracersEvery = 1;
 	};
 
- 
-
-
-
-
-	// песчанный 
+	// песчанный
 	class rhs_30Rnd_545x39_7N10_desert_AK : rhs_30Rnd_545x39_7N10_AK
 	{
-
-		tracersEvery=3;
-		lastRoundsTracer=3;
+		tracersEvery = 3;
+		lastRoundsTracer = 3;
 	};
 
 	class rhs_30Rnd_545x39_7N6_AK_Deser : rhs_30Rnd_545x39_7N10_desert_AK
 	{
+		displayName = $STR_BakDesert7N6;
+		displayNameShort = "7N6";
+		ammo = rhs_B_545x39_7N6_Ball;
 
-		displayName					= $STR_BakDesert7N6;
-		displayNameShort			= "7N6";
-		ammo						= rhs_B_545x39_7N6_Ball;
-
-		tracersEvery=3;
-		lastRoundsTracer=3;
+		tracersEvery = 3;
+		lastRoundsTracer = 3;
 	};
 
 	class rhs_30Rnd_545x39_7N24_AK_Deser : rhs_30Rnd_545x39_7N10_desert_AK
 	{
+		displayName = $STR_BakDesert7N24;
+		displayNameShort = "7N24";
+		ammo = rhs_B_545x39_7N24_Ball;
 
-		displayName					= $STR_BakDesert7N24;
-		displayNameShort			= "7N24";
-		ammo						= rhs_B_545x39_7N24_Ball;
-
-		tracersEvery=3;
-		lastRoundsTracer=3;
+		tracersEvery = 3;
+		lastRoundsTracer = 3;
 	};
 
 	class rhs_30Rnd_545x39_7U1_AK_Deser : rhs_30Rnd_545x39_7N10_desert_AK
 	{
+		displayName = $STR_BakDesert7U1;
+		displayNameShort = "7U1";
+		ammo = rhs_B_545x39_7U1_Ball;
 
-		displayName					= $STR_BakDesert7U1;
-		displayNameShort			= "7U1";
-		ammo						= rhs_B_545x39_7U1_Ball;
-
-		tracersEvery=3;
-		lastRoundsTracer=3;
+		tracersEvery = 3;
+		lastRoundsTracer = 3;
 	};
 
 	class rhs_30Rnd_545x39_7T3M_AK_Deser : rhs_30Rnd_545x39_7N10_desert_AK
 	{
-
-		displayName					= $STR_BakDesert7T3M;
-		displayNameShort			= "7T3M Tracer";
-		ammo						=rhs_B_545x39_Ball_Tracer_Green;
-		tracersEvery				= 1;
+		displayName = $STR_BakDesert7T3M;
+		displayNameShort = "7T3M Tracer";
+		ammo = rhs_B_545x39_Ball_Tracer_Green;
+		tracersEvery = 1;
 	};
-
 
 	//камуфляж
 
-
-
 	class rhs_30Rnd_545x39_7N10_camo_AK : rhs_30Rnd_545x39_7N10_AK
 	{
-
-		tracersEvery=3;
-		lastRoundsTracer=3;
+		tracersEvery = 3;
+		lastRoundsTracer = 3;
 	};
 
 	class rhs_30Rnd_545x39_7N6_camo_AK : rhs_30Rnd_545x39_7N10_camo_AK
 	{
-		displayName					= $STR_BakCamo7N6;
-		displayNameShort			= "7N6";
-		ammo						= rhs_B_545x39_7N6_Ball;
-		tracersEvery=3;
-		lastRoundsTracer=3;
+		displayName = $STR_BakCamo7N6;
+		displayNameShort = "7N6";
+		ammo = rhs_B_545x39_7N6_Ball;
+		tracersEvery = 3;
+		lastRoundsTracer = 3;
 	};
 
 	class rhs_30Rnd_545x39_7N24_camo_AK : rhs_30Rnd_545x39_7N10_camo_AK
 	{
-		displayName					= $STR_BakCamo7N24;		
-		displayNameShort			= "7N24";
-		ammo						= rhs_B_545x39_7N24_Ball;
-		tracersEvery=3;
-		lastRoundsTracer=3;
+		displayName = $STR_BakCamo7N24;
+		displayNameShort = "7N24";
+		ammo = rhs_B_545x39_7N24_Ball;
+		tracersEvery = 3;
+		lastRoundsTracer = 3;
 	};
 
 	class rhs_30Rnd_545x39_7U1_camo_AK : rhs_30Rnd_545x39_7N10_camo_AK
 	{
-
-
-		displayName					= $STR_BakCamo7U1;		
-		displayNameShort			= "7U1";
-		ammo						= rhs_B_545x39_7U1_Ball;
-		tracersEvery=3;
-		lastRoundsTracer=3;
+		displayName = $STR_BakCamo7U1;
+		displayNameShort = "7U1";
+		ammo = rhs_B_545x39_7U1_Ball;
+		tracersEvery = 3;
+		lastRoundsTracer = 3;
 	};
 
 	class rhs_30Rnd_545x39_7T3M_camo_AK : rhs_30Rnd_545x39_7N10_camo_AK
 	{
-		displayName					= $STR_BakCamo7T3M;		
-		displayNameShort			= "7T3M Tracer";
-		ammo						=rhs_B_545x39_Ball_Tracer_Green;
-		tracersEvery				= 1;
-
+		displayName = $STR_BakCamo7T3M;
+		displayNameShort = "7T3M Tracer";
+		ammo = rhs_B_545x39_Ball_Tracer_Green;
+		tracersEvery = 1;
 	};
 
-		//
+	//
 
 	class rhs_30Rnd_545x39_7N22_AK : rhs_30Rnd_545x39_7N10_AK
 	{
-		tracersEvery=3;
-		lastRoundsTracer=3;
+		tracersEvery = 3;
+		lastRoundsTracer = 3;
 	};
-		//
-
+	//
 
 	class rhs_30Rnd_545x39_7N22_plum_AK : rhs_30Rnd_545x39_7N22_AK
 	{
-		tracersEvery=3;
-		lastRoundsTracer=3;
+		tracersEvery = 3;
+		lastRoundsTracer = 3;
 	};
-
-
 
 	class rhs_30Rnd_545x39_7N6_plum_AK : rhs_30Rnd_545x39_7N22_plum_AK
 	{
-		displayName					= $STR_BakPlum7N6;
-		displayNameShort			= "7N6";
-		ammo						= rhs_B_545x39_7N6_Ball;
-		tracersEvery=3;
-		lastRoundsTracer=3;
+		displayName = $STR_BakPlum7N6;
+		displayNameShort = "7N6";
+		ammo = rhs_B_545x39_7N6_Ball;
+		tracersEvery = 3;
+		lastRoundsTracer = 3;
 	};
 
 	class rhs_30Rnd_545x39_7N24_plum_AK : rhs_30Rnd_545x39_7N22_plum_AK
 	{
-		displayName					= $STR_BakPlum7N24;		
-		displayNameShort			= "7N24";
-		ammo						= rhs_B_545x39_7N24_Ball;
-		tracersEvery=3;
-		lastRoundsTracer=3;
+		displayName = $STR_BakPlum7N24;
+		displayNameShort = "7N24";
+		ammo = rhs_B_545x39_7N24_Ball;
+		tracersEvery = 3;
+		lastRoundsTracer = 3;
 	};
 
 	class rhs_30Rnd_545x39_7U1_plum_AK : rhs_30Rnd_545x39_7N22_plum_AK
 	{
-
-
-		displayName					= $STR_BakPlum7U1;		
-		displayNameShort			= "7U1";
-		ammo						= rhs_B_545x39_7U1_Ball;
-		tracersEvery=3;
-		lastRoundsTracer=3;
+		displayName = $STR_BakPlum7U1;
+		displayNameShort = "7U1";
+		ammo = rhs_B_545x39_7U1_Ball;
+		tracersEvery = 3;
+		lastRoundsTracer = 3;
 	};
 
 	class rhs_30Rnd_545x39_7T3M_plum_AK : rhs_30Rnd_545x39_7N22_plum_AK
 	{
-		displayName					= $STR_BakPlum7T3M;		
-		displayNameShort			= "7T3M Tracer";
-		ammo						=rhs_B_545x39_Ball_Tracer_Green;
-		tracersEvery				= 1;
-
+		displayName = $STR_BakPlum7T3M;
+		displayNameShort = "7T3M Tracer";
+		ammo = rhs_B_545x39_Ball_Tracer_Green;
+		tracersEvery = 1;
 	};
-
-
-
-
-
-
-
-
-
-
-
 
 	// спарки
 
 	class rhs_30Rnd_545x39_7N10_2mag_AK : rhs_30Rnd_545x39_7N10_AK
 	{
-		mass						= 6,95;
-		tracersEvery=3;
-		lastRoundsTracer=3;
+		mass = 6, 95;
+		tracersEvery = 3;
+		lastRoundsTracer = 3;
 	};
-
 
 	class rhs_30Rnd_545x39_7N6_2mag_AK : rhs_30Rnd_545x39_7N10_2mag_AK
 	{
+		displayName = $STR_Spar7N6;
+		displayNameShort = "7N6";
+		ammo = rhs_B_545x39_7N6_Ball;
+		mass = 6, 95;
 
-		displayName					= $STR_Spar7N6;
-		displayNameShort			= "7N6";
-		ammo						= rhs_B_545x39_7N6_Ball;
-		mass						= 6,95;
-
-		tracersEvery=3;
-		lastRoundsTracer=3;
+		tracersEvery = 3;
+		lastRoundsTracer = 3;
 	};
 
 	class rhs_30Rnd_545x39_7N22_2mag_AK : rhs_30Rnd_545x39_7N10_2mag_AK
 	{
+		displayName = $STR_Spar7N22;
+		displayNameShort = "7N22";
+		ammo = rhs_B_545x39_7N22_Ball;
+		mass = 6, 95;
 
-		displayName					= $STR_Spar7N22;
-		displayNameShort			= "7N22";
-		ammo						= rhs_B_545x39_7N22_Ball;
-		mass						= 6,95;
-
-		tracersEvery=3;
-		lastRoundsTracer=3;
+		tracersEvery = 3;
+		lastRoundsTracer = 3;
 	};
 
 	class rhs_30Rnd_545x39_7N24_2mag_AK : rhs_30Rnd_545x39_7N10_2mag_AK
 	{
+		displayName = $STR_Spar7N24;
+		displayNameShort = "7N24";
+		ammo = rhs_B_545x39_7N24_Ball;
+		mass = 6, 95;
 
-		displayName					= $STR_Spar7N24;
-		displayNameShort			= "7N24";
-		ammo						= rhs_B_545x39_7N24_Ball;
-		mass						= 6,95;
-
-		tracersEvery=3;
-		lastRoundsTracer=3;
+		tracersEvery = 3;
+		lastRoundsTracer = 3;
 	};
 
 	class rhs_30Rnd_545x39_7NU1_2mag_AK : rhs_30Rnd_545x39_7N10_2mag_AK
 	{
+		displayName = $STR_Spar7N6;
+		displayNameShort = "7U1";
+		ammo = rhs_B_545x39_7U1_Ball;
+		mass = 6, 95;
 
-		displayName					= $STR_Spar7N6;
-		displayNameShort			= "7U1";
-		ammo						= rhs_B_545x39_7U1_Ball;
-		mass						= 6,95;
-
-		tracersEvery=3;
-		lastRoundsTracer=3;
+		tracersEvery = 3;
+		lastRoundsTracer = 3;
 	};
 
 	class rhs_30Rnd_545x39_7T3M_2mag_AK : rhs_30Rnd_545x39_7N10_2mag_AK
 	{
-
-		displayName					= $STR_Spar7T3M;
-		displayNameShort			= "7T3M Tracer";
-		ammo						=rhs_B_545x39_Ball_Tracer_Green;
-		tracersEvery				= 1;
-		mass						= 6,95;
-
-
-
+		displayName = $STR_Spar7T3M;
+		displayNameShort = "7T3M Tracer";
+		ammo = rhs_B_545x39_Ball_Tracer_Green;
+		tracersEvery = 1;
+		mass = 6, 95;
 	};
-
-
-
 
 	class rhs_30Rnd_545x39_7N10_2mag_plum_AK : rhs_30Rnd_545x39_7N10_2mag_AK
 	{
-		mass						= 6,95;
-		tracersEvery=3;
-		lastRoundsTracer=3;
+		mass = 6, 95;
+		tracersEvery = 3;
+		lastRoundsTracer = 3;
 	};
-
-
-
-
-
 
 	class rhs_30Rnd_545x39_7N6_2mag_plum_AK : rhs_30Rnd_545x39_7N10_2mag_plum_AK
 	{
+		displayName = $STR_Spar7N6Plum;
+		displayNameShort = "7N6";
+		ammo = rhs_B_545x39_7N6_Ball;
+		mass = 6, 95;
 
-		displayName					= $STR_Spar7N6Plum;
-		displayNameShort			= "7N6";
-		ammo						= rhs_B_545x39_7N6_Ball;
-		mass						= 6,95;
-
-		tracersEvery=3;
-		lastRoundsTracer=3;
+		tracersEvery = 3;
+		lastRoundsTracer = 3;
 	};
 
 	class rhs_30Rnd_545x39_7N22_2mag_plum_AK : rhs_30Rnd_545x39_7N10_2mag_plum_AK
 	{
+		displayName = $STR_Spar7N22Plum;
+		displayNameShort = "7N22";
+		ammo = rhs_B_545x39_7N22_Ball;
+		mass = 6, 95;
 
-		displayName					= $STR_Spar7N22Plum;
-		displayNameShort			= "7N22";
-		ammo						= rhs_B_545x39_7N22_Ball;
-		mass						= 6,95;
-
-		tracersEvery=3;
-		lastRoundsTracer=3;
+		tracersEvery = 3;
+		lastRoundsTracer = 3;
 	};
 
 	class rhs_30Rnd_545x39_7N24_2mag_plum_AK : rhs_30Rnd_545x39_7N10_2mag_plum_AK
 	{
+		displayName = $STR_Spar7N24Plum;
+		displayNameShort = "7N24";
+		ammo = rhs_B_545x39_7N24_Ball;
+		mass = 6, 95;
 
-		displayName					= $STR_Spar7N24Plum;
-		displayNameShort			= "7N24";
-		ammo						= rhs_B_545x39_7N24_Ball;
-		mass						= 6,95;
-
-		tracersEvery=3;
-		lastRoundsTracer=3;
+		tracersEvery = 3;
+		lastRoundsTracer = 3;
 	};
 
 	class rhs_30Rnd_545x39_7NU1_2mag_plum_AK : rhs_30Rnd_545x39_7N10_2mag_plum_AK
 	{
+		displayName = $STR_Spar7N6Plum;
+		displayNameShort = "7U1";
+		ammo = rhs_B_545x39_7U1_Ball;
+		mass = 6, 95;
 
-		displayName					= $STR_Spar7N6Plum;
-		displayNameShort			= "7U1";
-		ammo						= rhs_B_545x39_7U1_Ball;
-		mass						= 6,95;
-
-		tracersEvery=3;
-		lastRoundsTracer=3;
+		tracersEvery = 3;
+		lastRoundsTracer = 3;
 	};
 
 	class rhs_30Rnd_545x39_7T3M_2mag_plum_AK : rhs_30Rnd_545x39_7N10_2mag_plum_AK
 	{
-
-		displayName					= $STR_Spar7T3MPlum;
-		displayNameShort			= "7T3M Tracer";
-		ammo						=rhs_B_545x39_Ball_Tracer_Green;
-		tracersEvery				= 1;
-		mass						= 6,95;
-
-
+		displayName = $STR_Spar7T3MPlum;
+		displayNameShort = "7T3M Tracer";
+		ammo = rhs_B_545x39_Ball_Tracer_Green;
+		tracersEvery = 1;
+		mass = 6, 95;
 	};
-
-
-
-
-
-
 
 	class rhs_30Rnd_545x39_7N10_2mag_desert_AK : rhs_30Rnd_545x39_7N10_AK
 	{
-		mass						= 6,95;
-		tracersEvery=3;
-		lastRoundsTracer=3;
+		mass = 6, 95;
+		tracersEvery = 3;
+		lastRoundsTracer = 3;
 	};
-
-
-
-
 
 	class rhs_30Rnd_545x39_7N6_2mag_desert_AK : rhs_30Rnd_545x39_7N10_2mag_desert_AK
 	{
+		displayName = $STR_Spar7N6Des;
+		displayNameShort = "7N6";
+		ammo = rhs_B_545x39_7N6_Ball;
+		mass = 6, 95;
 
-		displayName					= $STR_Spar7N6Des;
-		displayNameShort			= "7N6";
-		ammo						= rhs_B_545x39_7N6_Ball;
-		mass						= 6,95;
-
-		tracersEvery=3;
-		lastRoundsTracer=3;
+		tracersEvery = 3;
+		lastRoundsTracer = 3;
 	};
 
 	class rhs_30Rnd_545x39_7N22_2mag_desert_AK : rhs_30Rnd_545x39_7N10_2mag_desert_AK
 	{
+		displayName = $STR_Spar7N22Des;
+		displayNameShort = "7N22";
+		ammo = rhs_B_545x39_7N22_Ball;
+		mass = 6, 95;
 
-		displayName					= $STR_Spar7N22Des;
-		displayNameShort			= "7N22";
-		ammo						= rhs_B_545x39_7N22_Ball;
-		mass						= 6,95;
-
-		tracersEvery=3;
-		lastRoundsTracer=3;
+		tracersEvery = 3;
+		lastRoundsTracer = 3;
 	};
 
 	class rhs_30Rnd_545x39_7N24_2mag_desert_AK : rhs_30Rnd_545x39_7N10_2mag_desert_AK
 	{
+		displayName = $STR_Spar7N24Des;
+		displayNameShort = "7N24";
+		ammo = rhs_B_545x39_7N24_Ball;
+		mass = 6, 95;
 
-		displayName					= $STR_Spar7N24Des;
-		displayNameShort			= "7N24";
-		ammo						= rhs_B_545x39_7N24_Ball;
-		mass						= 6,95;
-
-		tracersEvery=3;
-		lastRoundsTracer=3;
+		tracersEvery = 3;
+		lastRoundsTracer = 3;
 	};
 
 	class rhs_30Rnd_545x39_7NU1_2mag_desert_AK : rhs_30Rnd_545x39_7N10_2mag_desert_AK
 	{
+		displayName = $STR_Spar7N6Des;
+		displayNameShort = "7U1";
+		ammo = rhs_B_545x39_7U1_Ball;
+		mass = 6, 95;
 
-		displayName					= $STR_Spar7N6Des;
-		displayNameShort			= "7U1";
-		ammo						= rhs_B_545x39_7U1_Ball;
-		mass						= 6,95;
-
-		tracersEvery=3;
-		lastRoundsTracer=3;
+		tracersEvery = 3;
+		lastRoundsTracer = 3;
 	};
 
 	class rhs_30Rnd_545x39_7T3M_2mag_desert_AK : rhs_30Rnd_545x39_7N10_2mag_desert_AK
 	{
-
-		displayName					= $STR_Spar7T3MDes;
-		displayNameShort			= "7T3M Tracer";
-		ammo						=rhs_B_545x39_Ball_Tracer_Green;
-		tracersEvery				= 1;
-		mass						= 6,95;
-
-
+		displayName = $STR_Spar7T3MDes;
+		displayNameShort = "7T3M Tracer";
+		ammo = rhs_B_545x39_Ball_Tracer_Green;
+		tracersEvery = 1;
+		mass = 6, 95;
 	};
-
-
-
-
-
-
-
-
-
-
-
 
 	class rhs_30Rnd_545x39_7N10_2mag_camo_AK : rhs_30Rnd_545x39_7N10_2mag_plum_AK
 	{
-		mass						= 6,95;
-		tracersEvery=3;
-		lastRoundsTracer=3;
+		mass = 6, 95;
+		tracersEvery = 3;
+		lastRoundsTracer = 3;
 	};
-
-
-
 
 	class rhs_30Rnd_545x39_7N6_2mag_camo_AK : rhs_30Rnd_545x39_7N10_2mag_camo_AK
 	{
+		displayName = $STR_Spar7N6Camo;
+		displayNameShort = "7N6";
+		ammo = rhs_B_545x39_7N6_Ball;
+		mass = 6, 95;
 
-		displayName					= $STR_Spar7N6Camo;
-		displayNameShort			= "7N6";
-		ammo						= rhs_B_545x39_7N6_Ball;
-		mass						= 6,95;
-
-		tracersEvery=3;
-		lastRoundsTracer=3;
+		tracersEvery = 3;
+		lastRoundsTracer = 3;
 	};
 
 	class rhs_30Rnd_545x39_7N22_2mag_camo_AK : rhs_30Rnd_545x39_7N10_2mag_camo_AK
 	{
+		displayName = $STR_Spar7N22Camo;
+		displayNameShort = "7N22";
+		ammo = rhs_B_545x39_7N22_Ball;
+		mass = 6, 95;
 
-		displayName					= $STR_Spar7N22Camo;
-		displayNameShort			= "7N22";
-		ammo						= rhs_B_545x39_7N22_Ball;
-		mass						= 6,95;
-
-		tracersEvery=3;
-		lastRoundsTracer=3;
+		tracersEvery = 3;
+		lastRoundsTracer = 3;
 	};
 
 	class rhs_30Rnd_545x39_7N24_2mag_camo_AK : rhs_30Rnd_545x39_7N10_2mag_camo_AK
 	{
+		displayName = $STR_Spar7N24Camo;
+		displayNameShort = "7N24";
+		ammo = rhs_B_545x39_7N24_Ball;
+		mass = 6, 95;
 
-		displayName					= $STR_Spar7N24Camo;
-		displayNameShort			= "7N24";
-		ammo						= rhs_B_545x39_7N24_Ball;
-		mass						= 6,95;
-
-		tracersEvery=3;
-		lastRoundsTracer=3;
+		tracersEvery = 3;
+		lastRoundsTracer = 3;
 	};
 
 	class rhs_30Rnd_545x39_7NU1_2mag_camo_AK : rhs_30Rnd_545x39_7N10_2mag_camo_AK
 	{
+		displayName = $STR_Spar7U1Camo;
+		displayNameShort = "7U1";
+		ammo = rhs_B_545x39_7U1_Ball;
+		mass = 6, 95;
 
-		displayName					= $STR_Spar7U1Camo;
-		displayNameShort			= "7U1";
-		ammo						= rhs_B_545x39_7U1_Ball;
-		mass						= 6,95;
-
-		tracersEvery=3;
-		lastRoundsTracer=3;
+		tracersEvery = 3;
+		lastRoundsTracer = 3;
 	};
 
 	class rhs_30Rnd_545x39_7T3M_2mag_camo_AK : rhs_30Rnd_545x39_7N10_2mag_camo_AK
 	{
-
-		displayName					= $STR_Spar7T3MCamo;
-		displayNameShort			= "7T3M Tracer";
-		ammo						=rhs_B_545x39_Ball_Tracer_Green;
-		tracersEvery				= 1;
-		mass						= 6,95;
-
-
+		displayName = $STR_Spar7T3MCamo;
+		displayNameShort = "7T3M Tracer";
+		ammo = rhs_B_545x39_Ball_Tracer_Green;
+		tracersEvery = 1;
+		mass = 6, 95;
 	};
 
+	// csw
+	class mag_VOG17m_30 : RHS_mag_VOG17m_30
+	{
+		picture = "\vtn_tripode_ags30_cf\ico\vtn_ags30_30mag_ca.paa";
+		model = "vtn_tripode_ags30_md\ags_magaz";
+	};
 
+	class mag_VOG30_30 : RHS_mag_VOG30_30
+	{
+		picture = "\vtn_tripode_ags30_cf\ico\vtn_ags30_30mag_ca.paa";
+		model = "vtn_tripode_ags30_md\ags_magaz";
+	};
 
-
-
-
-// HP
-
-	// class rhs_30Rnd_545x39_7N6_HP_2mag_camo_AK : rhs_30Rnd_545x39_7N10_2mag_camo_AK
-	// {
-
-	// 	displayName					= $STR_SparHpCamo;
-	// 	displayNameShort			= "HP";
-	// 	ammo						= rhs_B_545x39_HP;
-	// 	mass						= 6,95;
-
-	// 	tracersEvery=3;
-	// 	lastRoundsTracer=3;
-	// };
-
-	// class rhs_30Rnd_545x39_7N6_HP_2mag_desert_AK : rhs_30Rnd_545x39_7N10_2mag_desert_AK
-	// {
-
-	// 	displayName					= $STR_SparHpDes;
-	// 	displayNameShort			= "HP";
-	// 	ammo						= rhs_B_545x39_HP;
-	// 	mass						= 6,95;
-
-	// 	tracersEvery=3;
-	// 	lastRoundsTracer=3;
-	// };
-
-	// class rhs_30Rnd_545x39_7N6_HP_2mag_plum_AK : rhs_30Rnd_545x39_7N10_2mag_plum_AK
-	// {
-
-	// 	displayName					= $STR_SparHpPlum;
-	// 	displayNameShort			= "HP";
-	// 	ammo						= rhs_B_545x39_HP;
-	// 	mass						= 6,95;
-
-	// 	tracersEvery=3;
-	// 	lastRoundsTracer=3;
-	// };
-	
-	// class rhs_30Rnd_545x39_7N6_HP_2mag_AK : rhs_30Rnd_545x39_7N10_2mag_AK
-	// {
-
-	// 	displayName					= $STR_SparHp;
-	// 	displayNameShort			= "HP";
-	// 	ammo						= rhs_B_545x39_7N6_Ball;
-	// 	mass						= 6,95;
-
-	// 	tracersEvery=3;
-	// 	lastRoundsTracer=3;
-	// };
-
-	// class rhs_30Rnd_545x39_7N6_HP_camo_AK : rhs_30Rnd_545x39_7N10_camo_AK
-	// {
-	// 	displayName					= $STR_Bak7N6HpСam;
-	// 	displayNameShort			= "HP";
-	// 	ammo						= rhs_B_545x39_HP;
-
-	// 	tracersEvery=3;
-	// 	lastRoundsTracer=3;
-	// };
-
-	// class rhs_30Rnd_545x39_7N6_HP_AK_Deser : rhs_30Rnd_545x39_7N10_desert_AK
-	// {
-
-	// 	displayName					= $STR_Bak7N6HpDesert;
-	// 	displayNameShort			= "HP";
-	// 	ammo						= rhs_B_545x39_HP;
-
-	// 	tracersEvery=3;
-	// 	lastRoundsTracer=3;
-	// };
-
-	// class rhs_30Rnd_545x39_7N6_HP_AK_Green : rhs_30Rnd_545x39_AK
-	// {
-
-	// 	displayName					= $STR_Bak7N6HpGreen;
-	// 	displayNameShort			= "HP";
-	// 	ammo						= rhs_B_545x39_HP;
-
-	// 	tracersEvery=3;
-	// 	lastRoundsTracer=3;
-	// };
-
-	// class rhs_30Rnd_545x39_7N6_HP_AK : rhs_30Rnd_545x39_7N6_AK
-	// {
-	// 	displayName					= $STR_Bak7N6Hp;
-	// 	displayNameShort			= "HP";
-	// 	ammo						= rhs_B_545x39_HP;
-
-	// 	tracersEvery=3;
-	// 	lastRoundsTracer=3;
-    // };
-
+	class mag_127x108mm_50 : rhs_mag_127x108mm_50
+	{
+		model = "\vtn_tripode_nsvs_6t7_md\nsvs_6t7_magaz.p3d";
+		picture = "\vtn_tripode_kord_6t20_cf\ico\vtn_kord_50s_api_ca.paa";
+	};
 
 };

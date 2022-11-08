@@ -58,19 +58,18 @@ class CfgVehicles
 					exceptions[] = {};
 					icon = "\po_canteen\canteen_action_icon.paa";
 
-
 					statement = "[_player] call po_canteen_fnc_canteenDrink";
-					//icon = "\RebalanceMod\pics\canteen_action_icon.paa";
+					// icon = "\RebalanceMod\pics\canteen_action_icon.paa";
 				};
 			};
 
-			class holdingMethod {
-                displayName = "Change method of holding";
-                condition = "(('rhs_weap_ak74m' in primaryWeapon _player) and !('rhs_weap_ak74mr' in primaryWeapon _player) and (weaponState _player select 6 isEqualTo 0))";
-                exceptions[] = {"notOnMap"};
-                statement = "[_target, _player, _actionParams] call Kot_fnc_addWeapon";
-            };
-
+			class holdingMethod
+			{
+				displayName = "Change method of holding";
+				condition = "(('rhs_weap_ak74m' in primaryWeapon _player) and !('rhs_weap_ak74mr' in primaryWeapon _player) and (weaponState _player select 6 isEqualTo 0))";
+				exceptions[] = {"notOnMap"};
+				statement = "[_target, _player, _actionParams] call Kot_fnc_addWeapon";
+			};
 		};
 		class ACE_Actions
 		{

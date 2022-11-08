@@ -6,15 +6,12 @@ Whistle_radius= 15;
 Whistle_max_radius= 600;
 Whistle_step= 5;
 
-_character = selectRandom["1","2"];
-_GasMasks = "U_B_CBRN_Suit_01_Wdl_F";
-
-Whistle={
+fnc_Whistle={
     _sound = selectRandom ["Rebalancemod\sounds\whistle\whistle1.ogg", "Rebalancemod\sounds\whistle\whistle2.ogg"];
     playSound3D [ _sound, player, false, getPosASL player, 1, 1, Whistle_radius];
 };
 
-Whistle_Pl={
+fnc_Whistle_Pl={
     if (Whistle_radius + Whistle_step < Whistle_max_radius) then {
         Whistle_radius = Whistle_radius + Whistle_step;
         hint format["Текущая дистанция свиста: %1", Whistle_radius];
@@ -23,7 +20,7 @@ Whistle_Pl={
     };
 };
 
-Whistle_Mn={
+fnc_Whistle_Mn={
     if (Whistle_radius - Whistle_step < 0) then {
         hint "Нельзя свистеть на отрицательную дистанцию";
     } else {
@@ -32,31 +29,31 @@ Whistle_Mn={
     };
 };
 
-UiOff = {
+fnc_UiOff = {
     showHUD [false, false, false, false, false, false, false, false, false];
     showVehcrew = 0;
 };
 
-UiOn = {
+fnc_UiOn = {
     showHUD [true, true, true, true, true, true, true, true, true];
     showVehcrew = 1;
 };
 
-openClock={
+fnc_openClock={
     if (L_pReady_reloaddone) then {
         [player, "Gesturearmst_clockl" ]remoteExec ["playAction", 0];
     }
 };
 
-openCompas={
+fnc_openCompas={
     if (L_pReady_reloaddone) then {
         [player, "Gesturecompass" ]remoteExec ["playAction", 0];
     }
 };
 
-RockPaperScissors={
-    GameAnim=selectRandom ["GestureRock", "GesturePaper", "GestureScissors"];
-    [player, GameAnim ]remoteExec ["playAction", 0];
+fnc_RockPaperScissors={
+    gameAnim=selectRandom ["GestureRock", "GesturePaper", "GestureScissors"];
+    [player, gameAnim ]remoteExec ["playAction", 0];
 };
 
 /* CBA settings ======================= */
@@ -131,33 +128,25 @@ RockPaperScissors={
     call Whistle_Mn
 }, {}, [DIK_3, [false, true, false]]] call CBA_fnc_addKeybind;
 
-
 /* EventHandlers ======================= */
-/*
-player addEventHandler ["fired",
-    {
-        params ["_unit", "_weapon", "_muzzle", "_mode", "_ammo", "_magazine", "_projectile", "_gunner"];
-        if ((_this select 4) isKindOf "SmokeShell") then {
 
-            //_trg settriggerStatements ["this", "[_this select 0,_character] call po_canteen_fnc_PlayerCough",""];
-            //_trg settriggerStatements ["this", "hint 'trigger on'", "hint 'trigger off'"];
-            //windDir
-            //windStr
-            _trg =createTrigger ["EmptyDetector",getPos (_this select 6),true];
-            _trg settriggerArea [100, 50, 45, false];
-            _trg settriggerActivation ["ANY", "PRESENT", true];
-            _trg settriggerStatements ["this", "[this,_character] execVM '\Rebalancemod\scripts\smoke\fn_PlayerCough.sqf'",""];
+/* пояснения для игроков ======================= */
 
-            _trg setTriggerInterval 1;
+// [] execVM '\Rebalancemod\scripts\AddtoBreafing.sqf';
 
-
-
-
+player addEventHandler ["GetinMan", {
+    params ["_unit", "_role", "_vehicle", "_turret"];
+    if (_vehicle isKindOf "tank") then {
+        if (count crew _vehicle >= 1) then {
+            _as = _vehicle spawn fn_peredacha_con;
         };
-    }];*/
-    
-    // if (goggles player!=_GasMasks)
-    
-    /* пояснения для игроков ======================= */
-    
-[] execVM '\Rebalancemod\scripts\AddtoBreafing.sqf';
+        _vehicle setVariable ["peredacha", 0, true];
+    };
+}];
+
+player addEventHandler ["GetoutMan", {
+    params ["_unit", "_role", "_vehicle", "_turret"];
+    if (_vehicle isKindOf "tank") then {
+        _vehicle setVariable ["peredacha", 0, true];
+    };
+}];
