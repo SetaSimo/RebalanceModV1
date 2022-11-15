@@ -1,15 +1,10 @@
-
-#include "CfgMagazines.cpp" 
-#include "Animations.cpp" 
+#include "CfgAnimations.cpp" 
 #include "Effects.cpp"
-#include "CfgWeapons.cpp" 
-#include "CfgRecoil.cpp" 
-#include "CfgVehicles.cpp" 
-#include "CfgAmmo.hpp" 
 #include "CfgMoves.hpp" 
 #include "CfgSounds.cpp" 
 #include "CfgCswGroups.cpp"
-
+#include "CfgUnits.cpp"
+#include "\RebalanceMod\Configs\IncludeConfigs.hpp"
 
 
 class CfgPatches
@@ -35,7 +30,10 @@ class CfgPatches
 			"rhsusf_c_weapons",
 			"ace_noidle",
 			"ace_compat_rhs_afrf3",
-			"ace_grenades"
+			"ace_grenades",
+			"vtn_armorw_BRDM2A_cf",
+			"vtn_wheeledc_toyota_cf",
+			"vtn_core_wpn_config"
 		};
 	};
 };

@@ -1,7 +1,4 @@
 
-class cfgRecoils
-{
-
 	// recoil ww2
 
 	class m1garand_recoil
@@ -256,4 +253,3 @@ class cfgRecoils
 		permanent = 0.26980001;
 		temporary = 0.0228;
 	};
-};

@@ -1,0 +1,60 @@
+WeaponLength
+
+//sov&rus
+ak-74 short = 1.55
+ak-74 = 1.88
+akm short = 1.5
+akm short barel = 1.6
+akm = 1.87
+ak-xxx short = 1.55
+ak-103 = 1.88
+ak-104 = 1.88
+ak-105 = 1.88
+ak-106 =  1.88
+ak-200 = 1.88
+ak-203 =  1.88
+ak-204 =  1.88
+ak-205 =  1.88
+rpk = 2
+rpk-74 short = 1.69
+rpk-74 = 1.99
+svd = 2.1
+sv-98 = 2.19
+pkp = 2
+T5000 = 2.2
+
+//serb
+savz58 = 1.5
+savz58 = 1.8
+m70 = 1.8
+ 
+//nato
+m4a1 = 1.8
+m27 = 1.8
+M14 = 2.1
+M24 = 2
+m40 = 2
+M240 = 2.12
+M240Para =  2.12
+M240Saw = 2.12
+M240G = 2.12
+MK11 = 2.15
+hk416 = 1.8
+G3A3 = 2
+fnmag = 2.13
+ScarL = 2
+ScarM = 1.8
+ScarS = 1.5
+
+
+//ww2
+garand = 2
+kar = 2
+mg42 = 2.2
+stg = 1.8
+m3a1 = 1.5
+m3a1 silent = 1.6
+
+//scopes
+
+//grips

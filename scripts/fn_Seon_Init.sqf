@@ -119,13 +119,13 @@ fnc_RockPaperScissors={
 // свист
 
 ["Seon Whistle", "Свист", ["Cвистнуть", "Персонаж свиснет после нажатия этой кнопки"], {
-    call Whistle
+    call fnc_Whistle
 }, {}, [DIK_1, [false, true, false]]] call CBA_fnc_addKeybind;
 ["Seon Whistle", "Сделать свист громче", ["Сделать свист громче", "Персонаж будет свистеть на большую дистанцию, после нажатия этой кнопки"], {
-    call Whistle_Pl
+    call fnc_Whistle_Pl
 }, {}, [DIK_2, [false, true, false]]] call CBA_fnc_addKeybind;
 ["Seon Whistle", "Сделать свист тише", ["Сделать свист тише", "Персонаж будет свистеть на меньшую дистанцию, после нажатия этой кнопки"], {
-    call Whistle_Mn
+    call fnc_Whistle_Mn
 }, {}, [DIK_3, [false, true, false]]] call CBA_fnc_addKeybind;
 
 /* EventHandlers ======================= */

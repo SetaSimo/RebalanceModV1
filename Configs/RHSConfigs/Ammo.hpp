@@ -1,53 +1,6 @@
-class cfgAmmo
-{
+
 	// rifle ammo
 
-	class BulletBase;
-    class FlareCore;	
-	class RocketBase;
-	class GrenadeHand_stone;
-
-	class FlareBase: FlareCore {
-        timeToLive = 90;
-        brightness = 150000;
-		intensity = 200000;
-        flareSize = 50;
-    };
-
-    class F_40mm_White: FlareBase {
-        timeToLive = 90;
-        brightness = 150000;
-		intensity = 200000;
-        flareSize = 50;
-    };
-
-    class Flare_82mm_AMOS_White: FlareCore {
-        timeToLive = 90;
-        brightness = 80000;
-		intensity = 200000;
-        flareSize = 50;
-    };
-
-	class F_40mm_Green;
-	class F_40mm_Red;
-	class MissileCore;
-	
-	class rhs_ammo_base_penetrator;
-
-	class B_556x45_Ball;
-	class B_762x51_Ball;
-	class B_762x54_Ball;
-	class B_127x99_Ball;
-	class B_127x108_Ball;
-	class SubmunitionBase;
-	
-	class SmokeShell;
-	class GrenadeHand;
-
-	class MissileBase : MissileCore
-	{
-		class Components;
-	};
 
 	//5.45
 	class rhs_B_545x39_Ball: B_556x45_Ball
@@ -73,7 +26,6 @@ class cfgAmmo
 	};
 	class rhs_B_545x39_7N24_Ball: rhs_B_545x39_Ball
 	{
-
 		model = "\vtn_tracer_md\vtn_tracer_green";
 		tracerScale=1.11;
 		caliber = 1.65;
@@ -636,7 +588,7 @@ class cfgAmmo
         ace_frag_skip = 0;
         ace_frag_force = 1;
     };
-
+	
 	// mortars and artylleru
 	/*class 8Rnd_82mm_Mo_shells{
 
@@ -646,42 +598,59 @@ class cfgAmmo
 
 	};*/
 
-	//vtn
-	class VTN_VOG25_HE: G_40mm_HE 
+	//grad
+	class rhs_mag_bm21_base: VehicleMagazine
 	{
-		indirectHit = 6;
-		indirectHitRange = 1.9;
-		ace_frag_metal = 235;    
-		ace_frag_charge = 40;   
-		ace_frag_gurney_c = 2830 ; 
-		ace_frag_gurney_k = 1/2;
-		ace_frag_classes[] = {"ACE_frag_tiny_HD"};
-		ace_frag_force = 1;
+			ace_frag_enabled = 1;
+			ace_frag_metal = 21000;
+			ace_frag_charge = 6020;
+			ace_frag_gurney_c = 2900;
+			ace_frag_gurney_k = "1/2";
+			ace_frag_classes[] = {"ACE_frag_huge"};
+			ace_frag_skip = 0;
+			ace_frag_force = 1;
 	};
 
-	class VTN_VOG17A_HE: VTN_VOG25_HE{		
-		indirectHit = 5;
-		indirectHitRange = 1.5;
-		ace_frag_metal = 244;     
-		ace_frag_charge = 36;    
-		ace_frag_gurney_c = 2830 ; 
-		ace_frag_gurney_k = 1/2;
-		ace_frag_classes[] = {"ACE_frag_tiny_HD"};
-		ace_frag_force = 1;
-	};
-
-	class VTN_VOG30_HE: VTN_VOG17M_HE 
+	class rhs_mag_m21of_1: rhs_mag_bm21_base
 	{
-		indirectHit = 6;
-		indirectHitRange = 1.9;
-		airFriction = -0.00049;
-		timeToLive = 60;
-		ace_frag_metal = 235;    
-		ace_frag_charge = 40;   
-		ace_frag_gurney_c = 2830 ; 
-		ace_frag_gurney_k = 1/2;
-		ace_frag_classes[] = {"ACE_frag_tiny_HD"};
-		ace_frag_force = 1;
+
+	};
+	class rhs_mag_9m28f_1: rhs_mag_m21of_1{
+	    ace_frag_enabled = 1;
+        ace_frag_metal = 21000;
+        ace_frag_charge = 6020;
+        ace_frag_gurney_c = 2900;
+        ace_frag_gurney_k = "1/2";
+        ace_frag_classes[] = {"ACE_frag_huge"};
+        ace_frag_skip = 0;
+        ace_frag_force = 1;
 	};
 
-};
+
+
+	//d-30
+	/*
+		"rhs_mag_of462",
+		"rhs_mag_of462_10",
+		"rhs_mag_3of56",
+		"rhs_mag_3of56_10",
+		"rhs_mag_3of56_5",
+		"rhs_mag_of462_direct",
+		"rhs_mag_of462_direct_10",
+		"rhs_mag_3of56_direct",
+		"rhs_mag_3of56_direct_10",
+		"rhs_mag_3of56_direct_5",
+		"rhs_mag_bk6m",
+		"rhs_mag_bk6m_26",
+		"rhs_mag_bk6m_5",
+		"rhs_mag_bk13",
+		"rhs_mag_bk13_26",
+		"rhs_mag_bk13_5",
+		"rhs_mag_d462",
+		"rhs_mag_d462_2",
+		"rhs_mag_s463",
+		"rhs_mag_s463_2",
+		"rhs_mag_3of69m",
+		"rhs_mag_3of69m_2"
+	*/
+
