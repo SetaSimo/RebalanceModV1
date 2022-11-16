@@ -8,7 +8,8 @@ if (_is_unitMedic) then {
 } else {
     _backpack= selectRandom[
         "Taloon_BLK", "Taloon_MCT", "Taloon_OD",
-        'rhs_assault_umbts', 'rhs_tortila_olive', 'rhs_rk_sht_30_olive'
+        'rhs_assault_umbts', 'rhs_tortila_olive', 'rhs_rk_sht_30_olive',
+        'rhs_tortila_khaki'
     ];
     _unit addbackpack _backpack;
 };

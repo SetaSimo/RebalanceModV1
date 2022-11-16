@@ -617,8 +617,8 @@
 	};
 	class rhs_mag_9m28f_1: rhs_mag_m21of_1{
 	    ace_frag_enabled = 1;
-        ace_frag_metal = 21000;
-        ace_frag_charge = 6020;
+        ace_frag_metal = 2100;
+        ace_frag_charge = 602;
         ace_frag_gurney_c = 2900;
         ace_frag_gurney_k = "1/2";
         ace_frag_classes[] = {"ACE_frag_huge"};
@@ -626,31 +626,35 @@
         ace_frag_force = 1;
 	};
 
-
-
 	//d-30
-	/*
-		"rhs_mag_of462",
-		"rhs_mag_of462_10",
-		"rhs_mag_3of56",
-		"rhs_mag_3of56_10",
-		"rhs_mag_3of56_5",
-		"rhs_mag_of462_direct",
-		"rhs_mag_of462_direct_10",
-		"rhs_mag_3of56_direct",
-		"rhs_mag_3of56_direct_10",
-		"rhs_mag_3of56_direct_5",
-		"rhs_mag_bk6m",
-		"rhs_mag_bk6m_26",
-		"rhs_mag_bk6m_5",
-		"rhs_mag_bk13",
-		"rhs_mag_bk13_26",
-		"rhs_mag_bk13_5",
-		"rhs_mag_d462",
-		"rhs_mag_d462_2",
-		"rhs_mag_s463",
-		"rhs_mag_s463_2",
-		"rhs_mag_3of69m",
-		"rhs_mag_3of69m_2"
-	*/
+class rhs_ammo_3WOF27 : Sh_155mm_AMOS
+{
+	    ace_frag_enabled = 1;
+        ace_frag_metal = 3591;
+        ace_frag_charge = 765;
+        ace_frag_gurney_c = 2830;
+        ace_frag_gurney_k = "1/2";
+        ace_frag_classes[] = {"ACE_frag_huge"};
+        ace_frag_skip = 0;
+        ace_frag_force = 1;
+};
+class rhs_ammo_3WOF27_direct : rhs_ammo_3WOF27
+{
+
+};
+class rhs_ammo_53OF546 : rhs_ammo_3WOF27
+{
+		ace_frag_enabled = 1;
+        ace_frag_metal = 1771;
+        ace_frag_charge = 405;
+        ace_frag_gurney_c = 2830;
+        ace_frag_gurney_k = "1/2";
+        ace_frag_classes[] = {"ACE_frag_huge"};
+        ace_frag_skip = 0;
+        ace_frag_force = 1;
+};
+class rhs_ammo_53OF546_direct : rhs_ammo_53OF546
+{
+
+};
 

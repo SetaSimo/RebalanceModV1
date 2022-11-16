@@ -17,12 +17,12 @@ class CfgFactionClasses
 
 class CfgVehicleClasses
 {
-	class Seon_Yougustan_ProNato_Infantry
+	class Seon_Yougustan_Pro_Nato_Infantry
 	{
 		displayname = "Infantry";
 	};
 
-	class Seon_Yougustan_ProRus_Infantry
+	class Seon_Yougustan_Pro_Rus_Infantry
 	{
 		displayname = "Infantry";
 	};
@@ -97,7 +97,7 @@ class CfgVehicles
 	{
 		scope = 2;
 		scopeCurator = 2;
-		vehicleClass = "Seon_Yougustan_ProNato_Infantry";
+		vehicleClass = "Seon_Yougustan_Pro_Nato_Infantry";
 		editorSubcategory = "Seon_Yougustan_Pro_Nato_Infantry_Conscripts";
 		displayName = "SquadLeader";
 		class EventHandlers
@@ -109,7 +109,7 @@ class CfgVehicles
 	{
 		scope = 2;
 		scopeCurator = 2;
-		vehicleClass = "Seon_Yougustan_ProNato_Infantry";
+		vehicleClass = "Seon_Yougustan_Pro_Nato_Infantry";
 		editorSubcategory = "Seon_Yougustan_Pro_Nato_Infantry_Conscripts";
 		displayName = "Light Machine gunner";
 		class EventHandlers
@@ -121,7 +121,7 @@ class CfgVehicles
 	{
 		scope = 2;
 		scopeCurator = 2;
-		vehicleClass = "Seon_Yougustan_ProNato_Infantry";
+		vehicleClass = "Seon_Yougustan_Pro_Nato_Infantry";
 		editorSubcategory = "Seon_Yougustan_Pro_Nato_Infantry_Conscripts";
 		displayName = "Rifleman";
 		class EventHandlers
@@ -133,7 +133,7 @@ class CfgVehicles
 	{
 		scope = 2;
 		scopeCurator = 2;
-		vehicleClass = "Seon_Yougustan_ProNato_Infantry";
+		vehicleClass = "Seon_Yougustan_Pro_Nato_Infantry";
 		editorSubcategory = "Seon_Yougustan_Pro_Nato_Infantry_Conscripts";
 		displayName = "At gunner";
 		class EventHandlers
@@ -145,7 +145,7 @@ class CfgVehicles
 	{
 		scope = 2;
 		scopeCurator = 2;
-		vehicleClass = "Seon_Yougustan_ProNato_Infantry";
+		vehicleClass = "Seon_Yougustan_Pro_Nato_Infantry";
 		editorSubcategory = "Seon_Yougustan_Pro_Nato_Infantry_Conscripts";
 		displayName = "Medic";
 		class EventHandlers
@@ -205,7 +205,7 @@ class CfgVehicles
 	{
 		scope = 2;
 		scopeCurator = 2;
-		vehicleClass = "Seon_Yougustan_ProRus_Infantry";
+		vehicleClass = "Seon_Yougustan_Pro_Rus_Infantry";
 		editorSubcategory = "Seon_Yougustan_Pro_Rus_Infantry_Conscripts";
 		displayName = "SquadLeader";
 		class EventHandlers
@@ -217,7 +217,7 @@ class CfgVehicles
 	{
 		scope = 2;
 		scopeCurator = 2;
-		vehicleClass = "Seon_Yougustan_ProRus_Infantry";
+		vehicleClass = "Seon_Yougustan_Pro_Rus_Infantry";
 		editorSubcategory = "Seon_Yougustan_Pro_Rus_Infantry_Conscripts";
 		displayName = "Light Machine gunner";
 		class EventHandlers
@@ -229,7 +229,7 @@ class CfgVehicles
 	{
 		scope = 2;
 		scopeCurator = 2;
-		vehicleClass = "Seon_Yougustan_ProRus_Infantry";
+		vehicleClass = "Seon_Yougustan_Pro_Rus_Infantry";
 		editorSubcategory = "Seon_Yougustan_Pro_Rus_Infantry_Conscripts";
 		displayName = "Rifleman";
 		class EventHandlers
@@ -241,7 +241,7 @@ class CfgVehicles
 	{
 		scope = 2;
 		scopeCurator = 2;
-		vehicleClass = "Seon_Yougustan_ProRus_Infantry";
+		vehicleClass = "Seon_Yougustan_Pro_Rus_Infantry";
 		editorSubcategory = "Seon_Yougustan_Pro_Rus_Infantry_Conscripts";
 		displayName = "At gunner";
 		class EventHandlers
@@ -253,7 +253,7 @@ class CfgVehicles
 	{
 		scope = 2;
 		scopeCurator = 2;
-		vehicleClass = "Seon_Yougustan_ProRus_Infantry";
+		vehicleClass = "Seon_Yougustan_Pro_Rus_Infantry";
 		editorSubcategory = "Seon_Yougustan_Pro_Rus_Infantry_Conscripts";
 		displayName = "Medic";
 		class EventHandlers

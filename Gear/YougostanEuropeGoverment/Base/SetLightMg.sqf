@@ -36,7 +36,7 @@ switch (_caliber) do {
             _unit addItemtovest selectRandom['VTN_RPK_40s_SC', 'VTN_RPK_40b_SC'];
         };
         for '_i' from 1 to 3 do {
-            _unit addItemtovest ['VTN_RPK_40b_TRC', 'VTN_RPK_40s_TRC'];
+            _unit addItemtovest selectRandom ['VTN_RPK_40b_TRC', 'VTN_RPK_40s_TRC'];
         };
     };
     

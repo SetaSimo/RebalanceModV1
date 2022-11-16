@@ -1,5 +1,5 @@
 #include "CfgAnimations.cpp" 
-#include "Effects.cpp"
+#include "CfgEffects.cpp"
 #include "CfgMoves.hpp" 
 #include "CfgSounds.cpp" 
 #include "CfgCswGroups.cpp"

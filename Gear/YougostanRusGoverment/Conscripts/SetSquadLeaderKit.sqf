@@ -15,3 +15,4 @@ _unit setRank "SERGEANT";
 _unit call compile preprocessFileLineNumbers "Rebalancemod\Gear\YougostanRusGoverment\Base\setBaseUnitgear.sqf";
 _unit call compile preprocessFileLineNumbers "Rebalancemod\Gear\YougostanRusGoverment\Base\setbackpack.sqf";
 _unit call compile preprocessFileLineNumbers "Rebalancemod\Gear\YougostanRusGoverment\Base\setRiflewithUnderbarrel.sqf";
+_unit call compile preprocessFileLineNumbers "Rebalancemod\Gear\YougostanRusGoverment\Base\SetSingleUseAt.sqf";

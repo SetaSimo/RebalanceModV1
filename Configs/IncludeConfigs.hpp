@@ -1,7 +1,5 @@
 class cfgRecoils
 {
-	//impulse[]={0.029999999,0.02,0.2,0.079999998,0.079999998,0.80000001,0.1,0.029999999,-0.1,0.30000001,0,0};
-
     #include "\RebalanceMod\Configs\RHSConfigs\Recoil.hpp"
 };
 
@@ -12,6 +10,7 @@ class cfgAmmo
 	class RocketBase;
 	class GrenadeHand_stone;
 	class VehicleMagazine;
+	class Sh_155mm_AMOS;
 	class FlareBase: FlareCore {
         timeToLive = 90;
         brightness = 150000;
