@@ -3,4 +3,4 @@ _at=selectRandom[
     'rhs_weap_m72a7', '', ''
 ];
 
-_unit addWeapon
+_unit addWeapon _at;

@@ -52,6 +52,7 @@ class CfgVehicles
 		side = 1;
 		faction = "Seon_Yougustan_Pro_Nato";
 		genericNames = "RussianMen";
+		_role = "Soldier";
 		identitytypes[] =
 			{
 				"LanguageRUS",
@@ -99,7 +100,8 @@ class CfgVehicles
 		scopeCurator = 2;
 		vehicleClass = "Seon_Yougustan_Pro_Nato_Infantry";
 		editorSubcategory = "Seon_Yougustan_Pro_Nato_Infantry_Conscripts";
-		displayName = "SquadLeader";
+		displayName = "Squad Leader";
+		_role = "SquadLeader";
 		class EventHandlers
 		{
 			init = "(_this) call compile preprocessfilelinenumbers 'Rebalancemod\Gear\YougostanEuropeGoverment\Conscripts\SetSquadLeaderKit.sqf';";
@@ -148,9 +150,23 @@ class CfgVehicles
 		vehicleClass = "Seon_Yougustan_Pro_Nato_Infantry";
 		editorSubcategory = "Seon_Yougustan_Pro_Nato_Infantry_Conscripts";
 		displayName = "Medic";
+		_role = "Medic";
 		class EventHandlers
 		{
 			init = "(_this) call compile preprocessfilelinenumbers 'Rebalancemod\Gear\YougostanEuropeGoverment\Conscripts\SetMedicKit.sqf';";
+		};
+	};
+	class Seon_YougostanEuropeGoverment_RadioOperator : Seon_YougostanEuropeGoverment_Base
+	{
+		scope = 2;
+		scopeCurator = 2;
+		vehicleClass = "Seon_Yougustan_Pro_Nato_Infantry";
+		editorSubcategory = "Seon_Yougustan_Pro_Nato_Infantry_Conscripts";
+		displayName = "Radio Operator";
+		_role = "Radio Operator";
+		class EventHandlers
+		{
+			init = "(_this) call compile preprocessfilelinenumbers 'Rebalancemod\Gear\YougostanEuropeGoverment\Conscripts\SetRadioOperatorKit.sqf';";
 		};
 	};
 
@@ -160,6 +176,7 @@ class CfgVehicles
 		side = 0;
 		faction = "Seon_Yougustan_Pro_Rus";
 		genericNames = "RussianMen";
+		_role = "Soldier";
 		identitytypes[] =
 			{
 				"LanguageRUS",
@@ -207,7 +224,8 @@ class CfgVehicles
 		scopeCurator = 2;
 		vehicleClass = "Seon_Yougustan_Pro_Rus_Infantry";
 		editorSubcategory = "Seon_Yougustan_Pro_Rus_Infantry_Conscripts";
-		displayName = "SquadLeader";
+		displayName = "Squad Leader";
+		_role = "SquadLeader";
 		class EventHandlers
 		{
 			init = "(_this) call compile preprocessfilelinenumbers 'Rebalancemod\Gear\YougostanRusGoverment\Conscripts\SetSquadLeaderKit.sqf';";
@@ -256,9 +274,23 @@ class CfgVehicles
 		vehicleClass = "Seon_Yougustan_Pro_Rus_Infantry";
 		editorSubcategory = "Seon_Yougustan_Pro_Rus_Infantry_Conscripts";
 		displayName = "Medic";
+		_role = "Medic";
 		class EventHandlers
 		{
 			init = "(_this) call compile preprocessfilelinenumbers 'Rebalancemod\Gear\YougostanRusGoverment\Conscripts\SetMedicKit.sqf';";
+		};
+	};
+	class Seon_YougostanRusGoverment_RadioOperator : Seon_YougostanRusGoverment_Base
+	{
+		scope = 2;
+		scopeCurator = 2;
+		vehicleClass = "Seon_Yougustan_Pro_Rus_Infantry";
+		editorSubcategory = "Seon_Yougustan_Pro_Rus_Infantry_Conscripts";
+		displayName = "Medic";
+		_role = "Radio Operator";
+		class EventHandlers
+		{
+			init = "(_this) call compile preprocessfilelinenumbers 'Rebalancemod\Gear\YougostanRusGoverment\Conscripts\SetRadioOperatorKit.sqf';";
 		};
 	};
 };
