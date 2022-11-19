@@ -11,6 +11,7 @@ class cfgAmmo
 	class GrenadeHand_stone;
 	class VehicleMagazine;
 	class Sh_155mm_AMOS;
+	class CA_LauncherMagazine;
 	class FlareBase: FlareCore {
         timeToLive = 90;
         brightness = 150000;

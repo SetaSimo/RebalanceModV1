@@ -16,3 +16,4 @@ _unit setRank "CORPORAL";
 _unit call compile preprocessFileLineNumbers "Rebalancemod\Gear\YougostanEuropeGoverment\Base\setBaseUnitgear.sqf";
 _unit call compile preprocessFileLineNumbers "Rebalancemod\Gear\YougostanEuropeGoverment\Base\SetBackpack.sqf";
 _unit call compile preprocessFileLineNumbers "Rebalancemod\Gear\YougostanEuropeGoverment\Base\SetLightMg.sqf";
+_unit call compile preprocessFileLineNumbers "Rebalancemod\Gear\YougostanEuropeGoverment\Base\SetGrenades.sqf";

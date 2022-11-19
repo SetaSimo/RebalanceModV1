@@ -1,10 +1,11 @@
-	//todo update prs,ins config 5.56
+	//todo update prs,ins config 5.56, ACE_caliber
+	
     class VTN_545x39_Ball_SC: B_556x45_Ball
 	{		
         model = "\vtn_tracer_md\vtn_tracer_green";
 		tracerScale=1.11;
 		ACE_bulletMass=3.62;
-		ACE_caliber = 5.6;
+		ACE_caliber = 80;
     };
 
 	class VTN_545x39_Ball_SC2: VTN_545x39_Ball_SC
@@ -51,7 +52,7 @@
 
 	class VTN_762x25_Ball_FMJ: B_762x51_Ball
 	{
-		ACE_caliber = 7.94;
+		ACE_caliber = 85;
 	};
 
 	class VTN_762x25_Ball_FMJ1: VTN_762x25_Ball_FMJ
@@ -120,7 +121,7 @@
         model	 = "\vtn_tracer_md\vtn_tracer_green_long";
 		tracerScale=1.382;
 		ACE_bulletMass=9.6;
-		ACE_caliber = 8.53;
+		ACE_caliber = 80;
     };
 
 	class VTN_762x54_Ball_SC2: VTN_762x54_Ball_SC
@@ -226,7 +227,7 @@
 	{		
         model 	= "\vtn_tracer_md\vtn_tracer_green";
 		tracerScale=1.1981;
-		ACE_caliber =  25.5;
+		ACE_caliber =  120;
     };
 
 	class VTN_127x108_Ball_APT: VTN_127x108_Ball_AP
@@ -254,7 +255,10 @@
     };
 	
 	class VTN_145x114_Ball_APT: B_127x108_Ball
-	{};
+	{
+		model 	= "\vtn_tracer_md\vtn_tracer_green";
+		tracerScale=1.1981;
+	};
 
 	//vog and 40 mm
 		class VTN_VOG25_HE: G_40mm_HE 
@@ -270,30 +274,29 @@
 	};
 
 	class VTN_VOG17A_HE: VTN_VOG25_HE{		
-		indirectHit = 5;
-		indirectHitRange = 1.5;
-		ace_frag_metal = 244;     
-		ace_frag_charge = 36;    
-		ace_frag_gurney_c = 2830 ; 
-		ace_frag_gurney_k = 1/2;
-		ace_frag_classes[] = {"ACE_frag_tiny_HD"};
-		ace_frag_force = 1;
 	};
 	
 	class VTN_VOG17M_HE: VTN_VOG17A_HE
 	{
 	};
 
+
 	class VTN_VOG30_HE: VTN_VOG17M_HE 
 	{
-		indirectHit = 6;
-		indirectHitRange = 1.9;
-		airFriction = -0.00049;
-		timeToLive = 60;
-		ace_frag_metal = 235;    
-		ace_frag_charge = 40;   
-		ace_frag_gurney_c = 2830 ; 
-		ace_frag_gurney_k = 1/2;
-		ace_frag_classes[] = {"ACE_frag_tiny_HD"};
-		ace_frag_force = 1;
 	};
+
+	class VTN_PG7V: CA_LauncherMagazine
+	{
+
+	};
+		class VTN_OG7V: VTN_PG7V
+	{
+		ace_frag_enabled = 1;
+        ace_frag_metal = 2000;
+        ace_frag_charge = 400;
+        ace_frag_gurney_c = 2900;
+        ace_frag_gurney_k = "3/5";
+        ace_frag_classes[] = {"ACE_frag_medium_HD"};
+        ace_frag_skip = 0;
+        ace_frag_force = 1;
+	}

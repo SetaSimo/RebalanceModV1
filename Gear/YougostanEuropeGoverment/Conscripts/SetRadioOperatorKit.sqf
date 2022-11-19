@@ -17,3 +17,4 @@ _unit call compile preprocessFileLineNumbers "Rebalancemod\Gear\YougostanEuropeG
 _unit call compile preprocessFileLineNumbers "Rebalancemod\Gear\YougostanEuropeGoverment\Base\SetBackpack.sqf";
 _unit call compile preprocessFileLineNumbers "Rebalancemod\Gear\YougostanEuropeGoverment\Base\SetRifle.sqf";
 _unit call compile preprocessFileLineNumbers "Rebalancemod\Gear\YougostanEuropeGoverment\Base\SetSingleUseAt.sqf";
+_unit call compile preprocessFileLineNumbers "Rebalancemod\Gear\YougostanEuropeGoverment\Base\SetGrenades.sqf";

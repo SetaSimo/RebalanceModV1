@@ -2,6 +2,7 @@ if (isDedicated) exitwith {};
 
 #include "\a3\ui_f\hpp\defineDIKCodes.inc"
 
+//rename
 Whistle_radius= 15;
 Whistle_max_radius= 600;
 Whistle_step= 5;
@@ -99,22 +100,21 @@ fnc_RockPaperScissors={
 
 /* CBA Keybinds ======================= */
 ["Seon Animations", "Камень Ножницы Бумага", ["камень ножницы бумага", " "], {
-    call RockPaperScissors
+    call fnc_RockPaperScissors
 }, {}, [DIK_F1, [false, true, false]]] call CBA_fnc_addKeybind;
 ["Seon Animations", "Часы", ["Достать часы", " "], {
-    call OpenClock
+    call fnc_OpenClock
 }, {}, [DIK_O, [false, false, false]]] call CBA_fnc_addKeybind;
 ["Seon Animations", "Компас", ["Достать Компас", " "], {
-    call OpenCompas
+    call fnc_OpenCompas
 }, {}, [DIK_K, [false, false, false]]] call CBA_fnc_addKeybind;
-// передачи
 
 // UI
 ["Seon Hud", "Спрятать интерфейс", ["Спрятать интерфейс", " "], {
-    call UiOff
+    call fnc_UiOff
 }, {}, [DIK_F2, [true, true, false]]] call CBA_fnc_addKeybind;
 ["Seon Hud", "Вернуть интерфейс", ["Вернуть интерфейс", " "], {
-    call UiOn
+    call fnc_UiOn
 }, {}, [DIK_F3, [true, true, false]]] call CBA_fnc_addKeybind;
 // свист
 
@@ -130,23 +130,4 @@ fnc_RockPaperScissors={
 
 /* EventHandlers ======================= */
 
-/* пояснения для игроков ======================= */
-
 // [] execVM '\Rebalancemod\scripts\AddtoBreafing.sqf';
-
-player addEventHandler ["GetinMan", {
-    params ["_unit", "_role", "_vehicle", "_turret"];
-    if (_vehicle isKindOf "tank") then {
-        if (count crew _vehicle >= 1) then {
-            _as = _vehicle spawn fn_peredacha_con;
-        };
-        _vehicle setVariable ["peredacha", 0, true];
-    };
-}];
-
-player addEventHandler ["GetoutMan", {
-    params ["_unit", "_role", "_vehicle", "_turret"];
-    if (_vehicle isKindOf "tank") then {
-        _vehicle setVariable ["peredacha", 0, true];
-    };
-}];
