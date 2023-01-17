@@ -1,8 +1,7 @@
 _Armor = selectRandom [
     "RPS_Smersh12_b", "RPS_Smersh12_sh", "RPS_Smersh12",
     "RPS_Smersh12_d", "RS_Tarzan_b", "RS_Tarzan_g",
-    "RS_Tarzan_f", "CES_tacticalvest2_orel", "CES_tacticalvest2_blue",
-    "CES_tacticalvest2"
+    "RS_Tarzan_f"
 ];
 _unit addvest _Armor;
 

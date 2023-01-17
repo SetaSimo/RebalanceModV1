@@ -4,6 +4,7 @@
 #include "CfgSounds.cpp" 
 #include "CfgCswGroups.cpp"
 #include "CfgUnits.cpp"
+#include "BaseHuman.cpp"
 #include "\RebalanceMod\Configs\IncludeConfigs.hpp"
 
 
